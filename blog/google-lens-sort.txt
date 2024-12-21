@@ -1,25 +1,152 @@
 1:"$Sreact.fragment"
-2:I[8287,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-3:I[3339,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-4:I[1367,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
+2:I[8287,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+3:I[3339,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+4:I[1367,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
 5:I[5244,[],""]
 6:I[3866,[],""]
-7:I[4798,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-8:I[6121,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-9:I[3667,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-a:I[8407,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-b:I[8173,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],""]
-c:I[3197,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-d:I[7933,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-e:I[3800,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-10:I[6213,[],"OutletBoundary"]
-12:I[6213,[],"MetadataBoundary"]
-14:I[6213,[],"ViewportBoundary"]
-16:I[4835,[],""]
+7:I[4798,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+8:I[6121,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+9:I[3667,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+a:I[8407,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+b:I[8173,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],""]
+c:I[3197,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+d:I[7933,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+e:I[3800,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+11:I[6213,[],"OutletBoundary"]
+13:I[6213,[],"MetadataBoundary"]
+15:I[6213,[],"ViewportBoundary"]
+17:I[4835,[],""]
 :HL["/e2-next/_next/static/css/d3df112486f97f47.css","style"]
 :HL["/e2-next/_next/static/css/c3624a693ae5a0c4.css","style"]
-0:{"P":null,"b":"gVZeuoZEIM3AUvikmCH-j","p":"/e2-next","c":["","blog","google-lens-sort"],"i":false,"f":[[["",{"children":["blog",{"children":[["postId","google-lens-sort","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postId","google-lens-sort","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":"$L11"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","zsCGvv45tHonbLiGp2rlS",{"children":[["$","$L12",null,{"children":"$L13"}],["$","$L14",null,{"children":"$L15"}],null]}]]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
-f:["$","h1",null,{"children":["Blog ","google-lens-sort"]}]
-15:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-13:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
-11:null
+f:T47e,const extractWidth = (node) => Number.parseInt(node.innerText.replace(/.*?(\d+)x(\d+)/, "$1"));
+const extractHeight = (node) => Number.parseInt(node.innerText.replace(/.*?(\d+)x(\d+)/, "$2"));
+
+const sortAllResults = () => {
+	const newListEl = document.createElement("ul");
+
+	const listEl = document.querySelector('ul[aria-label="All results list"]');
+
+	[...listEl.children]
+		.sort((a, b) => {
+			const aEl = [...a.querySelectorAll("div")]
+				.filter(
+					(e) => e.children.length === 0 || [...e.children].every((o) => o.tagName.toLowerCase() === "span")
+				)
+				.filter((e) => /.*?(\d+)x(\d+)/.test(e.innerText))[0];
+			const bEl = [...b.querySelectorAll("div")]
+				.filter(
+					(e) => e.children.length === 0 || [...e.children].every((o) => o.tagName.toLowerCase() === "span")
+				)
+				.filter((e) => /.*?(\d+)x(\d+)/.test(e.innerText))[0];
+
+			const aArea = aEl ? extractWidth(aEl) * extractHeight(aEl) : 0;
+			const bArea = bEl ? extractWidth(bEl) * extractHeight(bEl) : 0;
+
+			return bArea - aArea;
+		})
+		.forEach((e) => {
+			newListEl.appendChild(e);
+		});
+
+	document.body.replaceChildren(newListEl);
+};
+10:Ta1c,const MAX_RUN = Infinity;
+const DELAY_INCREMENT = 1000;
+const DELAY_MAX = 1000;
+var delay = 0;
+var done = false;
+
+const clickMore = () => {
+	const els = [...document.querySelectorAll("div")]
+		.filter((e) => e.children.length === 0)
+		.filter((e) => e.innerText === "More exact matches");
+
+	if (els.length > 0) {
+		els[0].click();
+		console.log("Clicked button 'More exact matches'");
+		setTimeout(clickMore, 500);
+	} else if (sortAllResults()) {
+		done = true;
+	}
+};
+
+const extractWidth = (node) => Number.parseInt(node.innerText.replace(/.*?(\d+)x(\d+)/, "$1"));
+const extractHeight = (node) => Number.parseInt(node.innerText.replace(/.*?(\d+)x(\d+)/, "$2"));
+
+/* For troubleshooting, run below in browser console
+
+const extractWidth = node => Number.parseInt(node.innerText.replace(/.*?(\d+)x(\d+)/, '$1'));
+[...document.querySelectorAll('ul[aria-label="All results list"] li div')]
+		.filter(e => e.children.length === 0 || [...e.children].every(o => o.tagName.toLowerCase() === 'span'))
+		.filter(e => /.*?(\d+)x(\d+)/.test(e.innerText))
+		.toSorted((a, b) => extractWidth(b)-extractWidth(a))
+		.map(extractWidth)
+*/
+
+const sortAllResults = () => {
+	const newListEl = document.createElement("ul");
+	newListEl.setAttribute("aria-label", "All results list");
+	newListEl.style.width = "70%";
+
+	const listEl = document.querySelector('ul[aria-label="All results list"]');
+
+	if (!listEl) {
+		return;
+	}
+
+	[...listEl.children]
+		.sort((a, b) => {
+			const aEl = [...a.querySelectorAll("div")]
+				.filter(
+					(e) => e.children.length === 0 || [...e.children].every((o) => o.tagName.toLowerCase() === "span")
+				)
+				.filter((e) => /.*?(\d+)x(\d+)/.test(e.innerText))[0];
+			const bEl = [...b.querySelectorAll("div")]
+				.filter(
+					(e) => e.children.length === 0 || [...e.children].every((o) => o.tagName.toLowerCase() === "span")
+				)
+				.filter((e) => /.*?(\d+)x(\d+)/.test(e.innerText))[0];
+
+			const aArea = aEl ? extractWidth(aEl) * extractHeight(aEl) : 0;
+			const bArea = bEl ? extractWidth(bEl) * extractHeight(bEl) : 0;
+
+			return bArea - aArea;
+		})
+		.forEach((e) => {
+			newListEl.appendChild(e);
+		});
+
+	document.body.replaceChildren(newListEl);
+
+	return true;
+};
+
+const run = () => {
+	let i = 0;
+
+	const _run = () => {
+		if (i === MAX_RUN) {
+			return;
+		}
+
+		i++;
+		console.log("Running iteration " + i);
+
+		if (done) {
+			return;
+		} else {
+			clickMore();
+		}
+
+		setTimeout(_run, delay);
+		delay = Math.min(delay + DELAY_INCREMENT, DELAY_MAX);
+	};
+
+	_run();
+};
+
+run();
+0:{"P":null,"b":"wfZ4FdS4ntgGvzjeKJhfw","p":"/e2-next","c":["","blog","google-lens-sort"],"i":false,"f":[[["",{"children":["blog",{"children":["(2024-01)",{"children":["google-lens-sort",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(2024-01)",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2024-01)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["google-lens-sort",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2024-01)","children","google-lens-sort","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"children":"1 Google 以圖搜尋"}],"\n",["$","p",null,{"children":"相信大家都知道 Google 搜尋既其中一個叫做 Google Images 既功能可以幫我地上載圖片去搜尋更多圖片，呢個功能已經存在多年。"}],"\n",["$","p",null,{"children":"佢最有用既一個用途係，我地可以上載一張低清圖片，然後 Google Images 會顯示所有相同或相似既圖片結果，然後我地可以喺結果頁面選擇最高清既解像度，Google Images 會以相反次序將結果顯示，一目了然，非常方便。"}],"\n",["$","p",null,{"children":"不過，Google 近年就將 Google Images 既以圖搜尋功能轉左用 Google Lens，亦都冇左重要既功能——解像度既選項、排序。"}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"2 需求"}],"\n",["$","p",null,{"children":"根據而家 Google Lens 搜尋結果頁面既設計，我地係冇任何選項，只能夠撳「More exact matches」既掣去顯示更多搜尋結果。"}],"\n",["$","p",null,{"children":"所以我地需要："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"透過自動撳「More exact matches」既掣去顯示所有搜尋結果。"}],"\n",["$","li",null,{"children":"以解像度既相反次序去排序搜尋結果。"}],"\n",["$","li",null,{"children":"避免因為頁面自動刷新而失去我地對頁面既改動。"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"3 動手寫"}],"\n",["$","h2",null,{"children":"3.1 顯示所有搜尋結果"}],"\n",["$","h3",null,{"children":"3.1.1 Locate 「More exact matches」掣"}],"\n",["$","p",null,{"children":"Locate 「More exact matches」既掣："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-js","children":"const els = [...document.querySelectorAll(\"div\")]\r\n\t.filter((e) => e.children.length === 0)\r\n\t.filter((e) => e.innerText === \"More exact matches\");\r\nconst el = els[0];\n"}]}],"\n",["$","p",null,{"children":"解釋："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["因為 Google Lens 既頁面既 DOM elements 都冇 ",["$","code",null,{"children":"id"}],"，而佢地既 class names 似係 front-end library 生成既隨機值，所以我地只能用個掣既顯示文字去搵返佢個 ",["$","code",null,{"children":"div"}]," element 出黎。"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":"3.1.2 自動撳掣機制"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-js","children":"const clickMore = () => {\r\n\tconst els = [...document.querySelectorAll(\"div\")]\r\n\t\t.filter((e) => e.children.length === 0)\r\n\t\t.filter((e) => e.innerText === \"More exact matches\");\r\n\r\n\tif (els.length > 0) {\r\n\t\tels[0].click();\r\n\t\tsetTimeout(clickMore, 500);\r\n\t}\r\n};\r\n\r\nclickMore();\n"}]}],"\n",["$","p",null,{"children":"解釋："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["考慮到撳掣之後可能會需要一啲時間，所以我地會用 ",["$","code",null,{"children":"setTimeout"}]," 去每隔一小段時間去一直 check 下個掣存唔存在，然後撳一次。"]}],"\n",["$","li",null,{"children":"如果個掣唔再存在，我地就唔需要再繼續 check。"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"3.2 排序搜尋結果"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-js","children":"$f"}]}],"\n",["$","p",null,{"children":"解釋："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"我地會用每張圖片既解像度數字去計出圖片既面積，然後以面積既相反次序去排序搜尋結果。"}],"\n",["$","li",null,{"children":["我地會將搜尋結果既 ",["$","code",null,{"children":"li"}]," DOM elements 加到一個新既 ",["$","code",null,{"children":"ul"}]," list，再將 body 既內容換成呢個新既 ",["$","code",null,{"children":"ul"}]," list，從而避免因為 parent DOM elements 自動刷新而失去我地對 ",["$","code",null,{"children":"ul"}]," 既 ",["$","code",null,{"children":"li"}]," DOM elements 排序既改動。"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"4 包裝成 Chrome extension"}],"\n",["$","p",null,{"children":"我地可以寫一個 Chrome extension 去自動執行以上既 script。"}],"\n",["$","h2",null,{"children":"4.1 檔案"}],"\n",["$","p",null,{"children":["只需要 ",["$","code",null,{"children":"2"}]," 個檔案："]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"檔案"}],["$","th",null,{"children":"用途"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"manifest.json"}]}],["$","td",null,{"children":"關於呢個 Chrome extension 既基本資訊，例如呢個 Chrome extension 適用於邊啲 URL patterns。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"content.js"}]}],["$","td",null,{"children":"真正要執行既 script。"}]]}]]}]]}],"\n",["$","p",null,{"children":"我地要將佢地放埋喺同一個 folder 裡面。"}],"\n",["$","h3",null,{"children":["4.1.1 ",["$","code",null,{"children":"manifest.json"}]]}],"\n",["$","p",null,{"children":"格式如下："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\r\n\t\"name\": \"Google-Lens-Sort\",\r\n\t\"version\": \"1.0\",\r\n\t\"description\": \"Sort Google Lens image search results\",\r\n\t\"content_scripts\": [\r\n\t\t{\r\n\t\t\t\"matches\": [\"*://lens.google.com/search*\"],\r\n\t\t\t\"js\": [\"content.js\"],\r\n\t\t\t\"run_at\": \"document_idle\"\r\n\t\t}\r\n\t],\r\n\t\"manifest_version\": 3\r\n}\n"}]}],"\n",["$","p",null,{"children":"註："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["經過測試後，發現只有 ",["$","code",null,{"children":"run_at"}]," 係 ",["$","code",null,{"children":"document_idle"}]," 既情況下，我地既 ",["$","code",null,{"children":"content.js"}]," script 先會喺頁面由 Google Images redirect 去 Google Lens 結果頁之後執行。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["如果 ",["$","code",null,{"children":"run_at"}]," 係 ",["$","code",null,{"children":"document_start"}],"，咁就要先手動 refresh Google Lens 搜尋結果頁，咁個 script 先會執行。"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":["4.1.2 ",["$","code",null,{"children":"content.js"}]]}],"\n",["$","p",null,{"children":"經過優化後，以下係最終既 script。"}],"\n",["$","p",null,{"children":"以下既格式其實可以用作 Chrome extensions 既 template。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-js","children":"$10"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"4.2 安裝 Chrome extension"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["喺 Chrome 打開 ",["$","code",null,{"children":"chrome://extensions"}]," 頁面。"]}],"\n",["$","li",null,{"children":"開啟 Developer mode。"}],"\n",["$","li",null,{"children":["Load unpacked ➜ 打開裝住 ",["$","code",null,{"children":"manifest.json"}]," 既 folder。"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"5 測試"}],"\n",["$","h2",null,{"children":"5.1 手動執行"}],"\n",["$","p",null,{"children":"我地唔一定要用 Chrome extension 去自動執行我地段 script。"}],"\n",["$","p",null,{"children":"喺冇或者禁用左 Chrome extension 既情況下："}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["打開 ",["$","a",null,{"href":"https://www.google.com/imghp","children":"Google Images 頁面"}],"。"]}],"\n",["$","li",null,{"children":"將測試圖片 drag 到圖片上載框內。"}],"\n",["$","li",null,{"children":"撳圖片上既「Find image source」掣。"}],"\n",["$","li",null,{"children":"打開 Chrome developer tools 既 Console tab。"}],"\n",["$","li",null,{"children":"將段 script paste 落去，然後按 Enter 執行。"}],"\n",["$","li",null,{"children":"等頁面上既搜尋結果改變。"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"5.2 以 Chrome extension 自動執行"}],"\n",["$","p",null,{"children":"喺 Chrome extension 生效既情況下："}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["打開 ",["$","a",null,{"href":"https://www.google.com/imghp","children":"Google Images 頁面"}],"。"]}],"\n",["$","li",null,{"children":"將測試圖片 drag 到圖片上載框內。"}],"\n",["$","li",null,{"children":"撳圖片上既「Find image source」掣。"}],"\n",["$","li",null,{"children":"等頁面上既搜尋結果改變。"}],"\n"]}]],null,["$","$L11",null,{"children":"$L12"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","19ZQJdZS8UMFa3ZTIWEXW",{"children":[["$","$L13",null,{"children":"$L14"}],["$","$L15",null,{"children":"$L16"}],null]}]]}],false]],"m":"$undefined","G":["$17","$undefined"],"s":false,"S":true}
+16:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
+12:null

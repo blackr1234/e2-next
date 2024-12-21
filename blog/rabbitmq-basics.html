@@ -1,1 +1,417 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/e2-next/_next/static/css/d3df112486f97f47.css" data-precedence="next"/><link rel="stylesheet" href="/e2-next/_next/static/css/c3624a693ae5a0c4.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/e2-next/_next/static/chunks/webpack-c5a5a71ba05d987d.js"/><script src="/e2-next/_next/static/chunks/4bd1b696-9afba50dfb351c79.js" async=""></script><script src="/e2-next/_next/static/chunks/517-27ecde0936d34fd0.js" async=""></script><script src="/e2-next/_next/static/chunks/main-app-949fd314183026be.js" async=""></script><script src="/e2-next/_next/static/chunks/829-0d4167e889c92f66.js" async=""></script><script src="/e2-next/_next/static/chunks/153-92d0be8948a510c7.js" async=""></script><script src="/e2-next/_next/static/chunks/app/layout-0fbda1b2e18e1e9a.js" async=""></script><script src="/e2-next/_next/static/chunks/app/page-3db4f82a976b6826.js" async=""></script><title>Michael Chung&#x27;s e-Portfolio</title><meta name="description" content="Powered by Next.js and React"/><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/><script src="/e2-next/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body><div class="vstack gap-5"><div class="text-center vstack gap-5"><div><code class="SiteHeader_name__cwQmL">Chung Cheuk Hang Michael</code><code class="SiteHeader_title__CCfvI">Java Web Developer</code></div><nav class="justify-content-center navbar navbar-expand-md navbar-dark"><button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button><div class="justify-content-center navbar-collapse collapse"><div class="justify-content-center navbar-nav nav-underline"><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/" class="nav-link" href="/e2-next">Home</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/work" class="nav-link" href="/e2-next/work">Work</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/hobbyProjects" class="nav-link" href="/e2-next/hobbyProjects">Hobby projects</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/personality" class="nav-link" href="/e2-next/personality">Personality</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/blog" class="nav-link" href="/e2-next/blog">Blog</a></div></div></div></nav></div><h1>Blog <!-- -->rabbitmq-basics</h1><hr/><div class="vstack gap-3"><div class="text-center container"><div class="justify-content-center g-3 row row-cols-md-3 row-cols-sm-2 row-cols-1"><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="tel:+85263301333"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-phone" style="color:#009688"></i></div><p class="text-muted card-text">6330 1333<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="mailto:michaelboyboy@gmail.com"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-envelope" style="color:#f44336"></i></div><p class="text-muted card-text">michaelboyboy@gmail.com<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="https://www.linkedin.com/in/mickchung"><div class="card-body"><div class="card-title h5"><i class="fa-brands fa-linkedin" style="color:#2196f3"></i></div><p class="text-muted card-text">www.linkedin.com/in/mickchung<!-- --> </p></div></a></div></div></div></div></div><script src="/e2-next/_next/static/chunks/webpack-c5a5a71ba05d987d.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[8287,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\n3:I[3339,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\n4:I[1367,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\n5:I[5244,[],\"\"]\n6:I[3866,[],\"\"]\n7:I[4798,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\n8:I[6121,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\n9:I[3667,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\na:I[8407,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\nb:I[8173,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"\"]\nc:I[3197,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\nd:I[7933,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\ne:I[3800,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\n10:I[6213,[],\"OutletBoundary\"]\n12:I[6213,[],\"MetadataBoundary\"]\n14:I[6213,[],\"ViewportBoundary\"]\n16:I[4835,[],\"\"]\n:HL[\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"style\"]\n:HL[\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"gVZeuoZEIM3AUvikmCH-j\",\"p\":\"/e2-next\",\"c\":[\"\",\"blog\",\"rabbitmq-basics\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"blog\",{\"children\":[[\"postId\",\"rabbitmq-basics\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900\u0026display=swap\",\"rel\":\"stylesheet\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css\"}]]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"gap\":5,\"children\":[[\"$\",\"$L3\",null,{\"gap\":5,\"className\":\"text-center\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"code\",null,{\"className\":\"SiteHeader_name__cwQmL\",\"children\":\"Chung Cheuk Hang Michael\"}],[\"$\",\"code\",null,{\"className\":\"SiteHeader_title__CCfvI\",\"children\":\"Java Web Developer\"}]]}],[\"$\",\"$L4\",null,{}]]}],[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"hr\",null,{}],[\"$\",\"$L3\",null,{\"gap\":3,\"children\":[\"$\",\"$L7\",null,{\"className\":\"text-center\",\"children\":[\"$\",\"$L8\",null,{\"xs\":1,\"sm\":2,\"md\":3,\"className\":\"justify-content-center g-3\",\"children\":[[\"$\",\"$L9\",\"0\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"tel:+85263301333\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-phone\",\"style\":{\"color\":\"#009688\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"6330 1333\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"1\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"mailto:michaelboyboy@gmail.com\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-envelope\",\"style\":{\"color\":\"#f44336\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"michaelboyboy@gmail.com\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"2\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"https://www.linkedin.com/in/mickchung\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-brands fa-linkedin\",\"style\":{\"color\":\"#2196f3\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"www.linkedin.com/in/mickchung\",\" \"]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{\"children\":[\"blog\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"postId\",\"rabbitmq-basics\",\"d\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$Lf\",null,[\"$\",\"$L10\",null,{\"children\":\"$L11\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"oRALBAQobUu_Ku0zuxf0r\",{\"children\":[[\"$\",\"$L12\",null,{\"children\":\"$L13\"}],[\"$\",\"$L14\",null,{\"children\":\"$L15\"}],null]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$16\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"f:[\"$\",\"h1\",null,{\"children\":[\"Blog \",\"rabbitmq-basics\"]}]\n"])</script><script>self.__next_f.push([1,"15:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n13:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Michael Chung's e-Portfolio\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Powered by Next.js and React\"}]]\n"])</script><script>self.__next_f.push([1,"11:null\n"])</script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/e2-next/_next/static/css/d3df112486f97f47.css" data-precedence="next"/><link rel="stylesheet" href="/e2-next/_next/static/css/c3624a693ae5a0c4.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/e2-next/_next/static/chunks/webpack-f088da4552bcc253.js"/><script src="/e2-next/_next/static/chunks/4bd1b696-120f4d9c40d223dd.js" async=""></script><script src="/e2-next/_next/static/chunks/1517-c8d232d43a11224c.js" async=""></script><script src="/e2-next/_next/static/chunks/main-app-05c45cc8f30d6cea.js" async=""></script><script src="/e2-next/_next/static/chunks/7829-b7b9eb1dbe0d40e4.js" async=""></script><script src="/e2-next/_next/static/chunks/2153-45fd9844831c6348.js" async=""></script><script src="/e2-next/_next/static/chunks/app/layout-ea91c2d128ec48c2.js" async=""></script><script src="/e2-next/_next/static/chunks/app/page-c8b940db14fac9a0.js" async=""></script><title>Michael Chung&#x27;s e-Portfolio</title><meta name="description" content="Powered by Next.js and React"/><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/><script src="/e2-next/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body><div class="vstack gap-5"><div class="text-center vstack gap-5"><div><code class="SiteHeader_name__cwQmL">Chung Cheuk Hang Michael</code><code class="SiteHeader_title__CCfvI">Java Web Developer</code></div><nav class="justify-content-center navbar navbar-expand-md navbar-dark"><button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button><div class="justify-content-center navbar-collapse collapse"><div class="justify-content-center navbar-nav nav-underline"><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/" class="nav-link" href="/e2-next">Home</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/work" class="nav-link" href="/e2-next/work">Work</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/hobbyProjects" class="nav-link" href="/e2-next/hobbyProjects">Hobby projects</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/personality" class="nav-link" href="/e2-next/personality">Personality</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/blog" class="nav-link" href="/e2-next/blog">Blog</a></div></div></div></nav></div><h1>1 RabbitMQ 簡介</h1>
+<p>可以睇返呢篇：<a href="/blog/spring-cloud-stream-rabbitmq">Spring 項目中訂閱 RabbitMQ</a></p>
+<hr/>
+<h1>2 啟動 RabbitMQ</h1>
+<p>我地可以用 Docker Desktop，然後利用 RabbitMQ 既官方 Docker image 執行 Docker container。</p>
+<p>Command 可以喺呢篇搵到：<a href="/blog/docker-basics#337-rabbitmq">Docker 基本操作 - 3.3.7 RabbitMQ</a>。</p>
+<hr/>
+<h1>3 動手玩</h1>
+<h2>3.1 建立 virtual host</h2>
+<p>RabbitMQ 支援 multi-tenant，我地可以用 virtual host 黎 group 起相關既 resources。</p>
+<ol>
+<li>去 Admin &gt; Virtual Hosts。</li>
+<li>打開「Add a new virtual host」。</li>
+<li>輸入 Name，例如「rabbitmq-basics」。</li>
+<li>撳「Add virtual host」。</li>
+<li>Refresh 頁面。</li>
+<li>右上角 &gt; 揀新建立既 virtual host。</li>
+</ol>
+<p>完成之後，我地就可以喺呢個新既 virtual host 度玩啦！</p>
+<hr/>
+<h2>3.2 測試 queue</h2>
+<h3>3.2.1 建立 queue</h3>
+<ol>
+<li>去 Queues and Streams。</li>
+<li>打開「Add a new queue」。</li>
+<li>我地可以揀 Virtual host、Type，亦可以由得佢用默認值。</li>
+<li>輸入 Name，例如 <code>my-queue</code>。</li>
+<li>Durability 由得佢用默認既 <code>Durable</code> 就得。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Add queue」。</li>
+</ol>
+<p>完成之後，會見到有一個 queue：</p>
+<ul>
+<li>Name：<code>my-queue</code></li>
+<li>Type：<code>classic</code></li>
+<li>Features：<!-- -->
+<ul>
+<li><code>D</code> 係 durable。</li>
+<li><code>Args</code> 裡面有 <code>x-queue-type: classic</code>。</li>
+</ul>
+</li>
+<li>State：<code>idle</code></li>
+<li>Messages：<code>0</code></li>
+</ul>
+<hr/>
+<h3>3.2.2 直接發送訊息到 queue</h3>
+<ol>
+<li>撳「my-queue」。</li>
+<li>打開「Publish message」。</li>
+<li>Delivery mode 由得佢用默認既 <code>1 - Non-persistent</code> 就得。</li>
+<li>Headers、Properties 可以唔輸入。</li>
+<li>Payload 係我地想發送既 message body，可以輸入 <code>foo</code>。</li>
+<li>Payload encoding 由得佢用默認既 <code>String (default)</code> 就得。</li>
+<li>撳「Publish message」。</li>
+<li>如果發送成功，佢會彈出灰色底既 popup，寫住「Message published.」，撳「Close」就得。</li>
+</ol>
+<hr/>
+<h3>3.2.3 接收訊息</h3>
+<ol>
+<li>打開「Get messages」。</li>
+<li>將 Ack mode 改成 <code>Automatic ack</code>。</li>
+<li>Encoding 由得佢用默認既 <code>Auto string / base64</code> 就得。</li>
+<li>Messages 影響接收既訊息數量，可以改成 <code>10</code>，就算多過實際存在既訊息數量都冇問題。</li>
+<li>撳「Get Message(s)」。</li>
+</ol>
+<p>之後佢會顯示我地既「foo」訊息：</p>
+<ul>
+<li>Exchange：<code>(AMQP default)</code></li>
+<li>Routing key：<code>my-queue</code></li>
+<li>Redelivered：<code>○</code>（白色代表 <code>false</code>，requeue 既訊息先會係 <code>true</code>）</li>
+<li>Properties<!-- -->
+<ul>
+<li>delivery_mode：<code>1</code></li>
+<li>headers：N/A</li>
+</ul>
+</li>
+<li>Payload：<code>foo</code></li>
+</ul>
+<p>如果我地再撳「Get Message(s)」，佢就會彈出灰色底既 popup，寫住「Queue is empty」，咁係因為先前既訊息已經 acknowledge 左。</p>
+<hr/>
+<h3>3.2.4 Requeue 訊息</h3>
+<ol>
+<li>重複上面既發送、接收步驟。<!-- -->
+<ul>
+<li>喺接收既步驟，Ack mode 揀「Nack message requeue true」或者「Reject requeue true」。</li>
+</ul>
+</li>
+</ol>
+<p>結果：</p>
+<ol>
+<li>第一次接收訊息既時候，我地會見到 Redelivered 係「○」（<code>false</code>），因為呢個訊息係第一次接收。</li>
+<li>第二次接收訊息既時候，我地會見到 Redelivered 係「●」（<code>true</code>），因為呢個訊息喺第一次接收之後被 requeue，而家接收既係第二次傳遞同一個訊息。</li>
+</ol>
+<hr/>
+<h2>3.3 測試 direct exchange</h2>
+<h3>3.3.1 建立 direct exchange</h3>
+<ol>
+<li>去 Exchanges。</li>
+<li>打開「Add a new exchange」。</li>
+<li>輸入 Name，例如 <code>my-direct-exchange</code>。</li>
+<li>Type 揀「direct」。</li>
+<li>我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Add exchange」。</li>
+</ol>
+<hr/>
+<h3>3.3.2 建立 queue</h3>
+<ol>
+<li>可以參考返上面建立 queue 既步驟。<!-- -->
+<ul>
+<li>Name 可以輸入 <code>my-direct-queue</code>。</li>
+</ul>
+</li>
+</ol>
+<hr/>
+<h3>3.3.3 建立 binding</h3>
+<ol>
+<li>撳「my-direct-queue」。</li>
+<li>打開「Bindings (1)」。</li>
+<li>From exchange 輸入 <code>my-direct-exchange</code>。</li>
+<li>Routing key 輸入 <code>foo</code>。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Bind」。</li>
+</ol>
+<hr/>
+<h3>3.3.4 發送、接收訊息</h3>
+<ol>
+<li>去「my-direct-exchange」度發送訊息。<!-- -->
+<ol>
+<li>Routing key 輸入 <code>foo</code>（要同 binding key 一樣）。</li>
+<li>Headers、Properties 可以唔輸入。</li>
+<li>輸入 Payload，例如 <code>my message content</code>。</li>
+</ol>
+</li>
+<li>去「my-direct-queue」度接收訊息。<!-- -->
+<ol>
+<li>會收到 <code>1</code> 個訊息。</li>
+</ol>
+</li>
+</ol>
+<p>如果我地發送既時候唔用 <code>foo</code> 作為 routing key（唔輸入，或者輸入另一個值），佢就會彈出黃色底既 popup，寫住「Message published, but not routed.」，咁係因為冇一個 binding 既 binding key 係 match 到呢個 routing key。</p>
+<hr/>
+<h2>3.4 測試 fanout exchange</h2>
+<h3>3.4.1 建立 fanout exchange</h3>
+<ol>
+<li>去 Exchanges。</li>
+<li>打開「Add a new exchange」。</li>
+<li>輸入 Name，例如 <code>my-fanout-exchange</code>。</li>
+<li>Type 揀「fanout」。</li>
+<li>我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Add exchange」。</li>
+</ol>
+<hr/>
+<h3>3.4.2 建立 queue</h3>
+<ol>
+<li>可以參考返上面建立 queue 既步驟。<!-- -->
+<ul>
+<li>Name 可以輸入 <code>my-fanout-queue</code>。</li>
+</ul>
+</li>
+</ol>
+<hr/>
+<h3>3.4.3 建立 binding</h3>
+<ol>
+<li>撳「my-fanout-queue」。</li>
+<li>打開「Bindings (1)」。</li>
+<li>From exchange 輸入 <code>my-fanout-exchange</code>。</li>
+<li>Routing key 輸入 <code>foo</code>，或者唔輸入都得。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Bind」。</li>
+</ol>
+<hr/>
+<h3>3.4.4 發送、接收訊息</h3>
+<ol>
+<li>去「my-fanout-exchange」度發送訊息。<!-- -->
+<ol>
+<li>Routing key、Headers、Properties 可以唔輸入。</li>
+<li>輸入 Payload，例如 <code>my message content</code>。</li>
+</ol>
+</li>
+<li>去「my-fanout-queue」度接收訊息。<!-- -->
+<ol>
+<li>會收到 <code>1</code> 個訊息。</li>
+</ol>
+</li>
+</ol>
+<p>我地發送既時候用咩作為 routing key（輸入 <code>foo</code>、唔輸入，或者輸入另一個值），都一樣可以發送到訊息，咁係因為 fanout exchange 唔會理 routing key 或者 binding key。</p>
+<hr/>
+<h2>3.5 測試 headers exchange</h2>
+<h3>3.5.1 建立 headers exchange</h3>
+<ol>
+<li>去 Exchanges。</li>
+<li>打開「Add a new exchange」。</li>
+<li>輸入 Name，例如 <code>my-headers-exchange</code>。</li>
+<li>Type 揀「headers」。</li>
+<li>我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Add exchange」。</li>
+</ol>
+<hr/>
+<h3>3.5.2 建立 queue</h3>
+<ol>
+<li>可以參考返上面建立 queue 既步驟。<!-- -->
+<ul>
+<li>Name 可以輸入 <code>my-headers-queue</code>。</li>
+</ul>
+</li>
+</ol>
+<hr/>
+<h3>3.5.3 建立 binding</h3>
+<ol>
+<li>撳「my-headers-queue」。</li>
+<li>打開「Bindings (1)」。</li>
+<li>From exchange 輸入 <code>my-headers-exchange</code>。</li>
+<li>Routing key 唔洗輸入。</li>
+<li>Arguments 輸入：<!-- -->
+<ul>
+<li><code>h1</code> = <code>foo</code>（<code>String</code>）</li>
+<li><code>h2</code> = <code>bar</code>（<code>String</code>）</li>
+</ul>
+</li>
+<li>撳「Bind」。</li>
+</ol>
+<hr/>
+<h3>3.5.4 發送、接收訊息</h3>
+<ol>
+<li>去「my-headers-exchange」度發送訊息。<!-- -->
+<ol>
+<li>Routing key、Properties 可以唔輸入。</li>
+<li>Headers 輸入：<!-- -->
+<ul>
+<li><code>h1</code> = <code>foo</code>（<code>String</code>）</li>
+<li><code>h2</code> = <code>bar</code>（<code>String</code>）</li>
+</ul>
+</li>
+<li>輸入 Payload，例如 <code>my message content</code>。</li>
+</ol>
+</li>
+<li>去「my-headers-queue」度接收訊息。<!-- -->
+<ol>
+<li>會收到 <code>1</code> 個訊息。</li>
+</ol>
+</li>
+</ol>
+<p>如果我地發送既時候，headers 一定要 match 曬 binding 既 arguments，只要有任何一個唔 match，佢都會彈出黃色底既 popup，寫住「Message published, but not routed.」，咁係因為冇一個 binding 既 arguments 係 match 到呢個訊息既 headers。</p>
+<hr/>
+<h2>3.6 測試 topic exchange</h2>
+<h3>3.6.1 建立 topic exchange</h3>
+<ol>
+<li>去 Exchanges。</li>
+<li>打開「Add a new exchange」。</li>
+<li>輸入 Name，例如 <code>my-topic-exchange</code>。</li>
+<li>Type 揀「topic」。</li>
+<li>我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Add exchange」。</li>
+</ol>
+<hr/>
+<h3>3.6.2 建立 queue</h3>
+<ol>
+<li>可以參考返上面建立 queue 既步驟。<!-- -->
+<ul>
+<li>Name 可以輸入 <code>my-topic-queue</code>。</li>
+</ul>
+</li>
+</ol>
+<hr/>
+<h3>3.6.3 建立 binding</h3>
+<ol>
+<li>撳「my-topic-queue」。</li>
+<li>打開「Bindings (1)」。</li>
+<li>From exchange 輸入 <code>my-topic-exchange</code>。</li>
+<li>Routing key 輸入 <code>foo.#</code>。</li>
+<li>Arguments 可以唔輸入。</li>
+<li>撳「Bind」。</li>
+</ol>
+<hr/>
+<h3>3.6.4 發送、接收訊息</h3>
+<ol>
+<li>去「my-topic-exchange」度發送訊息。<!-- -->
+<ol>
+<li>Routing key 輸入 <code>foo.123</code>（要係一個 match 到 <code>foo.#</code> 接受既值）。</li>
+<li>Headers、Properties 可以唔輸入。</li>
+<li>輸入 Payload，例如 <code>my message content</code>。</li>
+</ol>
+</li>
+<li>去「my-topic-queue」度接收訊息。<!-- -->
+<ol>
+<li>會收到 <code>1</code> 個訊息。</li>
+</ol>
+</li>
+</ol>
+<p>如果我地發送既時候唔用 match 到個 binding key 既值作為 routing key（唔輸入，或者輸入唔 match 既值），佢就會彈出黃色底既 popup，寫住「Message published, but not routed.」，咁係因為冇一個 binding 既 binding key 係 match 到呢個 routing key。</p>
+<p>✅ <code>foo.#</code> binding key 接受既 routing key 例子：</p>
+<ul>
+<li><code>foo</code>、<code>foo.</code>、<code>foo..</code>、<code>foo.#</code>、<code>foo.1</code>、<code>foo.a</code>、<code>foo.abc</code></li>
+</ul>
+<p>❌ <code>foo.#</code> binding key 唔接受既 routing key 例子：</p>
+<ul>
+<li>唔輸入</li>
+<li><code>bar.</code>、<code>bar.123</code></li>
+</ul>
+<hr/>
+<h2>3.7 測試 dead letter exchange</h2>
+<h3>3.7.1 建立 business exchange</h3>
+<ul>
+<li>Name：<code>biz-exchange</code></li>
+<li>Type：<code>direct</code></li>
+</ul>
+<hr/>
+<h3>3.7.2 建立 business queue</h3>
+<ul>
+<li>Name：<code>biz-queue</code></li>
+<li>Arguments<!-- -->
+<ul>
+<li><code>x-dead-letter-exchange</code>：<code>my-dlx</code></li>
+<li><code>x-dead-letter-routing-key</code>：<code>my-dlkey</code></li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3>3.7.3 建立 business binding</h3>
+<ul>
+<li>Exchange：<code>biz-exchange</code></li>
+<li>Queue：<code>biz-queue</code></li>
+<li>Binding key：<code>biz-key</code></li>
+</ul>
+<hr/>
+<h3>3.7.4 建立 dead letter exchange</h3>
+<ul>
+<li>Name：<code>my-dlx</code></li>
+<li>Type：<code>direct</code></li>
+</ul>
+<hr/>
+<h3>3.7.5 建立 dead letter queue</h3>
+<ul>
+<li>Name：<code>my-dlq</code></li>
+<li>Arguments（可選）<!-- -->
+<ul>
+<li><code>x-dead-letter-exchange</code>：<code>biz-exchange</code>（<code>String</code>）</li>
+<li><code>x-dead-letter-routing-key</code>：<code>biz-key</code>（<code>String</code>）</li>
+<li><code>x-message-ttl</code>：<code>10000</code>（<code>Number</code>）（等於 <code>10</code> 秒）</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3>3.7.6 建立 dead letter binding</h3>
+<ul>
+<li>Exchange：<code>my-dlx</code></li>
+<li>Queue：<code>my-dlq</code></li>
+<li>Binding key：<code>my-dlkey</code></li>
+</ul>
+<hr/>
+<h3>3.7.7 發送、接收訊息</h3>
+<ol>
+<li>去「biz-exchange」度發送訊息。<!-- -->
+<ol>
+<li>Routing key 輸入 <code>biz-key</code>。</li>
+<li>Headers、Properties 可以唔輸入。</li>
+<li>輸入 Payload，例如 <code>my message content</code>。</li>
+</ol>
+</li>
+<li>去「biz-queue」度接收訊息。<!-- -->
+<ol>
+<li>Ack mode 揀「Reject requeue false」。</li>
+<li>會收到 <code>1</code> 個訊息。</li>
+</ol>
+</li>
+<li>去「my-dlq」度接收訊息。<!-- -->
+<ol>
+<li>Ack mode 揀「Nack message requeue true」。</li>
+<li>會收到 <code>1</code> 個訊息。</li>
+</ol>
+</li>
+</ol>
+<p>如果 dead letter queue 有設定度可選既 arguments：</p>
+<ol>
+<li>等幾秒（message TTL 係 <code>10</code> 秒）。</li>
+<li>去「biz-queue」度接收訊息。<!-- -->
+<ol>
+<li>Ack mode 揀「Nack message requeue true」。</li>
+<li>會收到 <code>1</code> 個訊息。</li>
+</ol>
+</li>
+</ol>
+<p>解釋：</p>
+<ul>
+<li>上面既例子可以達到 retry dead letter queue 裡面既訊息既效果。<!-- -->
+<ul>
+<li>當訊息喺「biz-queue」度接收失敗，被轉移到「my-dlx」然後再到「my-dlq」之後，經過一段時間，當 message TTL 過期既時候，訊息又會自動被轉移到「biz-exchange」然後再到「biz-queue」。</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h1>4 筆記</h1>
+<h2>4.1 Exchange 選項</h2>
+<table><thead><tr><th>選項</th><th>解釋</th></tr></thead><tbody><tr><td>Durable</td><td>個 exchange 會喺 RabbitMQ 重新啟動之後都繼續存在。</td></tr><tr><td>Auto-delete</td><td>當最後一個 binding 被解除，RabbitMQ 就會自動刪除呢個 exchange。</td></tr><tr><td>Direct type</td><td>Binding key 會係 exact match。</td></tr><tr><td>Fanout type</td><td>唔需要 binding key，就算提供左都冇用，所有 bind 左既 queues 都必定會收到所有訊息。</td></tr><tr><td>Headers type</td><td>用特定既 key-value arguments 黎 match。</td></tr><tr><td>Topic type</td><td>Binding key 可以係 exact match，亦可以運用 wildcard characters——<code>*</code> 代表 wildcard 單字；<code>#</code> 代表 wildcard 任意長度（<code>0</code> 至 <code>N</code>）既文字。</td></tr></tbody></table>
+<hr/>
+<h2>4.2 Queue 選項</h2>
+<table><thead><tr><th>選項</th><th>解釋</th></tr></thead><tbody><tr><td>Durable</td><td>個 queue 會喺 RabbitMQ 重新啟動之後都繼續存在。</td></tr><tr><td>Auto-delete</td><td>當最後一個 consumer cancel 或者 disconnect 左，RabbitMQ 就會自動刪除呢個 queue。</td></tr><tr><td>Exclusive</td><td>當佢所屬既 connection close 左，RabbitMQ 就會自動刪除呢個 queue。</td></tr><tr><td>Message TTL（<code>x-message-ttl</code> arg）</td><td>Queue level 既 time-to-live，一個訊息如果超過呢個時間就會 expire，consumers 唔會收到已經 expire 左既訊息。如果有 dead letter exchange 既 args，當訊息喺 head 位置，RabbitMQ 就會將佢轉移去 dead letter exchange。</td></tr><tr><td>Auto-expire（<code>x-expires</code> arg）</td><td>數值係 millisecond 數字（<code>5000</code> 等於 <code>5</code> 秒）。當冇任何 consumer 連接住呢個 queue（一建立 queue 既時候都算），RabbitMQ 就會開始計時，一到左時間，RabbitMQ 就會自動刪除呢個 queue。</td></tr><tr><td>Single active consumer（<code>x-single-active-consumer</code> arg）</td><td>如果我地既訊息一定要按入 queue 既先後次序處理，如果想保持住多個相同 consumer 既 app instances，咁我地可以用 single active consumer 選項，咁所有訊息都只會傳遞到同一個 consumer，保證處理訊息既先後次序。</td></tr><tr><td>Dead letter exchange（<code>x-dead-letter-exchange</code>）</td><td>如果傳遞失敗，RabbitMQ 可能會將佢轉移到呢個 dead letter exchange。</td></tr><tr><td>Dead letter routing key（<code>x-dead-letter-routing-key</code>）</td><td>RabbitMQ 將訊息轉移到 dead letter exchange 既時候會用既 routing key。</td></tr></tbody></table>
+<hr/>
+<h2>4.3 Binding 選項</h2>
+<table><thead><tr><th>選項</th><th>解釋</th></tr></thead><tbody><tr><td>Binding key（或者 routing key）</td><td>提供 filter 訊息既作用。一個訊息如果要由 exchange <code>X1</code> 去到 queue <code>Q1</code>，呢個訊息既 routing key 一定要 match 到 <code>Q1</code> 同 <code>X1</code> 之間既 binding 既 binding key。我地應該根據 exchange type 去輸入符合我地需要既 binding key。</td></tr><tr><td>Arguments</td><td>用喺 headers exchange 既 bindings 度，只有 match 到曬所有 arguments 既值既訊息先會 route 到去個 queue 度。</td></tr></tbody></table>
+<hr/>
+<h2>4.4 訊息發送選項</h2>
+<table><thead><tr><th>選項</th><th>解釋</th></tr></thead><tbody><tr><td>Delivery mode</td><td>Persistent（<code>1</code>）會先寫落 persistent storage（disk），如果 RabbitMQ crash 左既話都會喺返度。Non-persistent（<code>2</code>）就唔會寫落 disk。</td></tr></tbody></table>
+<hr/>
+<h2>4.5 訊息接收選項</h2>
+<table><thead><tr><th>選項</th><th>解釋</th></tr></thead><tbody><tr><td>Reject</td><td>係 AMQP 既標準，用黎拒絕單一訊息。</td></tr><tr><td>Nack</td><td>Negative acknowledgement 係 RabbitMQ 獨有既功能，可以同時拒絕對多個訊息。</td></tr></tbody></table>
+<hr/>
+<h1>5 參考資料</h1>
+<ul>
+<li><a href="https://www.rabbitmq.com/docs/nack">RabbitMQ 官方文檔 - Negative Acknowledgements</a></li>
+<li><a href="https://www.rabbitmq.com/docs/ttl">RabbitMQ 官方文檔 - Time-to-Live and Expiration</a></li>
+<li><a href="https://www.rabbitmq.com/docs/dlx">RabbitMQ 官方文檔 - Dead Letter Exchanges</a></li>
+</ul><hr/><div class="vstack gap-3"><div class="text-center container"><div class="justify-content-center g-3 row row-cols-md-3 row-cols-sm-2 row-cols-1"><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="tel:+85263301333"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-phone" style="color:#009688"></i></div><p class="text-muted card-text">6330 1333<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="mailto:michaelboyboy@gmail.com"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-envelope" style="color:#f44336"></i></div><p class="text-muted card-text">michaelboyboy@gmail.com<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="https://www.linkedin.com/in/mickchung"><div class="card-body"><div class="card-title h5"><i class="fa-brands fa-linkedin" style="color:#2196f3"></i></div><p class="text-muted card-text">www.linkedin.com/in/mickchung<!-- --> </p></div></a></div></div></div></div></div><script src="/e2-next/_next/static/chunks/webpack-f088da4552bcc253.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[8287,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\n3:I[3339,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\n4:I[1367,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\n5:I[5244,[],\"\"]\n6:I[3866,[],\"\"]\n7:I[4798,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\n8:I[6121,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\n9:I[3667,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\na:I[8407,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\nb:I[8173,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"\"]\nc:I[3197,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\nd:I[7933,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\ne:I[3800,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\nf:I[6213,[],\"OutletBoundary\"]\n11:I[6213,[],\"MetadataBoundary\"]\n13:I[6213,[],\"ViewportBoundary\"]\n15:I[4835,[],\"\"]\n:HL[\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"style\"]\n:HL[\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"wfZ4FdS4ntgGvzjeKJhfw\",\"p\":\"/e2-next\",\"c\":[\"\",\"blog\",\"rabbitmq-basics\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"blog\",{\"children\":[\"(2024-04)\",{\"children\":[\"rabbitmq-basics\",{\"children\":[\"__PAGE__\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900\u0026display=swap\",\"rel\":\"stylesheet\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css\"}]]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"gap\":5,\"children\":[[\"$\",\"$L3\",null,{\"gap\":5,\"className\":\"text-center\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"code\",null,{\"className\":\"SiteHeader_name__cwQmL\",\"children\":\"Chung Cheuk Hang Michael\"}],[\"$\",\"code\",null,{\"className\":\"SiteHeader_title__CCfvI\",\"children\":\"Java Web Developer\"}]]}],[\"$\",\"$L4\",null,{}]]}],[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"hr\",null,{}],[\"$\",\"$L3\",null,{\"gap\":3,\"children\":[\"$\",\"$L7\",null,{\"className\":\"text-center\",\"children\":[\"$\",\"$L8\",null,{\"xs\":1,\"sm\":2,\"md\":3,\"className\":\"justify-content-center g-3\",\"children\":[[\"$\",\"$L9\",\"0\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"tel:+85263301333\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-phone\",\"style\":{\"color\":\"#009688\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"6330 1333\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"1\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"mailto:michaelboyboy@gmail.com\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-envelope\",\"style\":{\"color\":\"#f44336\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"michaelboyboy@gmail.com\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"2\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"https://www.linkedin.com/in/mickchung\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-brands fa-linkedin\",\"style\":{\"color\":\"#2196f3\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"www.linkedin.com/in/mickchung\",\" \"]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{\"children\":[\"blog\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"(2024-04)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"(2024-04)\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"rabbitmq-basics\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"(2024-04)\",\"children\",\"rabbitmq-basics\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"h1\",null,{\"children\":\"1 RabbitMQ 簡介\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"可以睇返呢篇：\",[\"$\",\"a\",null,{\"href\":\"/blog/spring-cloud-stream-rabbitmq\",\"children\":\"Spring 項目中訂閱 RabbitMQ\"}]]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"2 啟動 RabbitMQ\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"我地可以用 Docker Desktop，然後利用 RabbitMQ 既官方 Docker image 執行 Docker container。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"Command 可以喺呢篇搵到：\",[\"$\",\"a\",null,{\"href\":\"/blog/docker-basics#337-rabbitmq\",\"children\":\"Docker 基本操作 - 3.3.7 RabbitMQ\"}],\"。\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"3 動手玩\"}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.1 建立 virtual host\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"RabbitMQ 支援 multi-tenant，我地可以用 virtual host 黎 group 起相關既 resources。\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"去 Admin \u003e Virtual Hosts。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Add a new virtual host」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"輸入 Name，例如「rabbitmq-basics」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Add virtual host」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Refresh 頁面。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"右上角 \u003e 揀新建立既 virtual host。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"完成之後，我地就可以喺呢個新既 virtual host 度玩啦！\"}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.2 測試 queue\"}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.2.1 建立 queue\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"去 Queues and Streams。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Add a new queue」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"我地可以揀 Virtual host、Type，亦可以由得佢用默認值。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Name，例如 \",[\"$\",\"code\",null,{\"children\":\"my-queue\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Durability 由得佢用默認既 \",[\"$\",\"code\",null,{\"children\":\"Durable\"}],\" 就得。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Add queue」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"完成之後，會見到有一個 queue：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name：\",[\"$\",\"code\",null,{\"children\":\"my-queue\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Type：\",[\"$\",\"code\",null,{\"children\":\"classic\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Features：\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"D\"}],\" 係 durable。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"Args\"}],\" 裡面有 \",[\"$\",\"code\",null,{\"children\":\"x-queue-type: classic\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"State：\",[\"$\",\"code\",null,{\"children\":\"idle\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Messages：\",[\"$\",\"code\",null,{\"children\":\"0\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.2.2 直接發送訊息到 queue\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「my-queue」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Publish message」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Delivery mode 由得佢用默認既 \",[\"$\",\"code\",null,{\"children\":\"1 - Non-persistent\"}],\" 就得。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Headers、Properties 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Payload 係我地想發送既 message body，可以輸入 \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Payload encoding 由得佢用默認既 \",[\"$\",\"code\",null,{\"children\":\"String (default)\"}],\" 就得。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Publish message」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"如果發送成功，佢會彈出灰色底既 popup，寫住「Message published.」，撳「Close」就得。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.2.3 接收訊息\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Get messages」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"將 Ack mode 改成 \",[\"$\",\"code\",null,{\"children\":\"Automatic ack\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Encoding 由得佢用默認既 \",[\"$\",\"code\",null,{\"children\":\"Auto string / base64\"}],\" 就得。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Messages 影響接收既訊息數量，可以改成 \",[\"$\",\"code\",null,{\"children\":\"10\"}],\"，就算多過實際存在既訊息數量都冇問題。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Get Message(s)」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"之後佢會顯示我地既「foo」訊息：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Exchange：\",[\"$\",\"code\",null,{\"children\":\"(AMQP default)\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Routing key：\",[\"$\",\"code\",null,{\"children\":\"my-queue\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Redelivered：\",[\"$\",\"code\",null,{\"children\":\"○\"}],\"（白色代表 \",[\"$\",\"code\",null,{\"children\":\"false\"}],\"，requeue 既訊息先會係 \",[\"$\",\"code\",null,{\"children\":\"true\"}],\"）\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Properties\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"delivery_mode：\",[\"$\",\"code\",null,{\"children\":\"1\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"headers：N/A\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Payload：\",[\"$\",\"code\",null,{\"children\":\"foo\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"如果我地再撳「Get Message(s)」，佢就會彈出灰色底既 popup，寫住「Queue is empty」，咁係因為先前既訊息已經 acknowledge 左。\"}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.2.4 Requeue 訊息\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"重複上面既發送、接收步驟。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"喺接收既步驟，Ack mode 揀「Nack message requeue true」或者「Reject requeue true」。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"結果：\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"第一次接收訊息既時候，我地會見到 Redelivered 係「○」（\",[\"$\",\"code\",null,{\"children\":\"false\"}],\"），因為呢個訊息係第一次接收。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"第二次接收訊息既時候，我地會見到 Redelivered 係「●」（\",[\"$\",\"code\",null,{\"children\":\"true\"}],\"），因為呢個訊息喺第一次接收之後被 requeue，而家接收既係第二次傳遞同一個訊息。\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.3 測試 direct exchange\"}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.3.1 建立 direct exchange\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"去 Exchanges。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Add a new exchange」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Name，例如 \",[\"$\",\"code\",null,{\"children\":\"my-direct-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Type 揀「direct」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Add exchange」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.3.2 建立 queue\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"可以參考返上面建立 queue 既步驟。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name 可以輸入 \",[\"$\",\"code\",null,{\"children\":\"my-direct-queue\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.3.3 建立 binding\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「my-direct-queue」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Bindings (1)」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"From exchange 輸入 \",[\"$\",\"code\",null,{\"children\":\"my-direct-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Routing key 輸入 \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Bind」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.3.4 發送、接收訊息\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-direct-exchange」度發送訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Routing key 輸入 \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\"（要同 binding key 一樣）。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Headers、Properties 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Payload，例如 \",[\"$\",\"code\",null,{\"children\":\"my message content\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-direct-queue」度接收訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"會收到 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個訊息。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"如果我地發送既時候唔用 \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\" 作為 routing key（唔輸入，或者輸入另一個值），佢就會彈出黃色底既 popup，寫住「Message published, but not routed.」，咁係因為冇一個 binding 既 binding key 係 match 到呢個 routing key。\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.4 測試 fanout exchange\"}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.4.1 建立 fanout exchange\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"去 Exchanges。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Add a new exchange」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Name，例如 \",[\"$\",\"code\",null,{\"children\":\"my-fanout-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Type 揀「fanout」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Add exchange」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.4.2 建立 queue\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"可以參考返上面建立 queue 既步驟。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name 可以輸入 \",[\"$\",\"code\",null,{\"children\":\"my-fanout-queue\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.4.3 建立 binding\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「my-fanout-queue」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Bindings (1)」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"From exchange 輸入 \",[\"$\",\"code\",null,{\"children\":\"my-fanout-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Routing key 輸入 \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\"，或者唔輸入都得。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Bind」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.4.4 發送、接收訊息\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-fanout-exchange」度發送訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"Routing key、Headers、Properties 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Payload，例如 \",[\"$\",\"code\",null,{\"children\":\"my message content\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-fanout-queue」度接收訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"會收到 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個訊息。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"我地發送既時候用咩作為 routing key（輸入 \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\"、唔輸入，或者輸入另一個值），都一樣可以發送到訊息，咁係因為 fanout exchange 唔會理 routing key 或者 binding key。\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.5 測試 headers exchange\"}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.5.1 建立 headers exchange\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"去 Exchanges。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Add a new exchange」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Name，例如 \",[\"$\",\"code\",null,{\"children\":\"my-headers-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Type 揀「headers」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Add exchange」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.5.2 建立 queue\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"可以參考返上面建立 queue 既步驟。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name 可以輸入 \",[\"$\",\"code\",null,{\"children\":\"my-headers-queue\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.5.3 建立 binding\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「my-headers-queue」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Bindings (1)」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"From exchange 輸入 \",[\"$\",\"code\",null,{\"children\":\"my-headers-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Routing key 唔洗輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Arguments 輸入：\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"h1\"}],\" = \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\"（\",[\"$\",\"code\",null,{\"children\":\"String\"}],\"）\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"h2\"}],\" = \",[\"$\",\"code\",null,{\"children\":\"bar\"}],\"（\",[\"$\",\"code\",null,{\"children\":\"String\"}],\"）\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Bind」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.5.4 發送、接收訊息\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-headers-exchange」度發送訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"Routing key、Properties 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Headers 輸入：\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"h1\"}],\" = \",[\"$\",\"code\",null,{\"children\":\"foo\"}],\"（\",[\"$\",\"code\",null,{\"children\":\"String\"}],\"）\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"h2\"}],\" = \",[\"$\",\"code\",null,{\"children\":\"bar\"}],\"（\",[\"$\",\"code\",null,{\"children\":\"String\"}],\"）\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Payload，例如 \",[\"$\",\"code\",null,{\"children\":\"my message content\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-headers-queue」度接收訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"會收到 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個訊息。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"如果我地發送既時候，headers 一定要 match 曬 binding 既 arguments，只要有任何一個唔 match，佢都會彈出黃色底既 popup，寫住「Message published, but not routed.」，咁係因為冇一個 binding 既 arguments 係 match 到呢個訊息既 headers。\"}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.6 測試 topic exchange\"}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.6.1 建立 topic exchange\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"去 Exchanges。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Add a new exchange」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Name，例如 \",[\"$\",\"code\",null,{\"children\":\"my-topic-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Type 揀「topic」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"我地可以揀 Virtual host、Durability、Auto delete、Internal，亦可以由得佢用默認值。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Add exchange」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.6.2 建立 queue\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"可以參考返上面建立 queue 既步驟。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name 可以輸入 \",[\"$\",\"code\",null,{\"children\":\"my-topic-queue\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.6.3 建立 binding\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「my-topic-queue」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"打開「Bindings (1)」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"From exchange 輸入 \",[\"$\",\"code\",null,{\"children\":\"my-topic-exchange\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Routing key 輸入 \",[\"$\",\"code\",null,{\"children\":\"foo.#\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Arguments 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"撳「Bind」。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.6.4 發送、接收訊息\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-topic-exchange」度發送訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Routing key 輸入 \",[\"$\",\"code\",null,{\"children\":\"foo.123\"}],\"（要係一個 match 到 \",[\"$\",\"code\",null,{\"children\":\"foo.#\"}],\" 接受既值）。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Headers、Properties 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Payload，例如 \",[\"$\",\"code\",null,{\"children\":\"my message content\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-topic-queue」度接收訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"會收到 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個訊息。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"如果我地發送既時候唔用 match 到個 binding key 既值作為 routing key（唔輸入，或者輸入唔 match 既值），佢就會彈出黃色底既 popup，寫住「Message published, but not routed.」，咁係因為冇一個 binding 既 binding key 係 match 到呢個 routing key。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"✅ \",[\"$\",\"code\",null,{\"children\":\"foo.#\"}],\" binding key 接受既 routing key 例子：\"]}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"foo\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"foo.\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"foo..\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"foo.#\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"foo.1\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"foo.a\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"foo.abc\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"❌ \",[\"$\",\"code\",null,{\"children\":\"foo.#\"}],\" binding key 唔接受既 routing key 例子：\"]}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"唔輸入\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"bar.\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"bar.123\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.7 測試 dead letter exchange\"}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.7.1 建立 business exchange\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name：\",[\"$\",\"code\",null,{\"children\":\"biz-exchange\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Type：\",[\"$\",\"code\",null,{\"children\":\"direct\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.7.2 建立 business queue\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name：\",[\"$\",\"code\",null,{\"children\":\"biz-queue\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Arguments\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"x-dead-letter-exchange\"}],\"：\",[\"$\",\"code\",null,{\"children\":\"my-dlx\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"x-dead-letter-routing-key\"}],\"：\",[\"$\",\"code\",null,{\"children\":\"my-dlkey\"}]]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.7.3 建立 business binding\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Exchange：\",[\"$\",\"code\",null,{\"children\":\"biz-exchange\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Queue：\",[\"$\",\"code\",null,{\"children\":\"biz-queue\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Binding key：\",[\"$\",\"code\",null,{\"children\":\"biz-key\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.7.4 建立 dead letter exchange\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name：\",[\"$\",\"code\",null,{\"children\":\"my-dlx\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Type：\",[\"$\",\"code\",null,{\"children\":\"direct\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.7.5 建立 dead letter queue\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Name：\",[\"$\",\"code\",null,{\"children\":\"my-dlq\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Arguments（可選）\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"x-dead-letter-exchange\"}],\"：\",[\"$\",\"code\",null,{\"children\":\"biz-exchange\"}],\"（\",[\"$\",\"code\",null,{\"children\":\"String\"}],\"）\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"x-dead-letter-routing-key\"}],\"：\",[\"$\",\"code\",null,{\"children\":\"biz-key\"}],\"（\",[\"$\",\"code\",null,{\"children\":\"String\"}],\"）\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"x-message-ttl\"}],\"：\",[\"$\",\"code\",null,{\"children\":\"10000\"}],\"（\",[\"$\",\"code\",null,{\"children\":\"Number\"}],\"）（等於 \",[\"$\",\"code\",null,{\"children\":\"10\"}],\" 秒）\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.7.6 建立 dead letter binding\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Exchange：\",[\"$\",\"code\",null,{\"children\":\"my-dlx\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Queue：\",[\"$\",\"code\",null,{\"children\":\"my-dlq\"}]]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Binding key：\",[\"$\",\"code\",null,{\"children\":\"my-dlkey\"}]]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"3.7.7 發送、接收訊息\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「biz-exchange」度發送訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Routing key 輸入 \",[\"$\",\"code\",null,{\"children\":\"biz-key\"}],\"。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Headers、Properties 可以唔輸入。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"輸入 Payload，例如 \",[\"$\",\"code\",null,{\"children\":\"my message content\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「biz-queue」度接收訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"Ack mode 揀「Reject requeue false」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"會收到 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個訊息。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「my-dlq」度接收訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"Ack mode 揀「Nack message requeue true」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"會收到 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個訊息。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"如果 dead letter queue 有設定度可選既 arguments：\"}],\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"等幾秒（message TTL 係 \",[\"$\",\"code\",null,{\"children\":\"10\"}],\" 秒）。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"去「biz-queue」度接收訊息。\",\"\\n\",[\"$\",\"ol\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"Ack mode 揀「Nack message requeue true」。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"會收到 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個訊息。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"解釋：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"上面既例子可以達到 retry dead letter queue 裡面既訊息既效果。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"當訊息喺「biz-queue」度接收失敗，被轉移到「my-dlx」然後再到「my-dlq」之後，經過一段時間，當 message TTL 過期既時候，訊息又會自動被轉移到「biz-exchange」然後再到「biz-queue」。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"4 筆記\"}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"4.1 Exchange 選項\"}],\"\\n\",[\"$\",\"table\",null,{\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"選項\"}],[\"$\",\"th\",null,{\"children\":\"解釋\"}]]}]}],[\"$\",\"tbody\",null,{\"children\":[[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Durable\"}],[\"$\",\"td\",null,{\"children\":\"個 exchange 會喺 RabbitMQ 重新啟動之後都繼續存在。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Auto-delete\"}],[\"$\",\"td\",null,{\"children\":\"當最後一個 binding 被解除，RabbitMQ 就會自動刪除呢個 exchange。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Direct type\"}],[\"$\",\"td\",null,{\"children\":\"Binding key 會係 exact match。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Fanout type\"}],[\"$\",\"td\",null,{\"children\":\"唔需要 binding key，就算提供左都冇用，所有 bind 左既 queues 都必定會收到所有訊息。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Headers type\"}],[\"$\",\"td\",null,{\"children\":\"用特定既 key-value arguments 黎 match。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Topic type\"}],[\"$\",\"td\",null,{\"children\":[\"Binding key 可以係 exact match，亦可以運用 wildcard characters——\",[\"$\",\"code\",null,{\"children\":\"*\"}],\" 代表 wildcard 單字；\",[\"$\",\"code\",null,{\"children\":\"#\"}],\" 代表 wildcard 任意長度（\",[\"$\",\"code\",null,{\"children\":\"0\"}],\" 至 \",[\"$\",\"code\",null,{\"children\":\"N\"}],\"）既文字。\"]}]]}]]}]]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"4.2 Queue 選項\"}],\"\\n\",[\"$\",\"table\",null,{\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"選項\"}],[\"$\",\"th\",null,{\"children\":\"解釋\"}]]}]}],[\"$\",\"tbody\",null,{\"children\":[[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Durable\"}],[\"$\",\"td\",null,{\"children\":\"個 queue 會喺 RabbitMQ 重新啟動之後都繼續存在。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Auto-delete\"}],[\"$\",\"td\",null,{\"children\":\"當最後一個 consumer cancel 或者 disconnect 左，RabbitMQ 就會自動刪除呢個 queue。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Exclusive\"}],[\"$\",\"td\",null,{\"children\":\"當佢所屬既 connection close 左，RabbitMQ 就會自動刪除呢個 queue。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":[\"Message TTL（\",[\"$\",\"code\",null,{\"children\":\"x-message-ttl\"}],\" arg）\"]}],[\"$\",\"td\",null,{\"children\":\"Queue level 既 time-to-live，一個訊息如果超過呢個時間就會 expire，consumers 唔會收到已經 expire 左既訊息。如果有 dead letter exchange 既 args，當訊息喺 head 位置，RabbitMQ 就會將佢轉移去 dead letter exchange。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":[\"Auto-expire（\",[\"$\",\"code\",null,{\"children\":\"x-expires\"}],\" arg）\"]}],[\"$\",\"td\",null,{\"children\":[\"數值係 millisecond 數字（\",[\"$\",\"code\",null,{\"children\":\"5000\"}],\" 等於 \",[\"$\",\"code\",null,{\"children\":\"5\"}],\" 秒）。當冇任何 consumer 連接住呢個 queue（一建立 queue 既時候都算），RabbitMQ 就會開始計時，一到左時間，RabbitMQ 就會自動刪除呢個 queue。\"]}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":[\"Single active consumer（\",[\"$\",\"code\",null,{\"children\":\"x-single-active-consumer\"}],\" arg）\"]}],[\"$\",\"td\",null,{\"children\":\"如果我地既訊息一定要按入 queue 既先後次序處理，如果想保持住多個相同 consumer 既 app instances，咁我地可以用 single active consumer 選項，咁所有訊息都只會傳遞到同一個 consumer，保證處理訊息既先後次序。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":[\"Dead letter exchange（\",[\"$\",\"code\",null,{\"children\":\"x-dead-letter-exchange\"}],\"）\"]}],[\"$\",\"td\",null,{\"children\":\"如果傳遞失敗，RabbitMQ 可能會將佢轉移到呢個 dead letter exchange。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":[\"Dead letter routing key（\",[\"$\",\"code\",null,{\"children\":\"x-dead-letter-routing-key\"}],\"）\"]}],[\"$\",\"td\",null,{\"children\":\"RabbitMQ 將訊息轉移到 dead letter exchange 既時候會用既 routing key。\"}]]}]]}]]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"4.3 Binding 選項\"}],\"\\n\",[\"$\",\"table\",null,{\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"選項\"}],[\"$\",\"th\",null,{\"children\":\"解釋\"}]]}]}],[\"$\",\"tbody\",null,{\"children\":[[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Binding key（或者 routing key）\"}],[\"$\",\"td\",null,{\"children\":[\"提供 filter 訊息既作用。一個訊息如果要由 exchange \",[\"$\",\"code\",null,{\"children\":\"X1\"}],\" 去到 queue \",[\"$\",\"code\",null,{\"children\":\"Q1\"}],\"，呢個訊息既 routing key 一定要 match 到 \",[\"$\",\"code\",null,{\"children\":\"Q1\"}],\" 同 \",[\"$\",\"code\",null,{\"children\":\"X1\"}],\" 之間既 binding 既 binding key。我地應該根據 exchange type 去輸入符合我地需要既 binding key。\"]}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Arguments\"}],[\"$\",\"td\",null,{\"children\":\"用喺 headers exchange 既 bindings 度，只有 match 到曬所有 arguments 既值既訊息先會 route 到去個 queue 度。\"}]]}]]}]]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"4.4 訊息發送選項\"}],\"\\n\",[\"$\",\"table\",null,{\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"選項\"}],[\"$\",\"th\",null,{\"children\":\"解釋\"}]]}]}],[\"$\",\"tbody\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Delivery mode\"}],[\"$\",\"td\",null,{\"children\":[\"Persistent（\",[\"$\",\"code\",null,{\"children\":\"1\"}],\"）會先寫落 persistent storage（disk），如果 RabbitMQ crash 左既話都會喺返度。Non-persistent（\",[\"$\",\"code\",null,{\"children\":\"2\"}],\"）就唔會寫落 disk。\"]}]]}]}]]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"4.5 訊息接收選項\"}],\"\\n\",[\"$\",\"table\",null,{\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"選項\"}],[\"$\",\"th\",null,{\"children\":\"解釋\"}]]}]}],[\"$\",\"tbody\",null,{\"children\":[[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Reject\"}],[\"$\",\"td\",null,{\"children\":\"係 AMQP 既標準，用黎拒絕單一訊息。\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"children\":\"Nack\"}],[\"$\",\"td\",null,{\"children\":\"Negative acknowledgement 係 RabbitMQ 獨有既功能，可以同時拒絕對多個訊息。\"}]]}]]}]]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"5 參考資料\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.rabbitmq.com/docs/nack\",\"children\":\"RabbitMQ 官方文檔 - Negative Acknowledgements\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.rabbitmq.com/docs/ttl\",\"children\":\"RabbitMQ 官方文檔 - Time-to-Live and Expiration\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.rabbitmq.com/docs/dlx\",\"children\":\"RabbitMQ 官方文檔 - Dead Letter Exchanges\"}]}],\"\\n\"]}]],null,[\"$\",\"$Lf\",null,{\"children\":\"$L10\"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"bMuXNRVezFvcnE3hvEo_2\",{\"children\":[[\"$\",\"$L11\",null,{\"children\":\"$L12\"}],[\"$\",\"$L13\",null,{\"children\":\"$L14\"}],null]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$15\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"14:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n12:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Michael Chung's e-Portfolio\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Powered by Next.js and React\"}]]\n"])</script><script>self.__next_f.push([1,"10:null\n"])</script></body></html>

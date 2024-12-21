@@ -1,25 +1,133 @@
 1:"$Sreact.fragment"
-2:I[8287,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-3:I[3339,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-4:I[1367,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
+2:I[8287,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+3:I[3339,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+4:I[1367,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
 5:I[5244,[],""]
 6:I[3866,[],""]
-7:I[4798,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-8:I[6121,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-9:I[3667,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-a:I[8407,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-b:I[8173,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],""]
-c:I[3197,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-d:I[7933,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-e:I[3800,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-10:I[6213,[],"OutletBoundary"]
-12:I[6213,[],"MetadataBoundary"]
-14:I[6213,[],"ViewportBoundary"]
-16:I[4835,[],""]
+7:I[4798,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+8:I[6121,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+9:I[3667,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+a:I[8407,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+b:I[8173,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],""]
+c:I[3197,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+d:I[7933,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+e:I[3800,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+12:I[6213,[],"OutletBoundary"]
+14:I[6213,[],"MetadataBoundary"]
+16:I[6213,[],"ViewportBoundary"]
+18:I[4835,[],""]
 :HL["/e2-next/_next/static/css/d3df112486f97f47.css","style"]
 :HL["/e2-next/_next/static/css/c3624a693ae5a0c4.css","style"]
-0:{"P":null,"b":"gVZeuoZEIM3AUvikmCH-j","p":"/e2-next","c":["","blog","pull-data-with-retrofit"],"i":false,"f":[[["",{"children":["blog",{"children":[["postId","pull-data-with-retrofit","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postId","pull-data-with-retrofit","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":"$L11"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","KP92v15qyr7mUkgQL4MFZ",{"children":[["$","$L12",null,{"children":"$L13"}],["$","$L14",null,{"children":"$L15"}],null]}]]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
-f:["$","h1",null,{"children":["Blog ","pull-data-with-retrofit"]}]
-15:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-13:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
-11:null
+f:T5ce,actualSearch: function (pnum) {
+    /*
+    if (this.ptype == '') {
+        alert("Please select 產品類型 Product Type first.");
+        return;
+    }
+    if (this.ptypeval.length > 40) {
+        alert("關鍵字 Key words are too long, please re-enter first.");
+        return;
+    }
+    */
+    if (this.searchFired == false) {
+        this.searchFired = true;
+        var form_data = new FormData();
+        form_data.append('session', this.session);
+        form_data.append('sort', this.nsort);
+        form_data.append('link', this.linkpicks);
+        form_data.append('ptype', this.ptype);
+        form_data.append('pmin', this.range[0]);
+        form_data.append('pmax', this.range[1]);
+        form_data.append('pwords', this.ptypeval);
+        form_data.append('prow', this.pagerow);
+        form_data.append('pnum', pnum);
+        ajax({
+            method: 'post',
+            url: 'getprod.php',
+            data: form_data
+        }).then(response => {
+            this.searchFired = false;
+            this.$nextTick(function () {
+                let json = response.data;
+                this.havedata = false;
+                if (json.status == 'Error') {
+                    alert("No product found!!");
+                } else {
+                    this.plist = json.plist;
+                    if (json.plist.length >= 10)
+                        this.havedata = true;
+                }
+            });
+        });
+    }
+},
+10:T40e,public final class RetrofitHelper {
+
+    private static RetrofitHelper retrofitHelper;
+
+    private RetrofitHelper() {
+
+    }
+
+    public static RetrofitHelper getInstance() {
+        return retrofitHelper==null ? (retrofitHelper = new RetrofitHelper())
+                                    : retrofitHelper;
+    }
+
+    public JumboClient createJumboClient() {
+        return createRetrofit("https://shoponjc.com").create(JumboClient.class);
+    }
+
+    private Retrofit createRetrofit(String baseUrl) {
+        return new Retrofit.Builder()
+                   .baseUrl(baseUrl)
+                   .client(new OkHttpClient.Builder()
+                               .readTimeout(10, SECONDS)
+                               .connectTimeout(10, SECONDS)
+                               .build())
+                   .addConverterFactory(ScalarsConverterFactory.create())
+                   .addConverterFactory(GsonConverterFactory.create(new GsonBuilder().setLenient().create()))
+                   .build();
+    }
+}
+11:T492,@Slf4j
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+
+        final JumboClient jumboClient = RetrofitHelper.getInstance().createJumboClient();
+
+        // 拎資料
+        jumboClient.getProductsByCategory(
+            getSessionIdWithJsoup(), // sessionId
+            3, // sortType
+            true, // link
+            5, // productType
+            1L, // priceMin
+            200000L, // priceMax
+            "", // productKeywords
+            10000L, // pageRowCount
+            0L // pageNum
+        ).execute().body();
+    }
+
+    private static String getSessionIdWithJsoup() {
+
+        try {
+            final String html = Jsoup.connect("https://shoponjc.com/quote.php").get().html();
+
+            final Matcher matcher = Pattern.compile("<input type=\"hidden\" id=\"sid\" ref=\"sid\" value=\"(?<sessionId>\\w+)\"").matcher(html);
+            final String sessionId = matcher.find() ? matcher.group("sessionId") : null;
+
+            return sessionId;
+        } catch (Exception e) {
+            log.error("Failed to download Jumbo webpage.", e);
+        }
+
+        return null;
+    }
+}
+0:{"P":null,"b":"wfZ4FdS4ntgGvzjeKJhfw","p":"/e2-next","c":["","blog","pull-data-with-retrofit"],"i":false,"f":[[["",{"children":["blog",{"children":["(2021-04)",{"children":["pull-data-with-retrofit",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(2021-04)",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2021-04)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["pull-data-with-retrofit",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2021-04)","children","pull-data-with-retrofit","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h2",null,{"children":"1 關於 Retrofit"}],"\n",["$","p",null,{"children":"Retrofit 係一個 HTTP client 既 Java library，可以幫我地做到 HTTP call，有啲似 Spring Cloud OpenFeign，都係行 declarative approach，透過 interface methods 既 annotations 以及 parameters 黎定義 HTTP 請求。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"2 動手使用 Retrofit 下載資料"}],"\n",["$","h3",null,{"children":"2.1 需求情境"}],"\n",["$","p",null,{"children":"試想像我地而家想寫一個程式，可以幫我地喺 Jumbo Computer 網站獲取電腦零件報價資訊。"}],"\n",["$","p",null,{"children":["Jumbo Computer 既網址係：",["$","a",null,{"href":"https://shoponjc.com/quote.php","children":"https://shoponjc.com/quote.php"}]]}],"\n",["$","p",null,{"children":["透過 Chrome developer tools 既 Network 分頁，我地可以見到，當我地喺頁面選擇左「產品類型」之後，Jumbo Computer 會喺 XHR 分類下有個 ",["$","code",null,{"children":"getprod.php"}]," 既 HTTP POST request，而 response body 係 JSON 格式。"]}],"\n",["$","p",null,{"children":["$","img",null,{"src":"blog/2021-04/pull-data-with-retrofit/jumbo-http-response.png","alt":""}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":"2.2 分析"}],"\n",["$","h4",null,{"children":["2.2.1 必填的 ",["$","code",null,{"children":"session"}]," form data"]}],"\n",["$","p",null,{"children":["我地可以見到 Jumbo Computer 拎資料用既 HTTP POST request 係需要一個 ",["$","code",null,{"children":"session"}]," 既 form data entry。"]}],"\n",["$","p",null,{"children":["經 Postman 一試，我地會發現如果個 HTTP request 缺少左 ",["$","code",null,{"children":"session"}],"，又或者個 ",["$","code",null,{"children":"session"}]," 值係我地自己改出黎既話，都會收到 error response，咁係因為 Jumbo Computer 既 server 會驗證呢個 ",["$","code",null,{"children":"session"}]," 值。"]}],"\n",["$","p",null,{"children":["至於呢個 ",["$","code",null,{"children":"session"}]," 值要點樣先可以拎到？實驗話畀我地知，呢個 ",["$","code",null,{"children":"session"}]," 值好似唔會 expire，咁即係我地可以直接用已知既 ",["$","code",null,{"children":"session"}]," 值。不過，穩陣起見，我地都係睇下佢係點樣攞到或者計到呢個 ",["$","code",null,{"children":"session"}]," 值比較好。"]}],"\n",["$","p",null,{"children":["$","img",null,{"src":"blog/2021-04/pull-data-with-retrofit/jumbo-http-request.png","alt":""}]}],"\n",["$","p",null,{"children":["$","img",null,{"src":"blog/2021-04/pull-data-with-retrofit/postman.png","alt":""}]}],"\n",["$","hr",null,{}],"\n",["$","h4",null,{"children":["2.2.2 如何取得新的 ",["$","code",null,{"children":"session"}]," 值"]}],"\n",["$","p",null,{"children":["喺 Chrome developer tools 既 Application 分頁下面，我地可以見到 Local Storage 分類下，",["$","code",null,{"children":"shoponjc.com"}]," 有一個 ",["$","code",null,{"children":"Key"}]," 為 ",["$","code",null,{"children":"Session ID"}]," 既 entry。"]}],"\n",["$","p",null,{"children":["另外，喺 Chrome developer tools 既 Sources 分頁下面，我地可以見到 ",["$","code",null,{"children":"shoponjc.com"}]," 有一個 JavaScript 檔叫 ",["$","code",null,{"children":"quo.js?d83scwsoejkx6"}],"，裡面有以下一段："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-js","children":"if (window.localStorage) {\r\n\tstorage = window.localStorage;\r\n\tstorage.setItem(\"Version\", \"1.0\");\r\n\tstorage.setItem(\"Session ID\", document.getElementById(\"sid\").value);\r\n}\n"}]}],"\n",["$","p",null,{"children":["咁即係我地可以用 ",["$","code",null,{"children":"sid"}]," 作為 DOM element ID 黎喺個網頁上搵 DOM element，而結果如下："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-html","children":"<input type=\"hidden\" id=\"sid\" value=\"wpjfi557nqf75\" />\n"}]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"解讀："}]," 每當我地瀏覽呢個網頁既時候，佢 server 會返回一個帶有隨機 session ID 既 DOM element 既 HTML 檔，然後 JavaScript 會令 Local Storage 裡面多左一個名為 ",["$","code",null,{"children":"Session ID"}]," 既 entry。"]}],"\n",["$","p",null,{"children":["另外，我地都可以從個 JavaScript 檔見到個 ",["$","code",null,{"children":"session"}]," 值係黎自於 ",["$","code",null,{"children":"this.$refs.sid"}],"。因為個網頁係用 Vue.js library 黎寫，而 ",["$","code",null,{"children":"this.$refs.sid"}]," 就即係指緊 DOM element ID 為 ",["$","code",null,{"children":"sid"}]," 既 DOM element。"]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-js","children":"var vm = new Vue({\r\n\t// ... 省略 500 幾行\r\n\tmounted: function () {\r\n\t\tthis.session = this.$refs.sid.value;\r\n\t\t// ... 省略幾行\r\n\t},\r\n});\n"}]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"解讀："}]," 喺個 ",["$","code",null,{"children":"sid"}]," DOM element mount 左之後，Vue.js 既 ",["$","code",null,{"children":"session"}],"（",["$","code",null,{"children":"this.session"}],"）就會變成 ",["$","code",null,{"children":"sid"}]," DOM element 既 ",["$","code",null,{"children":"value"}],"。"]}],"\n",["$","p",null,{"children":"再睇下佢係點樣組裝 POST request 同 call 出去："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-js","children":"$f"}]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"解讀："}]," 可以見到拎資料既 POST request 既 ",["$","code",null,{"children":"session"}]," 係黎自於 Vue.js 既 ",["$","code",null,{"children":"session"}],"（",["$","code",null,{"children":"this.session"}],"）。"]}],"\n",["$","p",null,{"children":"成件事就係咁簡單！我地每次用 jsoup 下載個新既 HTML 落黎就可以拎到新既 session ID 值。"}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":"2.3 添加 Maven dependencies"}],"\n",["$","p",null,{"children":"我地會用到以下 Maven dependencies，當中包括 jsoup："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-xml","children":"<!-- ##### jsoup ##### -->\r\n<dependency>\r\n    <groupId>org.jsoup</groupId>\r\n    <artifactId>jsoup</artifactId>\r\n    <version>1.13.1</version>\r\n</dependency>\r\n\r\n<!-- ##### retrofit ##### -->\r\n<dependency>\r\n    <groupId>com.squareup.retrofit2</groupId>\r\n    <artifactId>retrofit</artifactId>\r\n    <version>2.9.0</version>\r\n</dependency>\r\n<dependency>\r\n    <groupId>com.squareup.retrofit2</groupId>\r\n    <artifactId>converter-scalars</artifactId>\r\n    <version>2.9.0</version>\r\n</dependency>\r\n<dependency>\r\n    <groupId>com.squareup.retrofit2</groupId>\r\n    <artifactId>converter-gson</artifactId>\r\n    <version>2.9.0</version>\r\n</dependency>\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":"2.4 寫 Java code"}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"ProductsResponse.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Data\r\n@Accessors(chain = true)\r\n@FieldDefaults(level = PRIVATE)\r\npublic class ProductsResponse {\r\n    String status;\r\n    String session;\r\n\r\n    @SerializedName(\"plist\")\r\n    List<Product> products;\r\n}\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"JumboClient.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"public interface JumboClient {\r\n\r\n    @FormUrlEncoded\r\n    @POST(\"getprod.php\")\r\n    Call<ProductsResponse> getProductsByCategory(\r\n        @Field(\"session\") String session,\r\n        @Field(\"sort\")    Integer sortType,\r\n        @Field(\"link\")    Boolean link,\r\n        @Field(\"ptype\")   Integer productType,\r\n        @Field(\"pmin\")    Long priceMin,\r\n        @Field(\"pmax\")    Long priceMax,\r\n        @Field(\"pwords\")  String productKeywords,\r\n        @Field(\"prow\")    Long pageRowCount,\r\n        @Field(\"pnum\")    Long pageNum\r\n    );\r\n}\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"RetrofitHelper.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$10"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"Main.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$11"}]}]],null,["$","$L12",null,{"children":"$L13"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","mcaerwj_Xia2ukdKXo_8O",{"children":[["$","$L14",null,{"children":"$L15"}],["$","$L16",null,{"children":"$L17"}],null]}]]}],false]],"m":"$undefined","G":["$18","$undefined"],"s":false,"S":true}
+17:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
+13:null

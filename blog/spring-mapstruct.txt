@@ -1,25 +1,355 @@
 1:"$Sreact.fragment"
-2:I[8287,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-3:I[3339,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-4:I[1367,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
+2:I[8287,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+3:I[3339,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+4:I[1367,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
 5:I[5244,[],""]
 6:I[3866,[],""]
-7:I[4798,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-8:I[6121,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-9:I[3667,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-a:I[8407,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-b:I[8173,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],""]
-c:I[3197,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-d:I[7933,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-e:I[3800,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-10:I[6213,[],"OutletBoundary"]
-12:I[6213,[],"MetadataBoundary"]
-14:I[6213,[],"ViewportBoundary"]
-16:I[4835,[],""]
+7:I[4798,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+8:I[6121,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+9:I[3667,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+a:I[8407,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+b:I[8173,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],""]
+c:I[3197,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+d:I[7933,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+e:I[3800,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+14:I[6213,[],"OutletBoundary"]
+16:I[6213,[],"MetadataBoundary"]
+18:I[6213,[],"ViewportBoundary"]
+1a:I[4835,[],""]
 :HL["/e2-next/_next/static/css/d3df112486f97f47.css","style"]
 :HL["/e2-next/_next/static/css/c3624a693ae5a0c4.css","style"]
-0:{"P":null,"b":"gVZeuoZEIM3AUvikmCH-j","p":"/e2-next","c":["","blog","spring-mapstruct"],"i":false,"f":[[["",{"children":["blog",{"children":[["postId","spring-mapstruct","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postId","spring-mapstruct","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":"$L11"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ofe_O74U3dr-NT3pVxpD9",{"children":[["$","$L12",null,{"children":"$L13"}],["$","$L14",null,{"children":"$L15"}],null]}]]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
-f:["$","h1",null,{"children":["Blog ","spring-mapstruct"]}]
-15:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-13:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
-11:null
+f:T5d9,<properties>
+    <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
+    <lombok.version>1.18.24</lombok.version>
+
+    <m2e.apt.activation>jdt_apt</m2e.apt.activation>
+</properties>
+
+<dependency>
+    <groupId>org.mapstruct</groupId>
+    <artifactId>mapstruct</artifactId>
+    <version>${org.mapstruct.version}</version>
+</dependency>
+
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+    <configuration>
+        <source>1.8</source>
+        <target>1.8</target>
+        <annotationProcessorPaths>
+            <path>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </path>
+            <path>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-processor</artifactId>
+                <version>${org.mapstruct.version}</version>
+            </path>
+        </annotationProcessorPaths>
+        <compilerArgs>
+            <compilerArg>
+                -Amapstruct.defaultComponentModel=spring
+            </compilerArg>
+            <compilerArg>
+                -Amapstruct.suppressGeneratorTimestamp=true
+            </compilerArg>
+            <compilerArg>
+                -Amapstruct.suppressGeneratorVersionInfoComment=true
+            </compilerArg>
+        </compilerArgs>
+    </configuration>
+</plugin>
+10:T4c0,@Getter
+@Setter
+@ToString
+@FieldDefaults(level = PRIVATE)
+@Entity(name = "author_1toM")
+@Table(name = "`author_1toM`")
+public class Author {
+
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    @Column(name = "`id`")
+    Long id;
+
+    @Column(name = "`first_name`", nullable = false)
+    String firstName;
+
+    @Column(name = "`last_name`", nullable = false)
+    String lastName;
+
+    @ToString.Exclude
+    @OneToMany(mappedBy = "author", cascade = ALL, orphanRemoval = true)
+    List<Book> books = new ArrayList<>();
+
+    public void addBook(Book book) {
+        books.add(book);
+        book.setAuthor(this);
+    }
+
+    public void removeBook(Book book) {
+        books.remove(book);
+        book.setAuthor(null);
+    }
+
+    public void removeAllBooks() {
+        books.forEach(e -> e.setAuthor(null));
+        books.clear();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Author))
+            return false;
+        Author other = (Author) obj;
+        return Objects.equals(id, other.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return 2021;
+    }
+}
+11:T45c,/**
+ * This mapping context can help mapping DTO objects with bidirectional relationship to entity objects
+ * without losing the bidirectional relationship.<br>
+ * To be used with MapStruct's {@link Context} annotation in mappers.
+ *
+ * @see <a href="https://github.com/jannis-baratheon/stackoverflow--mapstruct-mapping-graph-with-cycles">MapStruct bidirectional mapping</a>
+ * @see <a href="https://github.com/mapstruct/mapstruct/issues/1347">ClassCastException for CycleAvoidingMappingContext when hierarchy is not exactly the same</a>
+ */
+public final class BidirectionalMappingContext {
+    private final Map<Object, Object> knownInstances = new IdentityHashMap<>();
+
+    @BeforeMapping
+    public <T> T getMappedInstance(Object source, @TargetType Class<T> targetType) {
+        final Object knownInstance = knownInstances.get(source);
+        return targetType.isInstance(knownInstance) ? targetType.cast(knownInstance) : null;
+    }
+
+    @BeforeMapping
+    public void storeMappedInstance(Object source, @MappingTarget Object target) {
+        knownInstances.put(source, target);
+    }
+}
+12:Tfc2,@Generated(
+    value = "org.mapstruct.ap.MappingProcessor"
+)
+@Component
+public class OneToManyAuthorViewMapperImpl implements OneToManyAuthorViewMapper {
+
+    @Override
+    public AuthorDto toDto(Author author, BidirectionalMappingContext context) {
+        AuthorDto target = context.getMappedInstance( author, AuthorDto.class );
+        if ( target != null ) {
+            return target;
+        }
+
+        if ( author == null ) {
+            return null;
+        }
+
+        AuthorDto authorDto = new AuthorDto();
+
+        context.storeMappedInstance( author, authorDto );
+
+        authorDto.setAuthorId( author.getId() );
+        authorDto.setBooks( bookListToBookDtoList( author.getBooks(), context ) );
+        authorDto.setFirstName( author.getFirstName() );
+        authorDto.setLastName( author.getLastName() );
+
+        return authorDto;
+    }
+
+    @Override
+    public Author toEntity(AuthorDto author, BidirectionalMappingContext context) {
+        Author target = context.getMappedInstance( author, Author.class );
+        if ( target != null ) {
+            return target;
+        }
+
+        if ( author == null ) {
+            return null;
+        }
+
+        Author author1 = new Author();
+
+        context.storeMappedInstance( author, author1 );
+
+        author1.setId( author.getAuthorId() );
+        author1.setBooks( bookDtoListToBookList( author.getBooks(), context ) );
+        author1.setFirstName( author.getFirstName() );
+        author1.setLastName( author.getLastName() );
+
+        return author1;
+    }
+
+    @Override
+    public BookDto toDto(Book book, BidirectionalMappingContext context) {
+        BookDto target = context.getMappedInstance( book, BookDto.class );
+        if ( target != null ) {
+            return target;
+        }
+
+        if ( book == null ) {
+            return null;
+        }
+
+        BookDto bookDto = new BookDto();
+
+        context.storeMappedInstance( book, bookDto );
+
+        bookDto.setBookId( book.getId() );
+        bookDto.setAuthor( toDto( book.getAuthor(), context ) );
+        bookDto.setIsbn( book.getIsbn() );
+        bookDto.setTitle( book.getTitle() );
+
+        return bookDto;
+    }
+
+    @Override
+    public Book toEntity(BookDto book, BidirectionalMappingContext context) {
+        Book target = context.getMappedInstance( book, Book.class );
+        if ( target != null ) {
+            return target;
+        }
+
+        if ( book == null ) {
+            return null;
+        }
+
+        Book book1 = new Book();
+
+        context.storeMappedInstance( book, book1 );
+
+        book1.setId( book.getBookId() );
+        book1.setAuthor( toEntity( book.getAuthor(), context ) );
+        book1.setIsbn( book.getIsbn() );
+        book1.setTitle( book.getTitle() );
+
+        return book1;
+    }
+
+    protected List<BookDto> bookListToBookDtoList(List<Book> list, BidirectionalMappingContext context) {
+        List<BookDto> target = context.getMappedInstance( list, List.class );
+        if ( target != null ) {
+            return target;
+        }
+
+        if ( list == null ) {
+            return null;
+        }
+
+        List<BookDto> list1 = new ArrayList<BookDto>( list.size() );
+        context.storeMappedInstance( list, list1 );
+
+        for ( Book book : list ) {
+            list1.add( toDto( book, context ) );
+        }
+
+        return list1;
+    }
+
+    protected List<Book> bookDtoListToBookList(List<BookDto> list, BidirectionalMappingContext context) {
+        List<Book> target = context.getMappedInstance( list, List.class );
+        if ( target != null ) {
+            return target;
+        }
+
+        if ( list == null ) {
+            return null;
+        }
+
+        List<Book> list1 = new ArrayList<Book>( list.size() );
+        context.storeMappedInstance( list, list1 );
+
+        for ( BookDto bookDto : list ) {
+            list1.add( toEntity( bookDto, context ) );
+        }
+
+        return list1;
+    }
+}
+13:Tb95,import org.apache.commons.beanutils.BeanUtils;
+import net.sf.cglib.beans.BeanCopier;
+
+public class ObjectCopyTest {
+    private static final RootLayer SOURCE = new RootLayer(new SecondLayer(new ThirdLayer("abc")));
+
+    @Test
+    public void test_ApacheCommonsBeanUtils() throws Exception {
+        final RootLayer result = new RootLayer();
+        BeanUtils.copyProperties(result, SOURCE);
+
+        System.out.println("BeanUtils: " + result);
+
+        Assert.assertNotNull(result);
+        Assert.assertNotNull(result.getSecond());
+        Assert.assertNotNull(result.getSecond().getThird());
+        Assert.assertEquals("abc", result.getSecond().getThird().getData());
+
+        // shallow copy
+        Assert.assertTrue(result.getSecond()==SOURCE.getSecond());
+        Assert.assertTrue(result.getSecond().getThird()==SOURCE.getSecond().getThird());
+    }
+
+    @Test
+    public void test_cglib() {
+        final RootLayer result = new RootLayer();
+        BeanCopier.create(SOURCE.getClass(), result.getClass(), false).copy(SOURCE, result, null);
+
+        System.out.println("cglib: " + result);
+
+        Assert.assertNotNull(result);
+        Assert.assertNotNull(result.getSecond());
+        Assert.assertNotNull(result.getSecond().getThird());
+        Assert.assertEquals("abc", result.getSecond().getThird().getData());
+
+        // shallow copy
+        Assert.assertTrue(result.getSecond()==SOURCE.getSecond());
+        Assert.assertTrue(result.getSecond().getThird()==SOURCE.getSecond().getThird());
+    }
+
+    @Test
+    public void test_jacksonDatabind_convertValue() {
+        final RootLayer result = new ObjectMapper().convertValue(SOURCE, RootLayer.class);
+
+        System.out.println("Jackson (convertValue): " + result);
+
+        Assert.assertNotNull(result);
+        Assert.assertNotNull(result.getSecond());
+        Assert.assertNotNull(result.getSecond().getThird());
+        Assert.assertEquals("abc", result.getSecond().getThird().getData());
+
+        // deep copy
+        Assert.assertFalse(result.getSecond()==SOURCE.getSecond());
+        Assert.assertFalse(result.getSecond().getThird()==SOURCE.getSecond().getThird());
+    }
+
+    @Test
+    public void test_jacksonDatabind_serializeAndDeserialize() throws Exception {
+        final ObjectMapper mapper = new ObjectMapper();
+        final RootLayer result = mapper.readValue(mapper.writeValueAsString(SOURCE), RootLayer.class);
+
+        System.out.println("Jackson (serialize and deserialize): " + result);
+
+        Assert.assertNotNull(result);
+        Assert.assertNotNull(result.getSecond());
+        Assert.assertNotNull(result.getSecond().getThird());
+        Assert.assertEquals("abc", result.getSecond().getThird().getData());
+
+        // deep copy
+        Assert.assertFalse(result.getSecond()==SOURCE.getSecond());
+        Assert.assertFalse(result.getSecond().getThird()==SOURCE.getSecond().getThird());
+    }
+}
+0:{"P":null,"b":"wfZ4FdS4ntgGvzjeKJhfw","p":"/e2-next","c":["","blog","spring-mapstruct"],"i":false,"f":[[["",{"children":["blog",{"children":["(2020-09)",{"children":["spring-mapstruct",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(2020-09)",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2020-09)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["spring-mapstruct",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2020-09)","children","spring-mapstruct","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"children":"1 背景"}],"\n",["$","p",null,{"children":["當我地做一個大型既 Spring project，我地有唔少 entity／DO／DTO／VO／POJO classes，而呢啲 classes 一般只有 instance fields、getters 以及 setters。我地好多時候都需要將啲不同 types 但擁有部分相同 fields 既 objects 既 field values 抄黎抄去，令到啲 service classes 有好多將 type ",["$","code",null,{"children":"XxxEntity"}]," 轉換成 type ",["$","code",null,{"children":"XxxDto"}]," 既 boilerplate code。"]}],"\n",["$","p",null,{"children":["如果 ",["$","code",null,{"children":"2"}]," 個 types 既 fields 係一樣名，我地可以用以下既 libraries 去做 shallow object copy／clone："]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["Apache Commons BeanUtils","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"BeanUtils.copyProperties(dest, orig)"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"PropertyUtils.copyProperties(dest, orig)"}]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["cglib（code generation library）","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"BeanCopier.create(clazz, clazz, false).copy(from, to, null)"}]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["Spring Core / Spring Beans","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"BeanUtils.copyProperties(source, target)"}],"（Spring Beans 引入左 Apache Commons BeanUtils 既 source code）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"BeanCopier.create(source, target)"}],"（Spring Core 引入左 cglib 既 source code）"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","p",null,{"children":"要 deep copy／clone 既話："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["Jackson Databind","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"new ObjectMapper().convertValue(fromValue, toValueType)"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"new ObjectMapper().readValue(new ObjectMapper().writeValueAsString(value), valueType)"}]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"center"},"children":"Object copy／clone 既類別"}],["$","th",null,{"children":"解釋"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"center"},"children":"Shallow"}],["$","td",null,{"children":"只會 copy values。如果有 custom types，佢地既 memory references 會係一樣。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"center"},"children":"Deep"}],["$","td",null,{"children":"成個 object 既表層到最深果層都會 copy。如果有 custom types，佢地既 memory references 會唔一樣。"}]]}]]}]]}],"\n",["$","p",null,{"children":"另外，非常值得注意既係我地仲要 handle one-to-one、one-to-many、many-to-many 既 has-a relationship，必須避免 circular reference 導致 serialization 既過程中出現無限既 recursion。"}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"2 MapStruct 簡介"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"MapStruct 有啲似 Lombok，係一個 compile time 既 annotation processor library，利用 annotations 黎 generate code。"}],"\n",["$","li",null,{"children":"有別於其他 object copy 既 libraries，MapStruct 用既係 declarative programming 既方式，所以我地只需要寫 interfaces，而 MapStruct 會自動 generate implementation classes。"}],"\n",["$","li",null,{"children":"MapStruct 可以做到唔同 field 名之間既 mapping，亦可以 copy 不同層既 fields。"}],"\n",["$","li",null,{"children":"MapStruct 可以 reuse mapper methods，或者 mapper annotations 既 rules。"}],"\n",["$","li",null,{"children":["MapStruct 所 generate 出黎既 mapper classes 可以帶有 ",["$","code",null,{"children":"@Component"}],"，用於 Spring projects。"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"3 MapStruct 例子"}],"\n",["$","p",null,{"children":"假如我地而家有以下既 DTO classes："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"Author"}]," entity（ORM 用）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"AuthorDto"}]," DTO（API 用）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"Book"}]," entity（ORM 用）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"BookDto"}]," DTO（API 用）"]}],"\n"]}],"\n",["$","p",null,{"children":["而 ",["$","code",null,{"children":"Author"}]," 裡面 has-a ",["$","code",null,{"children":"List<Book>"}],"，而 ",["$","code",null,{"children":"Book"}]," 裡面 has-a ",["$","code",null,{"children":"Author"}],"。"]}],"\n",["$","p",null,{"children":["相同地，",["$","code",null,{"children":"AuthorDto"}]," 裡面 has-a ",["$","code",null,{"children":"List<BookDto>"}],"，而 ",["$","code",null,{"children":"BookDto"}]," 裡面 has-a ",["$","code",null,{"children":"AuthorDto"}],"。"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"4 Eclipse 安裝 m2e-apt"}],"\n",["$","p",null,{"children":["首先，Eclipse 要安裝 ",["$","code",null,{"children":"m2e-apt"}]," plugin，否則唔會 generate 到 code 去 ",["$","code",null,{"children":"target/generated-sources/annotations"}],"。"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"5 動手寫"}],"\n",["$","p",null,{"children":"Project structure："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"src/main/java"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/code"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/dto"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"AuthorDto.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"BookDto.java"}]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"/entity"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"Author.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"Book.java"}]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","h2",null,{"children":"5.1 Maven dependencies"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-xml","children":"$f"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"5.2 寫 Java code"}],"\n",["$","h3",null,{"children":"5.2.1 Entity"}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"Author.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$10"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"Book.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Data\r\n@FieldDefaults(level = PRIVATE)\r\n@EqualsAndHashCode(onlyExplicitlyIncluded = true)\r\n@Entity(name = \"book_1toM\")\r\n@Table(name = \"`book_1toM`\")\r\npublic class Book {\r\n\r\n    @Id\r\n    @GeneratedValue(strategy = IDENTITY)\r\n    @Column(name = \"`id`\")\r\n    Long id;\r\n\r\n    @Column(name = \"`title`\", nullable = false)\r\n    String title;\r\n\r\n    @EqualsAndHashCode.Include\r\n    @NaturalId\r\n    @Column(name = \"`isbn`\", nullable = false)\r\n    String isbn;\r\n\r\n    @ToString.Exclude\r\n    @ManyToOne(fetch = LAZY)\r\n    Author author;\r\n}\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":"5.2.2 DTO"}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"AuthorDto.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Getter\r\n@Setter\r\n@FieldDefaults(level = PRIVATE)\r\npublic class AuthorDto {\r\n    Long authorId;\r\n    String firstName;\r\n    String lastName;\r\n\r\n    @JsonManagedReference\r\n    List<BookDto> books;\r\n}\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"BookDto.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Getter\r\n@Setter\r\n@FieldDefaults(level = PRIVATE)\r\npublic class BookDto {\r\n    Long bookId;\r\n    String title;\r\n    String isbn;\r\n\r\n    @JsonBackReference\r\n    AuthorDto author;\r\n}\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":"5.2.3 Mapper"}],"\n",["$","p",null,{"children":["我地想喺 ",["$","code",null,{"children":"Author"}]," entity 同 ",["$","code",null,{"children":"AuthorDto"}]," DTO，以及 ",["$","code",null,{"children":"Book"}]," entity 同 ",["$","code",null,{"children":"BookDto"}]," DTO 之間做 bean mapping，以便之後需要將 ORM 用既 beans 轉成我地 API 需要既樣。"]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"MyMapper.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Mapper(nullValuePropertyMappingStrategy = IGNORE)\r\npublic interface OneToManyAuthorViewMapper {\r\n\r\n    @Mapping(source = \"id\", target = \"authorId\")\r\n    AuthorDto toDto(Author author, @Context BidirectionalMappingContext context);\r\n\r\n    @InheritInverseConfiguration\r\n    Author toEntity(AuthorDto author, @Context BidirectionalMappingContext context);\r\n\r\n    @Mapping(source = \"id\", target = \"bookId\")\r\n    BookDto toDto(Book book, @Context BidirectionalMappingContext context);\r\n\r\n    @InheritInverseConfiguration\r\n    Book toEntity(BookDto book, @Context BidirectionalMappingContext context);\r\n}\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"BidirectionalMappingContext.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$11"}]}],"\n",["$","h4",null,{"children":"5.2.3.1 MapStruct 生成既 implementation class"}],"\n",["$","p",null,{"children":"以上既 code 可以令 MapStruct annotation processor generate 出以下既 implementation class："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$12"}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":"5.2.4 Mapper 使用方法"}],"\n",["$","p",null,{"children":"我地只需要喺一個 Spring manage 緊既 component 裡面 inject mapper 既 dependency 就得："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"import org.springframework.transaction.annotation.Transactional;\r\n\r\n@Service(\"oneToManyAuthorService\")\r\n@Transactional(rollbackFor = Throwable.class)\r\npublic class AuthorService {\r\n\r\n    @Autowired AuthorRepository authorRepository;\r\n    @Autowired OneToManyAuthorViewMapper authorMapper;\r\n\r\n    @GetMapping\r\n    public List<AuthorDto> getAuthors() {\r\n        return authorRepository.findAll().stream()\r\n                 .map(e -> authorMapper.toDto(e, new BidirectionalMappingContext()))\r\n                 .collect(toList());\r\n    }\r\n\r\n    @PostMapping\r\n    public AuthorDto upsertAuthor(AuthorDto author) {\r\n        Author authorEntity = authorMapper.toEntity(author, new BidirectionalMappingContext());\r\n        authorEntity = authorRepository.save(authorEntity);\r\n\r\n        return authorMapper.toDto(authorEntity, new BidirectionalMappingContext());\r\n    }\r\n}\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"6 筆記"}],"\n",["$","h2",null,{"children":"6.1 MapStruct annotations"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Annotation"}],["$","th",null,{"children":"解釋"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"@Mapping(source = \"id\", target = \"authorId\", qualifiedByName = \"customMappingMethodName\")"}]}],["$","td",null,{"children":["如果有 property 名不相同就需要用呢個 annotation，將 ",["$","code",null,{"children":"source.id"}]," map 去 ",["$","code",null,{"children":"target.authroId"}],"。而 ",["$","code",null,{"children":"qualifiedByName"}]," 可以畀我地用自己寫既 static method 黎做客製化 mapping，例如轉換 data type 或者做一啲特別既處理。"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"@InheritInverseConfiguration"}]}],["$","td",null,{"children":"示意 MapStruct 用相反方向既 mapper method 配置黎作為而家呢個 mapping 既配置。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"@InheritConfiguration"}]}],["$","td",null,{"children":"用喺 update/patch method 上，將第一個 parameter 既 object 既 fields 抄去第二個 parameter 既 object 度，規則跟返現有既 return type 係 parameter 2 既 type 而 parameter type 係 parameter 1 既 type 既 mapper method。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"@Named(\"customMappingMethodName\")"}]}],["$","td",null,{"children":["如果需要做一啲特別既處理，可以寫一個 static method，例如 ",["$","code",null,{"children":"public static TargetType customMappingMethodName(SourceType source) { return convertSourceToTarget(source); }"}]," 可以轉換 data type，亦可以同時做啲特別既邏輯處理；夾埋 ",["$","code",null,{"children":"@Mapping(source = \"sourceField\", target = \"targetField\", qualifiedByName = \"customMappingMethodName\")"}]," 一齊用。"]}]]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":["6.2 Lombok、",["$","code",null,{"children":"equals"}],"、",["$","code",null,{"children":"hashCode"}]]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"@ToString.Exclude"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["因為 Lombok 既 ",["$","code",null,{"children":"@Data"}]," 包括左 ",["$","code",null,{"children":"@ToString"}],"，默認情況下 generate 出黎既 ",["$","code",null,{"children":"toString"}]," method 會包括曬所有 instance fields。"]}],"\n",["$","li",null,{"children":["我地唔可以畀 ",["$","code",null,{"children":"toString"}]," method 包括有 relationship 既 fields，因為當 call ",["$","code",null,{"children":"toString"}]," 果陣就會不知不覺間令 entity 既 proxy object 背後 trigger JPA／Hibernate 去自動執行 SQL 去 fetch 有 relationship 既 table records。"]}],"\n",["$","li",null,{"children":["呢個 annotation 可以令 Lombok generate ",["$","code",null,{"children":"toString"}]," method 果陣唔包括呢個 field。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"@EqualsAndHashCode(onlyExplicitlyIncluded = true)"}],"、",["$","code",null,{"children":"@EqualsAndHashCode.Include"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["因為 Lombok 既 ",["$","code",null,{"children":"@Data"}]," 包括左 ",["$","code",null,{"children":"@EqualsAndHashCode"}],"，默認情況下 generate 出黎既 ",["$","code",null,{"children":"equals"}]," 以及 ",["$","code",null,{"children":"hashCode"}]," methods 會包括曬所有 instance fields。"]}],"\n",["$","li",null,{"children":["如果係 ",["$","code",null,{"children":"@OneToMany"}]," 既 relationship，我地會用 ",["$","code",null,{"children":"List"}],"（容許重複）或者 ",["$","code",null,{"children":"Set"}],"（唔容許重複）。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["因為我地既 entity objects 係 mutable，如果用左 ",["$","code",null,{"children":"Set"}],"，而 ",["$","code",null,{"children":"equals"}]," 以及 ",["$","code",null,{"children":"hashCode"}]," methods 用左會變既 fields，咁就有可能會出問題，因為 ",["$","code",null,{"children":"HashSet"}]," 內部係用 ",["$","code",null,{"children":"HashMap"}]," 黎實現。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["我地喺 JPA／Hibernate project 裡面寫既 ",["$","code",null,{"children":"equals"}]," 以及 ",["$","code",null,{"children":"hashCode"}]," methods 應該要喺唔同既 Hibernate states 都返回一致既結果。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["Hibernate states","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Transient／new"}],"\n",["$","li",null,{"children":"Managed／persistent"}],"\n",["$","li",null,{"children":"Detached"}],"\n",["$","li",null,{"children":"Removed"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["Database auto-increment 既 primary key（surrogate key）column 唔適合用喺 ",["$","code",null,{"children":"equals"}]," 以及 ",["$","code",null,{"children":"hashCode"}]," methods。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["當個 entity object 處於 transient／new state 既時候呢個 field 既 value 係 ",["$","code",null,{"children":"null"}],"。"]}],"\n",["$","li",null,{"children":"當個 entity object 變成 managed／persistent state 既時候 database 會賦予呢個 field 一個 auto-increment 出黎既 value。"}],"\n",["$","li",null,{"children":["如果咁做，我地會放唔到 ",["$","code",null,{"children":"2"}]," 個未 persist 既 entity objects 喺一個 ",["$","code",null,{"children":"Set"}]," 入面，因為單靠呢個 field 而佢地又係 ",["$","code",null,{"children":"null"}]," 既情況下根本分唔到佢地係咪一樣。"]}],"\n",["$","li",null,{"children":["如果咁做，當我地放個新既 entity object 喺一個 ",["$","code",null,{"children":"Set"}]," 入面，然後 persist 佢，佢既呢個 field value 會由 ",["$","code",null,{"children":"null"}]," 變成 non-null，當我地用 ",["$","code",null,{"children":"Set#contains"}]," 就會搵唔返佢出黎，咁係因為 ",["$","code",null,{"children":"hashCode"}]," 唔同左，佢搵既 bucket 就唔同左，自然就會搵唔到。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"equals"}]," 以及 ",["$","code",null,{"children":"hashCode"}]," methods 應該要用 ",["$","code",null,{"children":"1"}]," 個業務層面上 value 唔會重複既 column（business key）。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["例子","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"tbl_user"}]," table 可以用 ",["$","code",null,{"children":"email"}]," column。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"tbl_book"}]," table 可以用 ",["$","code",null,{"children":"isbn"}]," column。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["如果冇既話，",["$","code",null,{"children":"equals"}]," method 可以用 surrogate key（必須 check ",["$","code",null,{"children":"null"}],"），而 ",["$","code",null,{"children":"hashCode"}]," method 可以用一個不變值（例如 ",["$","code",null,{"children":"2021"}],"）。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["用不變值既話，如果 entity objects 放喺 ",["$","code",null,{"children":"Set"}]," 或者 ",["$","code",null,{"children":"Map"}]," 裡面，而 ",["$","code",null,{"children":"Set"}]," 或者 ",["$","code",null,{"children":"Map"}]," 好大既話，有可能會會影響性能。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"其實點都好，用得 JPA／Hibernate，我地都唔應該一次過喺 database 查詢太多紀錄。"}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["呢 ",["$","code",null,{"children":"2"}]," 個 annotations 一齊用可以令 Lombok generate ",["$","code",null,{"children":"equals"}]," 以及 ",["$","code",null,{"children":"hashCode"}]," methods 果陣只包括 ",["$","code",null,{"children":"@EqualsAndHashCode.Include"}]," 既 fields。"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"6.3 其他 object copy 方法"}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"RootLayer.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Data\r\n@NoArgsConstructor\r\n@AllArgsConstructor\r\n@FieldDefaults(level = PRIVATE)\r\npublic class RootLayer {\r\n    SecondLayer second;\r\n}\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"SecondLayer.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Data\r\n@NoArgsConstructor\r\n@AllArgsConstructor\r\n@FieldDefaults(level = PRIVATE)\r\npublic class SecondLayer {\r\n    ThirdLayer third;\r\n}\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"ThirdLayer.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@Data\r\n@NoArgsConstructor\r\n@AllArgsConstructor\r\n@FieldDefaults(level = PRIVATE)\r\npublic class ThirdLayer {\r\n    String data;\r\n}\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"ObjectCopyTest.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$13"}]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"7 參考資料"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","a",null,{"href":"https://mapstruct.org/documentation/stable/reference/html/","children":"MapStruct 官網 - Reference Guide"}]}],"\n",["$","li",null,{"children":[["$","a",null,{"href":"https://www.51cto.com/article/624593.html","children":"七種對象複製工具類，阿粉該 Pick 誰？"}],"（",["$","a",null,{"href":"https://web.archive.org/web/20230521190621/https://www.51cto.com/article/624593.html","children":"備份一"}],"／",["$","a",null,{"href":"https://archive.ph/Sfa2R","children":"備份二"}],"）"]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://www.apress.com/gp/book/9781484256251","children":"Spring Boot Persistence Best Practices（e-book）"}]}],"\n",["$","li",null,{"children":[["$","a",null,{"href":"https://thorben-janssen.com/lombok-hibernate-how-to-avoid-common-pitfalls/","children":"Lombok & Hibernate: How to Avoid Common Pitfalls"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["Don’t Use ",["$","code",null,{"children":"@EqualsAndHashCode"}]]}],"\n",["$","li",null,{"children":["Be Careful with ",["$","code",null,{"children":"@ToString"}]]}],"\n",["$","li",null,{"children":["Avoid ",["$","code",null,{"children":"@Data"}]]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://jpa-buddy.com/blog/lombok-and-jpa-what-may-go-wrong/","children":"Lombok and JPA: What may go wrong?"}]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://stackoverflow.com/questions/5031614/the-jpa-hashcode-equals-dilemma","children":"StackOverflow - The JPA hashCode() / equals() dilemma"}]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://web.archive.org/web/20171211235806/http://www.onjava.com/pub/a/onjava/2006/09/13/dont-let-hibernate-steal-your-identity.html","children":"Don't Let Hibernate Steal Your Identity"}]}],"\n"]}]],null,["$","$L14",null,{"children":"$L15"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","0lGR6EYSFjkd3x-loFODW",{"children":[["$","$L16",null,{"children":"$L17"}],["$","$L18",null,{"children":"$L19"}],null]}]]}],false]],"m":"$undefined","G":["$1a","$undefined"],"s":false,"S":true}
+19:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
+15:null

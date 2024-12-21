@@ -1,1 +1,678 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/e2-next/_next/static/css/d3df112486f97f47.css" data-precedence="next"/><link rel="stylesheet" href="/e2-next/_next/static/css/c3624a693ae5a0c4.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/e2-next/_next/static/chunks/webpack-c5a5a71ba05d987d.js"/><script src="/e2-next/_next/static/chunks/4bd1b696-9afba50dfb351c79.js" async=""></script><script src="/e2-next/_next/static/chunks/517-27ecde0936d34fd0.js" async=""></script><script src="/e2-next/_next/static/chunks/main-app-949fd314183026be.js" async=""></script><script src="/e2-next/_next/static/chunks/829-0d4167e889c92f66.js" async=""></script><script src="/e2-next/_next/static/chunks/153-92d0be8948a510c7.js" async=""></script><script src="/e2-next/_next/static/chunks/app/layout-0fbda1b2e18e1e9a.js" async=""></script><script src="/e2-next/_next/static/chunks/app/page-3db4f82a976b6826.js" async=""></script><title>Michael Chung&#x27;s e-Portfolio</title><meta name="description" content="Powered by Next.js and React"/><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/><script src="/e2-next/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body><div class="vstack gap-5"><div class="text-center vstack gap-5"><div><code class="SiteHeader_name__cwQmL">Chung Cheuk Hang Michael</code><code class="SiteHeader_title__CCfvI">Java Web Developer</code></div><nav class="justify-content-center navbar navbar-expand-md navbar-dark"><button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button><div class="justify-content-center navbar-collapse collapse"><div class="justify-content-center navbar-nav nav-underline"><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/" class="nav-link" href="/e2-next">Home</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/work" class="nav-link" href="/e2-next/work">Work</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/hobbyProjects" class="nav-link" href="/e2-next/hobbyProjects">Hobby projects</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/personality" class="nav-link" href="/e2-next/personality">Personality</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/blog" class="nav-link" href="/e2-next/blog">Blog</a></div></div></div></nav></div><h1>Blog <!-- -->spring-graphql-api</h1><hr/><div class="vstack gap-3"><div class="text-center container"><div class="justify-content-center g-3 row row-cols-md-3 row-cols-sm-2 row-cols-1"><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="tel:+85263301333"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-phone" style="color:#009688"></i></div><p class="text-muted card-text">6330 1333<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="mailto:michaelboyboy@gmail.com"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-envelope" style="color:#f44336"></i></div><p class="text-muted card-text">michaelboyboy@gmail.com<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="https://www.linkedin.com/in/mickchung"><div class="card-body"><div class="card-title h5"><i class="fa-brands fa-linkedin" style="color:#2196f3"></i></div><p class="text-muted card-text">www.linkedin.com/in/mickchung<!-- --> </p></div></a></div></div></div></div></div><script src="/e2-next/_next/static/chunks/webpack-c5a5a71ba05d987d.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[8287,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\n3:I[3339,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\n4:I[1367,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\n5:I[5244,[],\"\"]\n6:I[3866,[],\"\"]\n7:I[4798,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\n8:I[6121,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\n9:I[3667,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"default\"]\na:I[8407,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\nb:I[8173,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"974\",\"static/chunks/app/page-3db4f82a976b6826.js\"],\"\"]\nc:I[3197,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\nd:I[7933,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\ne:I[3800,[\"829\",\"static/chunks/829-0d4167e889c92f66.js\",\"153\",\"static/chunks/153-92d0be8948a510c7.js\",\"177\",\"static/chunks/app/layout-0fbda1b2e18e1e9a.js\"],\"default\"]\n10:I[6213,[],\"OutletBoundary\"]\n12:I[6213,[],\"MetadataBoundary\"]\n14:I[6213,[],\"ViewportBoundary\"]\n16:I[4835,[],\"\"]\n:HL[\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"style\"]\n:HL[\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"gVZeuoZEIM3AUvikmCH-j\",\"p\":\"/e2-next\",\"c\":[\"\",\"blog\",\"spring-graphql-api\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"blog\",{\"children\":[[\"postId\",\"spring-graphql-api\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900\u0026display=swap\",\"rel\":\"stylesheet\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css\"}]]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"gap\":5,\"children\":[[\"$\",\"$L3\",null,{\"gap\":5,\"className\":\"text-center\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"code\",null,{\"className\":\"SiteHeader_name__cwQmL\",\"children\":\"Chung Cheuk Hang Michael\"}],[\"$\",\"code\",null,{\"className\":\"SiteHeader_title__CCfvI\",\"children\":\"Java Web Developer\"}]]}],[\"$\",\"$L4\",null,{}]]}],[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"hr\",null,{}],[\"$\",\"$L3\",null,{\"gap\":3,\"children\":[\"$\",\"$L7\",null,{\"className\":\"text-center\",\"children\":[\"$\",\"$L8\",null,{\"xs\":1,\"sm\":2,\"md\":3,\"className\":\"justify-content-center g-3\",\"children\":[[\"$\",\"$L9\",\"0\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"tel:+85263301333\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-phone\",\"style\":{\"color\":\"#009688\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"6330 1333\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"1\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"mailto:michaelboyboy@gmail.com\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-envelope\",\"style\":{\"color\":\"#f44336\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"michaelboyboy@gmail.com\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"2\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"https://www.linkedin.com/in/mickchung\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-brands fa-linkedin\",\"style\":{\"color\":\"#2196f3\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"www.linkedin.com/in/mickchung\",\" \"]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{\"children\":[\"blog\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"postId\",\"spring-graphql-api\",\"d\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$Lf\",null,[\"$\",\"$L10\",null,{\"children\":\"$L11\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"jBAW9AKXTPpd_7LoGKpW3\",{\"children\":[[\"$\",\"$L12\",null,{\"children\":\"$L13\"}],[\"$\",\"$L14\",null,{\"children\":\"$L15\"}],null]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$16\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"f:[\"$\",\"h1\",null,{\"children\":[\"Blog \",\"spring-graphql-api\"]}]\n"])</script><script>self.__next_f.push([1,"15:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n13:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Michael Chung's e-Portfolio\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Powered by Next.js and React\"}]]\n"])</script><script>self.__next_f.push([1,"11:null\n"])</script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="blog/2021-09/spring-graphql-api/graphiql-placeOrder.png"/><link rel="preload" as="image" href="blog/2021-09/spring-graphql-api/postman-placeOrder.png"/><link rel="preload" as="image" href="blog/2021-09/spring-graphql-api/graphiql-getOrder-getOrderDetails.png"/><link rel="preload" as="image" href="blog/2021-09/spring-graphql-api/postman-getOrder-getOrderDetails.png"/><link rel="preload" as="image" href="blog/2021-09/spring-graphql-api/graphiql-checkNewOrders-init.png"/><link rel="preload" as="image" href="blog/2021-09/spring-graphql-api/graphiql-checkNewOrders-received.png"/><link rel="preload" as="image" href="blog/2021-09/spring-graphql-api/chrome-checkNewOrders-received.png"/><link rel="stylesheet" href="/e2-next/_next/static/css/d3df112486f97f47.css" data-precedence="next"/><link rel="stylesheet" href="/e2-next/_next/static/css/c3624a693ae5a0c4.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/e2-next/_next/static/chunks/webpack-f088da4552bcc253.js"/><script src="/e2-next/_next/static/chunks/4bd1b696-120f4d9c40d223dd.js" async=""></script><script src="/e2-next/_next/static/chunks/1517-c8d232d43a11224c.js" async=""></script><script src="/e2-next/_next/static/chunks/main-app-05c45cc8f30d6cea.js" async=""></script><script src="/e2-next/_next/static/chunks/7829-b7b9eb1dbe0d40e4.js" async=""></script><script src="/e2-next/_next/static/chunks/2153-45fd9844831c6348.js" async=""></script><script src="/e2-next/_next/static/chunks/app/layout-ea91c2d128ec48c2.js" async=""></script><script src="/e2-next/_next/static/chunks/app/page-c8b940db14fac9a0.js" async=""></script><title>Michael Chung&#x27;s e-Portfolio</title><meta name="description" content="Powered by Next.js and React"/><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/><script src="/e2-next/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body><div class="vstack gap-5"><div class="text-center vstack gap-5"><div><code class="SiteHeader_name__cwQmL">Chung Cheuk Hang Michael</code><code class="SiteHeader_title__CCfvI">Java Web Developer</code></div><nav class="justify-content-center navbar navbar-expand-md navbar-dark"><button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button><div class="justify-content-center navbar-collapse collapse"><div class="justify-content-center navbar-nav nav-underline"><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/" class="nav-link" href="/e2-next">Home</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/work" class="nav-link" href="/e2-next/work">Work</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/hobbyProjects" class="nav-link" href="/e2-next/hobbyProjects">Hobby projects</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/personality" class="nav-link" href="/e2-next/personality">Personality</a></div><div class="nav-item"><a draggable="false" data-rr-ui-event-key="/blog" class="nav-link" href="/e2-next/blog">Blog</a></div></div></div></nav></div><h1>1 簡介</h1>
+<h2>1.1 寫 API 既難處</h2>
+<p>好多時候我地寫網頁或者 back-end API 會遇到一個情況，就係需要唔同既資料。而要同時得到唔同既資料，就需要通過某種方式將唔同既資料組合埋一齊，例如 front-end 分別 call 幾個 back-end APIs，然後 front-end 再分別處理唔同 API responses 既資料；或者，front-end call 一個 back-end API，但呢個 API 背後已經會將各種 front-end 需要既資料 consolidate 埋喺一個 response 裡面。</p>
+<p>舉個例，一個客戶登入帳號之後、到達 front-end 既首頁（網頁或 mobile app）之前，front-end 可能需要 call back-end 一次或者多次去拎一大堆初始化用既資料，呢啲資料可以黎自唔同既 database tables，資料包括有用戶基本資料、帳號狀態及權限、通知，以及 front-end 既首頁需要顯示既各種資訊（產品、推廣資訊）。不過呢啲用戶資料以及首頁需要顯示既各種資訊都有可能喺其他頁面由 front-end 單獨咁向 back-end 查詢出黎。</p>
+<p>如果要用單一個 API call 就攞到曬需要既資料，咁呢度就有一個通用性既問題，雖然 service layer 都仲可以做到通用，但 controller layer 就變左會有啲 APIs 係針對特定場景去將唔同既 services 既資料 consolidate 埋一齊。因為唔同情況下有可能需要將唔同既資料 consolidate 埋一齊成為一個針對固定場景既 HTTP response，我地需要喺 back-end 寫多個 API 去應付唔同場景，亦需要寫大量 response classes 去裝住呢啲不同場合用既 consolidated 既資料。</p>
+<p>另外，有啲 HTTP response 既做法係用返本身 entity class 做 response class，而裡面因為有 <code>@OneToOne</code>、<code>@OneToMany</code> 等 annotations 既 relationship fields，serializer 會令到 JPA／Hibernate 幫我地 fetch 埋出黎。但如果考慮到 lazy／eager fetching、用錯既時候有可能出現既 circular reference loop、修改 nested objects 既時候 trigger update、cascade delete 等等既情況，JPA／Hibernate 既 <code>@OneToOne</code>、<code>@OneToMany</code> 呢啲 annotations 可以好危險。而 JPA／Hibernate 既 entity graph 功能更加係令到成件事更加複雜。如果唔想用 nested objects，就只能夠寫 response wrapper class 將 parent 同 children objects 寫成平排既 fields，但咁做就變相要寫多啲 response wrapper classes。</p>
+<p>當然 front-end 可以 async 咁 call 好多次 back-end，然後 front-end 自己分別處理唔同 API responses 既資料，但寫起上黎可能會幾麻煩，同埋每個 API call 都需要 back-end 去 validate session 係咪存在、用戶帳號既狀態係咪正常等等。</p>
+<p>再者，好多時候我地會想個 response 裡面只包含部分特定既 fields，避免冇必要既 fields 增加左 network usage，我地通常既做法係複製啲現有既 class 然後自己客製化，撇除啲冇必要既 fields。</p>
+<hr/>
+<h2>1.2 GraphQL API 既好處</h2>
+<p>因此，就有左 GraphQL 既出現。關於 GraphQL：</p>
+<ul>
+<li>只係暴露 <code>1</code> 個 GraphQL API。</li>
+<li>畀我地將多個 GraphQL <code>query</code>／<code>mutation</code> 操作 consolidate 埋做 <code>1</code> 個 GraphQL API call。<!-- -->
+<ul>
+<li>例子<!-- -->
+<ul>
+<li>一個 GraphQL API 可以同時要求得到 <code>getOrder</code> GraphQL query 以及 <code>getOrderDetails</code> GraphQL query 既資料。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>准許 call GraphQL API 既時候要求 response 裡面只係包含部分特定既 fields。<!-- -->
+<ul>
+<li>GraphQL schema、Java response class 可以重用，唔需要複製再客製化。</li>
+</ul>
+</li>
+<li>可以建立 <code>subscription</code>
+<ul>
+<li>GraphQL server（back-end）可以透過 WebSocket 傳送資料畀 GraphQL client（另一個系統或者 front-end）。</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2>1.3 GraphQL 注意事項</h2>
+<ul>
+<li>GraphQL schema<!-- -->
+<ul>
+<li>要暴露 GraphQL API，我地需要先定義 GraphQL schema。</li>
+</ul>
+</li>
+<li>GraphQL 語法<!-- -->
+<ul>
+<li>GraphQL 有佢自己既一套語法／格式。</li>
+</ul>
+</li>
+<li><code>type Query</code>
+<ul>
+<li>指查詢用既 APIs</li>
+<li>必須提供</li>
+</ul>
+</li>
+<li><code>type Mutation</code>
+<ul>
+<li>指會修改系統既 APIs</li>
+</ul>
+</li>
+<li><code>type Subscription</code>
+<ul>
+<li>指 GraphQL server 推送資料畀 GraphQL client 既 APIs</li>
+</ul>
+</li>
+<li><code>input</code> 係 <code>(...)</code> parameter types 既叫法</li>
+<li><code>type</code> 係 response type</li>
+<li>GraphQL 基本 data types<!-- -->
+<ul>
+<li><code>String</code>
+<ul>
+<li>要用 <code>&quot;xxx&quot;</code> 而唔係 <code>&#x27;xxx&#x27;</code>。</li>
+</ul>
+</li>
+<li><code>Int</code>
+<ul>
+<li>32-bit</li>
+</ul>
+</li>
+<li><code>Float</code></li>
+<li><code>Boolean</code></li>
+<li><code>ID</code>
+<ul>
+<li>格式跟 <code>String</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>!</code> 係必須提供既 field，要寫喺個 type 既後面</li>
+<li><code>[xxx]</code> 係 array</li>
+<li>可以唔寫 <code>,</code>
+<ul>
+<li>只需要用 space 或者 newline 分隔。</li>
+</ul>
+</li>
+<li><code>$</code> 開頭既係 variable。<!-- -->
+<ul>
+<li>Variables 可以喺 <code>query</code> 或者 <code>mutation</code> 後面既 <code>()</code> 裡面 declare。</li>
+<li>正因為 GraphQL 有佢自己既一套格式，寫起上黎可能會有啲麻煩，所以就有 variable section，畀我地將 variables 分隔開。</li>
+<li>Variable section 係正常既 JSON 格式。</li>
+</ul>
+</li>
+<li>Response 係 JSON 格式<!-- -->
+<ul>
+<li>所有操作所返回既資料由一個叫 <code>data</code> 既 field 包住。</li>
+</ul>
+</li>
+</ul>
+<p>GraphQL API 既格式：</p>
+<pre><code class="language-plaintext">methodName(requestField1: InputType1 requestField2: InputType2 ...): ResponseType
+</code></pre>
+<p>註：必須對應返 Java 既 GraphQL API method 名、request classes 以及 response classes。</p>
+<hr/>
+<h1>2 動手寫</h1>
+<p>Project structure：</p>
+<ul>
+<li><code>src/main/java</code>
+<ul>
+<li><code>/code</code>
+<ul>
+<li><code>/entity</code>
+<ul>
+<li><code>Order.java</code></li>
+<li><code>OrderDetail.java</code></li>
+</ul>
+</li>
+<li><code>/graphql</code>
+<ul>
+<li><code>OrderMutation.java</code></li>
+<li><code>OrderQuery.java</code></li>
+<li><code>OrderSubscription.java</code></li>
+</ul>
+</li>
+<li><code>/repo</code>
+<ul>
+<li><code>OrderDetailRepo.java</code></li>
+<li><code>OrderRepo.java</code></li>
+</ul>
+</li>
+<li><code>/service</code>
+<ul>
+<li><code>OrderService.java</code></li>
+</ul>
+</li>
+<li><code>MainApplication.java</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>src/main/resources</code>
+<ul>
+<li><code>/graphql</code>
+<ul>
+<li><code>schema.graphqls</code></li>
+</ul>
+</li>
+<li><code>application.yml</code></li>
+</ul>
+</li>
+</ul>
+<h2>2.1 Maven dependencies</h2>
+<ul>
+<li>GraphQL Spring Boot Starter 會幫我地暴露一個 <code>/graphql</code> 既 POST API。</li>
+<li>如果用左 Spring Boot Starter Webflux，GraphQL Spring Boot Starter 會幫我地暴露一個 <code>/subscriptions</code> 既 WebSocket API。</li>
+<li>GraphiQL Spring Boot Starter 會幫我地暴露一個測試頁面既網址——<code>/graphiql</code> endpoint。</li>
+<li>用 MySQL／MariaDB 作為 database。</li>
+</ul>
+<pre><code class="language-xml">&lt;parent&gt;
+    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;
+    &lt;version&gt;2.7.18&lt;/version&gt;
+&lt;/parent&gt;
+
+&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
+        &lt;artifactId&gt;lombok&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-webflux&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-websocket&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-actuator&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-devtools&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;com.mysql&lt;/groupId&gt;
+        &lt;artifactId&gt;mysql-connector-j&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;com.graphql-java-kickstart&lt;/groupId&gt;
+        &lt;artifactId&gt;graphql-spring-boot-starter&lt;/artifactId&gt;
+        &lt;version&gt;14.1.0&lt;/version&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;com.graphql-java-kickstart&lt;/groupId&gt;
+        &lt;artifactId&gt;graphiql-spring-boot-starter&lt;/artifactId&gt;
+        &lt;version&gt;11.1.0&lt;/version&gt;
+    &lt;/dependency&gt;
+&lt;/dependencies&gt;
+</code></pre>
+<hr/>
+<h2>2.2 Application 配置</h2>
+<pre><code class="language-yaml">spring:
+    jpa:
+        show-sql: true
+        open-in-view: false
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQLDialect
+    datasource:
+        url: jdbc:mysql://localhost:3306/mydb?useSSL=false
+        username: root
+        password:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+management:
+    endpoints:
+        web:
+            exposure:
+                include: &quot;*&quot;
+
+graphql:
+    servlet:
+        actuator-metrics: true
+        cors:
+            allowedOrigins: &quot;*&quot;
+graphiql:
+    enabled: true
+</code></pre>
+<hr/>
+<h2>2.3 寫 Java code</h2>
+<h3>2.3.1 Entity</h3>
+<p><code>Order.java</code>：</p>
+<pre><code class="language-java">@Data
+@Accessors(chain = true)
+@FieldDefaults(level = PRIVATE)
+@Entity
+@Table(name = &quot;tbl_order&quot;)
+public class Order {
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    Long id;
+
+    BigDecimal totalPrice;
+}
+</code></pre>
+<p><code>OrderDetail.java</code>：</p>
+<pre><code class="language-java">@Data
+@Accessors(chain = true)
+@FieldDefaults(level = PRIVATE)
+@Entity
+@Table(name = &quot;tbl_order_detail&quot;)
+public class OrderDetail {
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    Long id;
+
+    Long orderId;
+    Long productId;
+    BigDecimal salePrice;
+    Integer quantity;
+}
+</code></pre>
+<hr/>
+<h3>2.3.2 Repository</h3>
+<p><code>OrderRepo.java</code>：</p>
+<pre><code class="language-java">@Repository
+public interface OrderRepo extends JpaRepository&lt;Order, Long&gt; {
+
+}
+</code></pre>
+<p><code>OrderDetailRepo.java</code>：</p>
+<pre><code class="language-java">@Repository
+public interface OrderDetailRepo extends JpaRepository&lt;OrderDetail, Long&gt; {
+
+    List&lt;OrderDetail&gt; findAllByOrderId(Long orderId);
+}
+</code></pre>
+<hr/>
+<h3>2.3.3 Service</h3>
+<p><code>OrderService.java</code>：</p>
+<pre><code class="language-java">import org.springframework.transaction.annotation.Transactional;
+
+@Service
+@Transactional(rollbackFor = Throwable.class)
+public class OrderService {
+
+    @Autowired OrderRepo orderRepo;
+    @Autowired OrderDetailRepo orderDetailRepo;
+
+    public Order getOrder(Long orderId) {
+        return orderRepo.findById(orderId)
+                        .orElseThrow(() -&gt; new RuntimeException(&quot;Order ID [&quot; + orderId + &quot;] does not exist!&quot; ));
+    }
+
+    public List&lt;OrderDetail&gt; getOrderDetails(Long orderId) {
+        return orderDetailRepo.findAllByOrderId(orderId);
+    }
+
+    public OrderResponse placeOrder(OrderRequest orderRequest) {
+
+        final Order order = orderRepo.save(toOrderEntity(orderRequest));
+        final List&lt;OrderDetail&gt; orderDetails = orderDetailRepo.saveAll(toOrderDetailEntities(orderRequest, order.getId()));
+
+        return new OrderResponse().setOrder(order).setOrderDetails(orderDetails);
+    }
+
+    private Order toOrderEntity(OrderRequest orderRequest) {
+        return new Order()
+                .setTotalPrice(orderRequest.getOrderDetails().stream()
+                                .map(e -&gt; e.getSalePrice()
+                                           .multiply(new BigDecimal(String.valueOf(e.getQuantity()))))
+                                .reduce(BigDecimal.ZERO, BigDecimal::add));
+    }
+
+    private List&lt;OrderDetail&gt; toOrderDetailEntities(OrderRequest orderRequest, Long orderId) {
+        return orderRequest.getOrderDetails()
+                .stream()
+                .map(e -&gt; new OrderDetail()
+                                .setOrderId(orderId)
+                                .setProductId(e.getProductId())
+                                .setSalePrice(e.getSalePrice())
+                                .setQuantity(e.getQuantity()))
+                .collect(toList());
+    }
+}
+</code></pre>
+<hr/>
+<h3>2.3.4 GraphQL API</h3>
+<p><code>OrderMutation.java</code>：</p>
+<pre><code class="language-java">@Component
+public class OrderMutation implements GraphQLMutationResolver {
+
+    @Autowired OrderService orderService;
+    @Autowired Sinks.Many&lt;OrderResponse&gt; sink;
+
+    public OrderResponse placeOrder(OrderRequest orderRequest) {
+
+        final OrderResponse response = orderService.placeOrder(orderRequest);
+        sink.tryEmitNext(response);
+
+        return response;
+    }
+}
+</code></pre>
+<p><code>OrderQuery.java</code>：</p>
+<pre><code class="language-java">@Component
+public class OrderQuery implements GraphQLQueryResolver {
+
+    @Autowired OrderService orderService;
+
+    public Order getOrder(Long orderId) {
+        return orderService.getOrder(orderId);
+    }
+
+    public List&lt;OrderDetail&gt; getOrderDetails(Long orderId) {
+        return orderService.getOrderDetails(orderId);
+    }
+}
+</code></pre>
+<p><code>OrderSubscription.java</code>：</p>
+<pre><code class="language-java">@Component
+public class OrderSubscription implements GraphQLSubscriptionResolver {
+
+    @Autowired Sinks.Many&lt;OrderResponse&gt; orderSink;
+
+    public Publisher&lt;OrderResponse&gt; checkNewOrders() {
+        return orderSink.asFlux();
+    }
+}
+</code></pre>
+<hr/>
+<h2>2.4 GraphQL schema</h2>
+<p><code>schema.graphqls</code>：</p>
+<pre><code class="language-plaintext">type Query {
+    getOrder(orderId: Int!): Order
+    getOrderDetails(orderId: Int!): [OrderDetail]
+}
+
+type Mutation {
+    placeOrder(orderRequest: OrderRequest!): OrderResponse
+}
+
+type Subscription {
+    checkNewOrders: OrderResponse
+}
+
+input OrderRequest {
+    orderDetails: [OrderDetailRequest]!
+}
+
+input OrderDetailRequest {
+    productId: Int!
+    salePrice: Float!
+    quantity: Int!
+}
+
+type OrderResponse {
+    order: Order
+    orderDetails: [OrderDetail]
+}
+
+type Order {
+    id: Int
+    totalPrice: Float
+}
+
+type OrderDetail {
+    id: Int
+    orderId: Int
+    productId: Int
+    salePrice: Float
+    quantity: Int
+}
+</code></pre>
+<hr/>
+<h1>3 測試</h1>
+<h2>3.1 建立 database</h2>
+<p>先用 HeidiSQL（Windows）或者 Sequel Pro（macOS）連接 MySQL 或者 MariaDB。</p>
+<table><thead><tr><th style="text-align:center">Host</th><th style="text-align:center">Port</th></tr></thead><tbody><tr><td style="text-align:center"><code>127.0.0.1</code></td><td style="text-align:center"><code>3306</code></td></tr></tbody></table>
+<p>然後執行 SQL：</p>
+<pre><code class="language-sql">CREATE DATABASE mydb;
+</code></pre>
+<hr/>
+<h2>3.2 啟動 Spring Boot web application</h2>
+<pre><code class="language-bash">mvn spring-boot:run
+</code></pre>
+<p>如果 Spring Boot web application 成功啟動，咁我地既 <code>tbl_order</code>、<code>tbl_order_detail</code> tables 都會由個 application 自動創建。</p>
+<hr/>
+<h2>3.3 訪問 GraphiQL 測試網頁</h2>
+<p>GraphiQL 可以模擬一個 GraphQL client 去 call 我地 back-end GraphQL APIs。又或者用 Postman 都可以。其實背後都係一個 POST API call。</p>
+<p>先打開 <a href="http://localhost:8080/graphiql">http://localhost:8080/graphiql</a>。</p>
+<hr/>
+<h2>3.4 用 GraphiQL call <code>placeOrder</code> API</h2>
+<pre><code class="language-plaintext">mutation {
+  order1: placeOrder(orderRequest: {
+    orderDetails: [
+      { productId: 1 salePrice: 123.5 quantity: 5 }
+      { productId: 2 salePrice: 222.8 quantity: 1 }
+    ]
+  }) {
+    order { id totalPrice }
+    orderDetails { id orderId productId salePrice quantity }
+  }
+
+  order2: placeOrder(orderRequest: {
+    orderDetails: [
+      { productId: 2 salePrice: 222.8 quantity: 7 }
+      { productId: 3 salePrice: 345.6 quantity: 3 }
+    ]
+  }) {
+    order { id totalPrice }
+    orderDetails { id orderId productId salePrice quantity }
+  }
+}
+</code></pre>
+<p>解釋：</p>
+<ul>
+<li><code>order1</code>、<code>order2</code>
+<ul>
+<li>我地將 <code>2</code> 個 <code>placeOrder</code> 既 GraphQL <code>mutation</code> 操作 consolidate 埋做 <code>1</code> 個 GraphQL API call。</li>
+<li>Response 裡面會用呢 <code>2</code> 個名黎對應返 response objects。</li>
+</ul>
+</li>
+</ul>
+<p><img src="blog/2021-09/spring-graphql-api/graphiql-placeOrder.png" alt=""/></p>
+<h3>3.4.1 用 Postman call <code>placeOrder</code> API</h3>
+<p>喺 Postman 裡面 call：</p>
+<pre><code class="language-plaintext">POST localhost:8080/graphql
+</code></pre>
+<p>GraphQL query body 照用返 GraphiQL 果個完全一樣就得。</p>
+<p><img src="blog/2021-09/spring-graphql-api/postman-placeOrder.png" alt=""/></p>
+<hr/>
+<h2>3.5 用 GraphiQL call <code>getOrder</code>、<code>getOrderDetails</code> API</h2>
+<pre><code class="language-plaintext">query ($orderId : Int!) {
+  order: getOrder(orderId: $orderId) {
+    id
+    totalPrice
+  }
+
+  orderDetails: getOrderDetails(orderId: $orderId) {
+    id
+    orderId
+    productId
+    salePrice
+    quantity
+  }
+}
+</code></pre>
+<p>Variable section（JSON 格式）：</p>
+<pre><code class="language-json">{
+	&quot;orderId&quot;: 1
+}
+</code></pre>
+<p>解釋：</p>
+<ul>
+<li><code>order</code>、<code>orderDetails</code>
+<ul>
+<li>我地將 <code>getOrder</code> 以及 <code>getOrderDetails</code> 既 <code>2</code> 個 GraphQL <code>query</code> 操作 consolidate 埋做 <code>1</code> 個 GraphQL API call。</li>
+<li>Response 裡面會用呢 <code>2</code> 個名黎對應返 response objects。</li>
+</ul>
+</li>
+<li><code>$orderId</code>
+<ul>
+<li>呢度我地用左 <code>1</code> 個 variable。</li>
+</ul>
+</li>
+</ul>
+<p><img src="blog/2021-09/spring-graphql-api/graphiql-getOrder-getOrderDetails.png" alt=""/></p>
+<h3>3.5.1 用 Postman call <code>getOrder</code>、<code>getOrderDetails</code> API</h3>
+<p>喺 Postman 裡面 call：</p>
+<pre><code class="language-plaintext">POST localhost:8080/graphql
+</code></pre>
+<p>GraphQL query body 照用返 GraphiQL 果個完全一樣就得。</p>
+<p><img src="blog/2021-09/spring-graphql-api/postman-getOrder-getOrderDetails.png" alt=""/></p>
+<hr/>
+<h2>3.6 用 GraphiQL call <code>checkNewOrders</code> API</h2>
+<pre><code class="language-plaintext">subscription {
+  checkNewOrders {
+    order {
+      id
+      totalPrice
+    }
+
+    orderDetails {
+      id
+      orderId
+      productId
+      salePrice
+      quantity
+    }
+  }
+}
+</code></pre>
+<p>解釋：</p>
+<ul>
+<li><code>checkNewOrders</code>
+<ul>
+<li>我地訂閱緊 <code>checkNewOrders</code>，如果 WebSocket server 有新 message send 出黎，我地個 WebSocket client 就會收到。</li>
+</ul>
+</li>
+</ul>
+<p><img src="blog/2021-09/spring-graphql-api/graphiql-checkNewOrders-init.png" alt=""/></p>
+<p><img src="blog/2021-09/spring-graphql-api/graphiql-checkNewOrders-received.png" alt=""/></p>
+<hr/>
+<h1>4 Front-end call GraphQL API</h1>
+<p>我地試左用 GraphiQL 同 Postman call GraphQL API，但 front-end 要點樣 call？雖然已經有啲現成既 NPM libraries 可以做到 GraphQL client，但其實要自己用 JavaScript 做既話都好簡單。</p>
+<h2>4.1 用 Fetch API call <code>placeOrder</code> API</h2>
+<p>非 dynamic 寫法：</p>
+<pre><code class="language-js">fetch(&quot;http://localhost:8080/graphql&quot;, {
+	method: &quot;POST&quot;,
+	body: JSON.stringify({
+		query: `
+            mutation {
+                order1: placeOrder(orderRequest: {
+                    orderDetails: [
+                        { productId: 1 salePrice: 123.5 quantity: 5 }
+                        { productId: 2 salePrice: 222.8 quantity: 1 }
+                    ]
+                }) {
+                    order { id totalPrice }
+                    orderDetails { id orderId productId salePrice quantity }
+                }
+
+                order2: placeOrder(orderRequest: {
+                    orderDetails: [
+                        { productId: 2 salePrice: 222.8 quantity: 7 }
+                        { productId: 3 salePrice: 345.6 quantity: 3 }
+                    ]
+                }) {
+                    order { id totalPrice }
+                    orderDetails { id orderId productId salePrice quantity }
+                }
+            }
+        `,
+	}),
+})
+	.then((e) =&gt; e.json())
+	.then((res) =&gt; console.log(res?.data));
+</code></pre>
+<hr/>
+<h2>4.2 用 Fetch API call <code>getOrder</code>、<code>getOrderDetails</code> API</h2>
+<pre><code class="language-js">fetch(&quot;http://localhost:8080/graphql&quot;, {
+	method: &quot;POST&quot;,
+	body: JSON.stringify({
+		query: `
+            query ($orderId : Int!) {
+                order: getOrder(orderId: $orderId) {
+                    id
+                    totalPrice
+                }
+
+                orderDetail: getOrderDetails(orderId: $orderId) {
+                    id
+                    orderId
+                    productId
+                    salePrice
+                    quantity
+                }
+            }
+        `,
+		variables: {
+			orderId: 1,
+		},
+	}),
+})
+	.then((e) =&gt; e.json())
+	.then((res) =&gt; console.log(res?.data));
+</code></pre>
+<hr/>
+<h2>4.3 用 WebSocket API call <code>checkNewOrders</code> API</h2>
+<pre><code class="language-js">const ws = new WebSocket(&quot;ws://localhost:8080/subscriptions&quot;, &quot;graphql-ws&quot;);
+ws.onmessage = (e) =&gt; {
+	console.log(`%c${e.data}`, &quot;color: cyan&quot;);
+
+	if (JSON.parse(e.data).type === &quot;connection_ack&quot;) {
+		console.log(&quot;%cReceived type=connection_ack, subscribing to checkNewOrders...&quot;, &quot;color: yellow&quot;);
+
+		ws.send(
+			JSON.stringify({
+				id: 1,
+				type: &quot;start&quot;,
+				payload: {
+					query: &quot;subscription { checkNewOrders { order { id totalPrice } orderDetails { id orderId productId salePrice quantity } } }&quot;,
+					variables: null,
+				},
+			})
+		);
+
+		console.log(&quot;%cSent subscription message to server.&quot;, &quot;color: yellow&quot;);
+	}
+};
+ws.onopen = (e) =&gt; {
+	console.log(&quot;%cWebSocket connection to GraphQL subscriptions is open.&quot;, &quot;color: yellow&quot;);
+
+	ws.send(
+		JSON.stringify({
+			type: &quot;connection_init&quot;,
+			payload: {},
+		})
+	);
+
+	console.log(&quot;%cSent connection_init message to server.&quot;, &quot;color: yellow&quot;);
+};
+</code></pre>
+<p><img src="blog/2021-09/spring-graphql-api/chrome-checkNewOrders-received.png" alt=""/></p>
+<hr/>
+<h1>5 參考資料</h1>
+<ul>
+<li><a href="https://spec.graphql.org/">GraphQL 官網 - Spec</a></li>
+<li><a href="https://github.com/graphql-java/graphql-java/blob/master/src/main/java/graphql/Scalars.java">GraphQL Java GitHub - <code>Scarlars.java</code></a></li>
+<li><a href="https://github.com/graphql-java-kickstart/graphql-spring-boot">GraphQL and GraphiQL Spring Framework Boot Starters GitHub</a></li>
+</ul><hr/><div class="vstack gap-3"><div class="text-center container"><div class="justify-content-center g-3 row row-cols-md-3 row-cols-sm-2 row-cols-1"><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="tel:+85263301333"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-phone" style="color:#009688"></i></div><p class="text-muted card-text">6330 1333<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="mailto:michaelboyboy@gmail.com"><div class="card-body"><div class="card-title h5"><i class="fa-solid fa-envelope" style="color:#f44336"></i></div><p class="text-muted card-text">michaelboyboy@gmail.com<!-- --> </p></div></a></div><div class="col"><a target="_blank" rel="external nofollow noopener noreferrer" class="SiteFooter_contact-item__2JRRr card" href="https://www.linkedin.com/in/mickchung"><div class="card-body"><div class="card-title h5"><i class="fa-brands fa-linkedin" style="color:#2196f3"></i></div><p class="text-muted card-text">www.linkedin.com/in/mickchung<!-- --> </p></div></a></div></div></div></div></div><script src="/e2-next/_next/static/chunks/webpack-f088da4552bcc253.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[8287,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\n3:I[3339,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\n4:I[1367,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\n5:I[5244,[],\"\"]\n6:I[3866,[],\"\"]\n7:I[4798,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\n8:I[6121,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\n9:I[3667,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"default\"]\na:I[8407,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\nb:I[8173,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"8974\",\"static/chunks/app/page-c8b940db14fac9a0.js\"],\"\"]\nc:I[3197,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\nd:I[7933,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\ne:I[3800,[\"7829\",\"static/chunks/7829-b7b9eb1dbe0d40e4.js\",\"2153\",\"static/chunks/2153-45fd9844831c6348.js\",\"7177\",\"static/chunks/app/layout-ea91c2d128ec48c2.js\"],\"default\"]\n12:I[6213,[],\"OutletBoundary\"]\n14:I[6213,[],\"MetadataBoundary\"]\n16:I[6213,[],\"ViewportBoundary\"]\n18:I[4835,[],\"\"]\n:HL[\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"style\"]\n:HL[\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"style\"]\nf:T6d1,\u003cparent\u003e\r\n    \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\r\n    \u003cartifactId\u003espring-boot-starter-parent\u003c/artifactId\u003e\r"])</script><script>self.__next_f.push([1,"\n    \u003cversion\u003e2.7.18\u003c/version\u003e\r\n\u003c/parent\u003e\r\n\r\n\u003cdependencies\u003e\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003eorg.projectlombok\u003c/groupId\u003e\r\n        \u003cartifactId\u003elombok\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\r\n        \u003cartifactId\u003espring-boot-starter-web\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\r\n        \u003cartifactId\u003espring-boot-starter-webflux\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\r\n        \u003cartifactId\u003espring-boot-starter-websocket\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\r\n        \u003cartifactId\u003espring-boot-starter-actuator\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\r\n        \u003cartifactId\u003espring-boot-devtools\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\r\n        \u003cartifactId\u003espring-boot-starter-data-jpa\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003ecom.mysql\u003c/groupId\u003e\r\n        \u003cartifactId\u003emysql-connector-j\u003c/artifactId\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003ecom.graphql-java-kickstart\u003c/groupId\u003e\r\n        \u003cartifactId\u003egraphql-spring-boot-starter\u003c/artifactId\u003e\r\n        \u003cversion\u003e14.1.0\u003c/version\u003e\r\n    \u003c/dependency\u003e\r\n\r\n    \u003cdependency\u003e\r\n        \u003cgroupId\u003ecom.graphql-java-kickstart\u003c/groupId\u003e\r\n        \u003cartifactId\u003egraphiql-spring-boot-starter\u003c/artifactId\u003e\r\n        \u003cversion\u003e11.1.0\u003c/version\u003e\r\n    \u003c/dependency\u003e\r\n\u003c/dependencies\u003e\n10:T74a,import org.springframework.transaction.annotation.Transactional;\r\n\r\n@Service\r\n@Transactional(rollbackFor = Throwable.class)\r\npublic class OrderService {\r\n\r\n    @Autowired OrderRepo orderRepo;\r\n    @Autowired OrderDetailRepo orderDetailRepo;\r\n\r\n    public Order getOrder(Long orderId) {\r\n        return orderRepo.findById(orderId)\r\n                        .orElseThrow(() -\u003e new RuntimeException(\"Order ID [\" + "])</script><script>self.__next_f.push([1,"orderId + \"] does not exist!\" ));\r\n    }\r\n\r\n    public List\u003cOrderDetail\u003e getOrderDetails(Long orderId) {\r\n        return orderDetailRepo.findAllByOrderId(orderId);\r\n    }\r\n\r\n    public OrderResponse placeOrder(OrderRequest orderRequest) {\r\n\r\n        final Order order = orderRepo.save(toOrderEntity(orderRequest));\r\n        final List\u003cOrderDetail\u003e orderDetails = orderDetailRepo.saveAll(toOrderDetailEntities(orderRequest, order.getId()));\r\n\r\n        return new OrderResponse().setOrder(order).setOrderDetails(orderDetails);\r\n    }\r\n\r\n    private Order toOrderEntity(OrderRequest orderRequest) {\r\n        return new Order()\r\n                .setTotalPrice(orderRequest.getOrderDetails().stream()\r\n                                .map(e -\u003e e.getSalePrice()\r\n                                           .multiply(new BigDecimal(String.valueOf(e.getQuantity()))))\r\n                                .reduce(BigDecimal.ZERO, BigDecimal::add));\r\n    }\r\n\r\n    private List\u003cOrderDetail\u003e toOrderDetailEntities(OrderRequest orderRequest, Long orderId) {\r\n        return orderRequest.getOrderDetails()\r\n                .stream()\r\n                .map(e -\u003e new OrderDetail()\r\n                                .setOrderId(orderId)\r\n                                .setProductId(e.getProductId())\r\n                                .setSalePrice(e.getSalePrice())\r\n                                .setQuantity(e.getQuantity()))\r\n                .collect(toList());\r\n    }\r\n}\n11:T426,fetch(\"http://localhost:8080/graphql\", {\r\n\tmethod: \"POST\",\r\n\tbody: JSON.stringify({\r\n\t\tquery: `\r\n            mutation {\r\n                order1: placeOrder(orderRequest: {\r\n                    orderDetails: [\r\n                        { productId: 1 salePrice: 123.5 quantity: 5 }\r\n                        { productId: 2 salePrice: 222.8 quantity: 1 }\r\n                    ]\r\n                }) {\r\n                    order { id totalPrice }\r\n                    orderDetails { id orderId productId salePrice quantity }\r\n                }\r\n\r\n                order2: placeOrder(orderReq"])</script><script>self.__next_f.push([1,"uest: {\r\n                    orderDetails: [\r\n                        { productId: 2 salePrice: 222.8 quantity: 7 }\r\n                        { productId: 3 salePrice: 345.6 quantity: 3 }\r\n                    ]\r\n                }) {\r\n                    order { id totalPrice }\r\n                    orderDetails { id orderId productId salePrice quantity }\r\n                }\r\n            }\r\n        `,\r\n\t}),\r\n})\r\n\t.then((e) =\u003e e.json())\r\n\t.then((res) =\u003e console.log(res?.data));\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"wfZ4FdS4ntgGvzjeKJhfw\",\"p\":\"/e2-next\",\"c\":[\"\",\"blog\",\"spring-graphql-api\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"blog\",{\"children\":[\"(2021-09)\",{\"children\":[\"spring-graphql-api\",{\"children\":[\"__PAGE__\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/d3df112486f97f47.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/e2-next/_next/static/css/c3624a693ae5a0c4.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900\u0026display=swap\",\"rel\":\"stylesheet\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css\"}]]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"gap\":5,\"children\":[[\"$\",\"$L3\",null,{\"gap\":5,\"className\":\"text-center\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"code\",null,{\"className\":\"SiteHeader_name__cwQmL\",\"children\":\"Chung Cheuk Hang Michael\"}],[\"$\",\"code\",null,{\"className\":\"SiteHeader_title__CCfvI\",\"children\":\"Java Web Developer\"}]]}],[\"$\",\"$L4\",null,{}]]}],[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"hr\",null,{}],[\"$\",\"$L3\",null,{\"gap\":3,\"children\":[\"$\",\"$L7\",null,{\"className\":\"text-center\",\"children\":[\"$\",\"$L8\",null,{\"xs\":1,\"sm\":2,\"md\":3,\"className\":\"justify-content-center g-3\",\"children\":[[\"$\",\"$L9\",\"0\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"tel:+85263301333\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-phone\",\"style\":{\"color\":\"#009688\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"6330 1333\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"1\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"mailto:michaelboyboy@gmail.com\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-solid fa-envelope\",\"style\":{\"color\":\"#f44336\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"michaelboyboy@gmail.com\",\" \"]}]]}]}]}],[\"$\",\"$L9\",\"2\",{\"children\":[\"$\",\"$La\",null,{\"as\":\"$b\",\"href\":\"https://www.linkedin.com/in/mickchung\",\"target\":\"_blank\",\"rel\":\"external nofollow noopener noreferrer\",\"className\":\"SiteFooter_contact-item__2JRRr\",\"children\":[\"$\",\"$Lc\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"i\",null,{\"className\":\"fa-brands fa-linkedin\",\"style\":{\"color\":\"#2196f3\"}}]}],[\"$\",\"$Le\",null,{\"className\":\"text-muted\",\"children\":[\"www.linkedin.com/in/mickchung\",\" \"]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{\"children\":[\"blog\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"(2021-09)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"(2021-09)\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"spring-graphql-api\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"(2021-09)\",\"children\",\"spring-graphql-api\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"h1\",null,{\"children\":\"1 簡介\"}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"1.1 寫 API 既難處\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"好多時候我地寫網頁或者 back-end API 會遇到一個情況，就係需要唔同既資料。而要同時得到唔同既資料，就需要通過某種方式將唔同既資料組合埋一齊，例如 front-end 分別 call 幾個 back-end APIs，然後 front-end 再分別處理唔同 API responses 既資料；或者，front-end call 一個 back-end API，但呢個 API 背後已經會將各種 front-end 需要既資料 consolidate 埋喺一個 response 裡面。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"舉個例，一個客戶登入帳號之後、到達 front-end 既首頁（網頁或 mobile app）之前，front-end 可能需要 call back-end 一次或者多次去拎一大堆初始化用既資料，呢啲資料可以黎自唔同既 database tables，資料包括有用戶基本資料、帳號狀態及權限、通知，以及 front-end 既首頁需要顯示既各種資訊（產品、推廣資訊）。不過呢啲用戶資料以及首頁需要顯示既各種資訊都有可能喺其他頁面由 front-end 單獨咁向 back-end 查詢出黎。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"如果要用單一個 API call 就攞到曬需要既資料，咁呢度就有一個通用性既問題，雖然 service layer 都仲可以做到通用，但 controller layer 就變左會有啲 APIs 係針對特定場景去將唔同既 services 既資料 consolidate 埋一齊。因為唔同情況下有可能需要將唔同既資料 consolidate 埋一齊成為一個針對固定場景既 HTTP response，我地需要喺 back-end 寫多個 API 去應付唔同場景，亦需要寫大量 response classes 去裝住呢啲不同場合用既 consolidated 既資料。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"另外，有啲 HTTP response 既做法係用返本身 entity class 做 response class，而裡面因為有 \",[\"$\",\"code\",null,{\"children\":\"@OneToOne\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"@OneToMany\"}],\" 等 annotations 既 relationship fields，serializer 會令到 JPA／Hibernate 幫我地 fetch 埋出黎。但如果考慮到 lazy／eager fetching、用錯既時候有可能出現既 circular reference loop、修改 nested objects 既時候 trigger update、cascade delete 等等既情況，JPA／Hibernate 既 \",[\"$\",\"code\",null,{\"children\":\"@OneToOne\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"@OneToMany\"}],\" 呢啲 annotations 可以好危險。而 JPA／Hibernate 既 entity graph 功能更加係令到成件事更加複雜。如果唔想用 nested objects，就只能夠寫 response wrapper class 將 parent 同 children objects 寫成平排既 fields，但咁做就變相要寫多啲 response wrapper classes。\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"當然 front-end 可以 async 咁 call 好多次 back-end，然後 front-end 自己分別處理唔同 API responses 既資料，但寫起上黎可能會幾麻煩，同埋每個 API call 都需要 back-end 去 validate session 係咪存在、用戶帳號既狀態係咪正常等等。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"再者，好多時候我地會想個 response 裡面只包含部分特定既 fields，避免冇必要既 fields 增加左 network usage，我地通常既做法係複製啲現有既 class 然後自己客製化，撇除啲冇必要既 fields。\"}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"1.2 GraphQL API 既好處\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"因此，就有左 GraphQL 既出現。關於 GraphQL：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"只係暴露 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個 GraphQL API。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"畀我地將多個 GraphQL \",[\"$\",\"code\",null,{\"children\":\"query\"}],\"／\",[\"$\",\"code\",null,{\"children\":\"mutation\"}],\" 操作 consolidate 埋做 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個 GraphQL API call。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"例子\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"一個 GraphQL API 可以同時要求得到 \",[\"$\",\"code\",null,{\"children\":\"getOrder\"}],\" GraphQL query 以及 \",[\"$\",\"code\",null,{\"children\":\"getOrderDetails\"}],\" GraphQL query 既資料。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"准許 call GraphQL API 既時候要求 response 裡面只係包含部分特定既 fields。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"GraphQL schema、Java response class 可以重用，唔需要複製再客製化。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"可以建立 \",[\"$\",\"code\",null,{\"children\":\"subscription\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"GraphQL server（back-end）可以透過 WebSocket 傳送資料畀 GraphQL client（另一個系統或者 front-end）。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"1.3 GraphQL 注意事項\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"GraphQL schema\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"要暴露 GraphQL API，我地需要先定義 GraphQL schema。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"GraphQL 語法\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"GraphQL 有佢自己既一套語法／格式。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"type Query\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"指查詢用既 APIs\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"必須提供\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"type Mutation\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"指會修改系統既 APIs\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"type Subscription\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"指 GraphQL server 推送資料畀 GraphQL client 既 APIs\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"input\"}],\" 係 \",[\"$\",\"code\",null,{\"children\":\"(...)\"}],\" parameter types 既叫法\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"type\"}],\" 係 response type\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"GraphQL 基本 data types\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"String\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"要用 \",[\"$\",\"code\",null,{\"children\":\"\\\"xxx\\\"\"}],\" 而唔係 \",[\"$\",\"code\",null,{\"children\":\"'xxx'\"}],\"。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"Int\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"32-bit\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"Float\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"Boolean\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"ID\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"格式跟 \",[\"$\",\"code\",null,{\"children\":\"String\"}]]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"!\"}],\" 係必須提供既 field，要寫喺個 type 既後面\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"[xxx]\"}],\" 係 array\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"可以唔寫 \",[\"$\",\"code\",null,{\"children\":\",\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":\"只需要用 space 或者 newline 分隔。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"$$\"}],\" 開頭既係 variable。\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Variables 可以喺 \",[\"$\",\"code\",null,{\"children\":\"query\"}],\" 或者 \",[\"$\",\"code\",null,{\"children\":\"mutation\"}],\" 後面既 \",[\"$\",\"code\",null,{\"children\":\"()\"}],\" 裡面 declare。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"正因為 GraphQL 有佢自己既一套格式，寫起上黎可能會有啲麻煩，所以就有 variable section，畀我地將 variables 分隔開。\"}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"Variable section 係正常既 JSON 格式。\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Response 係 JSON 格式\",\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"所有操作所返回既資料由一個叫 \",[\"$\",\"code\",null,{\"children\":\"data\"}],\" 既 field 包住。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"GraphQL API 既格式：\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-plaintext\",\"children\":\"methodName(requestField1: InputType1 requestField2: InputType2 ...): ResponseType\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"註：必須對應返 Java 既 GraphQL API method 名、request classes 以及 response classes。\"}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"2 動手寫\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"Project structure：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"src/main/java\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"/code\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"/entity\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"Order.java\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"OrderDetail.java\"}]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"/graphql\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"OrderMutation.java\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"OrderQuery.java\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"OrderSubscription.java\"}]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"/repo\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"OrderDetailRepo.java\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"OrderRepo.java\"}]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"/service\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"OrderService.java\"}]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"MainApplication.java\"}]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"src/main/resources\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"/graphql\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"schema.graphqls\"}]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"code\",null,{\"children\":\"application.yml\"}]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"2.1 Maven dependencies\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"GraphQL Spring Boot Starter 會幫我地暴露一個 \",[\"$\",\"code\",null,{\"children\":\"/graphql\"}],\" 既 POST API。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"如果用左 Spring Boot Starter Webflux，GraphQL Spring Boot Starter 會幫我地暴露一個 \",[\"$\",\"code\",null,{\"children\":\"/subscriptions\"}],\" 既 WebSocket API。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"GraphiQL Spring Boot Starter 會幫我地暴露一個測試頁面既網址——\",[\"$\",\"code\",null,{\"children\":\"/graphiql\"}],\" endpoint。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":\"用 MySQL／MariaDB 作為 database。\"}],\"\\n\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-xml\",\"children\":\"$f\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"2.2 Application 配置\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-yaml\",\"children\":\"spring:\\r\\n    jpa:\\r\\n        show-sql: true\\r\\n        open-in-view: false\\r\\n        hibernate:\\r\\n            ddl-auto: update\\r\\n        properties:\\r\\n            hibernate:\\r\\n                dialect: org.hibernate.dialect.MySQLDialect\\r\\n    datasource:\\r\\n        url: jdbc:mysql://localhost:3306/mydb?useSSL=false\\r\\n        username: root\\r\\n        password:\\r\\n        driver-class-name: com.mysql.cj.jdbc.Driver\\r\\nmanagement:\\r\\n    endpoints:\\r\\n        web:\\r\\n            exposure:\\r\\n                include: \\\"*\\\"\\r\\n\\r\\ngraphql:\\r\\n    servlet:\\r\\n        actuator-metrics: true\\r\\n        cors:\\r\\n            allowedOrigins: \\\"*\\\"\\r\\ngraphiql:\\r\\n    enabled: true\\n\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"2.3 寫 Java code\"}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"2.3.1 Entity\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"Order.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"@Data\\r\\n@Accessors(chain = true)\\r\\n@FieldDefaults(level = PRIVATE)\\r\\n@Entity\\r\\n@Table(name = \\\"tbl_order\\\")\\r\\npublic class Order {\\r\\n    @Id\\r\\n    @GeneratedValue(strategy = IDENTITY)\\r\\n    Long id;\\r\\n\\r\\n    BigDecimal totalPrice;\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"OrderDetail.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"@Data\\r\\n@Accessors(chain = true)\\r\\n@FieldDefaults(level = PRIVATE)\\r\\n@Entity\\r\\n@Table(name = \\\"tbl_order_detail\\\")\\r\\npublic class OrderDetail {\\r\\n    @Id\\r\\n    @GeneratedValue(strategy = IDENTITY)\\r\\n    Long id;\\r\\n\\r\\n    Long orderId;\\r\\n    Long productId;\\r\\n    BigDecimal salePrice;\\r\\n    Integer quantity;\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"2.3.2 Repository\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"OrderRepo.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"@Repository\\r\\npublic interface OrderRepo extends JpaRepository\u003cOrder, Long\u003e {\\r\\n\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"OrderDetailRepo.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"@Repository\\r\\npublic interface OrderDetailRepo extends JpaRepository\u003cOrderDetail, Long\u003e {\\r\\n\\r\\n    List\u003cOrderDetail\u003e findAllByOrderId(Long orderId);\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"2.3.3 Service\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"OrderService.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"$10\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h3\",null,{\"children\":\"2.3.4 GraphQL API\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"OrderMutation.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"@Component\\r\\npublic class OrderMutation implements GraphQLMutationResolver {\\r\\n\\r\\n    @Autowired OrderService orderService;\\r\\n    @Autowired Sinks.Many\u003cOrderResponse\u003e sink;\\r\\n\\r\\n    public OrderResponse placeOrder(OrderRequest orderRequest) {\\r\\n\\r\\n        final OrderResponse response = orderService.placeOrder(orderRequest);\\r\\n        sink.tryEmitNext(response);\\r\\n\\r\\n        return response;\\r\\n    }\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"OrderQuery.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"@Component\\r\\npublic class OrderQuery implements GraphQLQueryResolver {\\r\\n\\r\\n    @Autowired OrderService orderService;\\r\\n\\r\\n    public Order getOrder(Long orderId) {\\r\\n        return orderService.getOrder(orderId);\\r\\n    }\\r\\n\\r\\n    public List\u003cOrderDetail\u003e getOrderDetails(Long orderId) {\\r\\n        return orderService.getOrderDetails(orderId);\\r\\n    }\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"OrderSubscription.java\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-java\",\"children\":\"@Component\\r\\npublic class OrderSubscription implements GraphQLSubscriptionResolver {\\r\\n\\r\\n    @Autowired Sinks.Many\u003cOrderResponse\u003e orderSink;\\r\\n\\r\\n    public Publisher\u003cOrderResponse\u003e checkNewOrders() {\\r\\n        return orderSink.asFlux();\\r\\n    }\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"2.4 GraphQL schema\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"schema.graphqls\"}],\"：\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-plaintext\",\"children\":\"type Query {\\r\\n    getOrder(orderId: Int!): Order\\r\\n    getOrderDetails(orderId: Int!): [OrderDetail]\\r\\n}\\r\\n\\r\\ntype Mutation {\\r\\n    placeOrder(orderRequest: OrderRequest!): OrderResponse\\r\\n}\\r\\n\\r\\ntype Subscription {\\r\\n    checkNewOrders: OrderResponse\\r\\n}\\r\\n\\r\\ninput OrderRequest {\\r\\n    orderDetails: [OrderDetailRequest]!\\r\\n}\\r\\n\\r\\ninput OrderDetailRequest {\\r\\n    productId: Int!\\r\\n    salePrice: Float!\\r\\n    quantity: Int!\\r\\n}\\r\\n\\r\\ntype OrderResponse {\\r\\n    order: Order\\r\\n    orderDetails: [OrderDetail]\\r\\n}\\r\\n\\r\\ntype Order {\\r\\n    id: Int\\r\\n    totalPrice: Float\\r\\n}\\r\\n\\r\\ntype OrderDetail {\\r\\n    id: Int\\r\\n    orderId: Int\\r\\n    productId: Int\\r\\n    salePrice: Float\\r\\n    quantity: Int\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"3 測試\"}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.1 建立 database\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"先用 HeidiSQL（Windows）或者 Sequel Pro（macOS）連接 MySQL 或者 MariaDB。\"}],\"\\n\",[\"$\",\"table\",null,{\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"style\":{\"textAlign\":\"center\"},\"children\":\"Host\"}],[\"$\",\"th\",null,{\"style\":{\"textAlign\":\"center\"},\"children\":\"Port\"}]]}]}],[\"$\",\"tbody\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"style\":{\"textAlign\":\"center\"},\"children\":[\"$\",\"code\",null,{\"children\":\"127.0.0.1\"}]}],[\"$\",\"td\",null,{\"style\":{\"textAlign\":\"center\"},\"children\":[\"$\",\"code\",null,{\"children\":\"3306\"}]}]]}]}]]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"然後執行 SQL：\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-sql\",\"children\":\"CREATE DATABASE mydb;\\n\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.2 啟動 Spring Boot web application\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-bash\",\"children\":\"mvn spring-boot:run\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"如果 Spring Boot web application 成功啟動，咁我地既 \",[\"$\",\"code\",null,{\"children\":\"tbl_order\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"tbl_order_detail\"}],\" tables 都會由個 application 自動創建。\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":\"3.3 訪問 GraphiQL 測試網頁\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"GraphiQL 可以模擬一個 GraphQL client 去 call 我地 back-end GraphQL APIs。又或者用 Postman 都可以。其實背後都係一個 POST API call。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"先打開 \",[\"$\",\"a\",null,{\"href\":\"http://localhost:8080/graphiql\",\"children\":\"http://localhost:8080/graphiql\"}],\"。\"]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":[\"3.4 用 GraphiQL call \",[\"$\",\"code\",null,{\"children\":\"placeOrder\"}],\" API\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-plaintext\",\"children\":\"mutation {\\r\\n  order1: placeOrder(orderRequest: {\\r\\n    orderDetails: [\\r\\n      { productId: 1 salePrice: 123.5 quantity: 5 }\\r\\n      { productId: 2 salePrice: 222.8 quantity: 1 }\\r\\n    ]\\r\\n  }) {\\r\\n    order { id totalPrice }\\r\\n    orderDetails { id orderId productId salePrice quantity }\\r\\n  }\\r\\n\\r\\n  order2: placeOrder(orderRequest: {\\r\\n    orderDetails: [\\r\\n      { productId: 2 salePrice: 222.8 quantity: 7 }\\r\\n      { productId: 3 salePrice: 345.6 quantity: 3 }\\r\\n    ]\\r\\n  }) {\\r\\n    order { id totalPrice }\\r\\n    orderDetails { id orderId productId salePrice quantity }\\r\\n  }\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"解釋：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"order1\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"order2\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"我地將 \",[\"$\",\"code\",null,{\"children\":\"2\"}],\" 個 \",[\"$\",\"code\",null,{\"children\":\"placeOrder\"}],\" 既 GraphQL \",[\"$\",\"code\",null,{\"children\":\"mutation\"}],\" 操作 consolidate 埋做 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個 GraphQL API call。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Response 裡面會用呢 \",[\"$\",\"code\",null,{\"children\":\"2\"}],\" 個名黎對應返 response objects。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"blog/2021-09/spring-graphql-api/graphiql-placeOrder.png\",\"alt\":\"\"}]}],\"\\n\",[\"$\",\"h3\",null,{\"children\":[\"3.4.1 用 Postman call \",[\"$\",\"code\",null,{\"children\":\"placeOrder\"}],\" API\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"喺 Postman 裡面 call：\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-plaintext\",\"children\":\"POST localhost:8080/graphql\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"GraphQL query body 照用返 GraphiQL 果個完全一樣就得。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"blog/2021-09/spring-graphql-api/postman-placeOrder.png\",\"alt\":\"\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":[\"3.5 用 GraphiQL call \",[\"$\",\"code\",null,{\"children\":\"getOrder\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"getOrderDetails\"}],\" API\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-plaintext\",\"children\":\"query ($orderId : Int!) {\\r\\n  order: getOrder(orderId: $orderId) {\\r\\n    id\\r\\n    totalPrice\\r\\n  }\\r\\n\\r\\n  orderDetails: getOrderDetails(orderId: $orderId) {\\r\\n    id\\r\\n    orderId\\r\\n    productId\\r\\n    salePrice\\r\\n    quantity\\r\\n  }\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"Variable section（JSON 格式）：\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-json\",\"children\":\"{\\r\\n\\t\\\"orderId\\\": 1\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"解釋：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"order\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"orderDetails\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"我地將 \",[\"$\",\"code\",null,{\"children\":\"getOrder\"}],\" 以及 \",[\"$\",\"code\",null,{\"children\":\"getOrderDetails\"}],\" 既 \",[\"$\",\"code\",null,{\"children\":\"2\"}],\" 個 GraphQL \",[\"$\",\"code\",null,{\"children\":\"query\"}],\" 操作 consolidate 埋做 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個 GraphQL API call。\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"Response 裡面會用呢 \",[\"$\",\"code\",null,{\"children\":\"2\"}],\" 個名黎對應返 response objects。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"$$orderId\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"呢度我地用左 \",[\"$\",\"code\",null,{\"children\":\"1\"}],\" 個 variable。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"blog/2021-09/spring-graphql-api/graphiql-getOrder-getOrderDetails.png\",\"alt\":\"\"}]}],\"\\n\",[\"$\",\"h3\",null,{\"children\":[\"3.5.1 用 Postman call \",[\"$\",\"code\",null,{\"children\":\"getOrder\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"getOrderDetails\"}],\" API\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"喺 Postman 裡面 call：\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-plaintext\",\"children\":\"POST localhost:8080/graphql\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"GraphQL query body 照用返 GraphiQL 果個完全一樣就得。\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"blog/2021-09/spring-graphql-api/postman-getOrder-getOrderDetails.png\",\"alt\":\"\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":[\"3.6 用 GraphiQL call \",[\"$\",\"code\",null,{\"children\":\"checkNewOrders\"}],\" API\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-plaintext\",\"children\":\"subscription {\\r\\n  checkNewOrders {\\r\\n    order {\\r\\n      id\\r\\n      totalPrice\\r\\n    }\\r\\n\\r\\n    orderDetails {\\r\\n      id\\r\\n      orderId\\r\\n      productId\\r\\n      salePrice\\r\\n      quantity\\r\\n    }\\r\\n  }\\r\\n}\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"解釋：\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"checkNewOrders\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"我地訂閱緊 \",[\"$\",\"code\",null,{\"children\":\"checkNewOrders\"}],\"，如果 WebSocket server 有新 message send 出黎，我地個 WebSocket client 就會收到。\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"blog/2021-09/spring-graphql-api/graphiql-checkNewOrders-init.png\",\"alt\":\"\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"blog/2021-09/spring-graphql-api/graphiql-checkNewOrders-received.png\",\"alt\":\"\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"4 Front-end call GraphQL API\"}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"我地試左用 GraphiQL 同 Postman call GraphQL API，但 front-end 要點樣 call？雖然已經有啲現成既 NPM libraries 可以做到 GraphQL client，但其實要自己用 JavaScript 做既話都好簡單。\"}],\"\\n\",[\"$\",\"h2\",null,{\"children\":[\"4.1 用 Fetch API call \",[\"$\",\"code\",null,{\"children\":\"placeOrder\"}],\" API\"]}],\"\\n\",[\"$\",\"p\",null,{\"children\":\"非 dynamic 寫法：\"}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-js\",\"children\":\"$11\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":[\"4.2 用 Fetch API call \",[\"$\",\"code\",null,{\"children\":\"getOrder\"}],\"、\",[\"$\",\"code\",null,{\"children\":\"getOrderDetails\"}],\" API\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-js\",\"children\":\"fetch(\\\"http://localhost:8080/graphql\\\", {\\r\\n\\tmethod: \\\"POST\\\",\\r\\n\\tbody: JSON.stringify({\\r\\n\\t\\tquery: `\\r\\n            query ($orderId : Int!) {\\r\\n                order: getOrder(orderId: $orderId) {\\r\\n                    id\\r\\n                    totalPrice\\r\\n                }\\r\\n\\r\\n                orderDetail: getOrderDetails(orderId: $orderId) {\\r\\n                    id\\r\\n                    orderId\\r\\n                    productId\\r\\n                    salePrice\\r\\n                    quantity\\r\\n                }\\r\\n            }\\r\\n        `,\\r\\n\\t\\tvariables: {\\r\\n\\t\\t\\torderId: 1,\\r\\n\\t\\t},\\r\\n\\t}),\\r\\n})\\r\\n\\t.then((e) =\u003e e.json())\\r\\n\\t.then((res) =\u003e console.log(res?.data));\\n\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h2\",null,{\"children\":[\"4.3 用 WebSocket API call \",[\"$\",\"code\",null,{\"children\":\"checkNewOrders\"}],\" API\"]}],\"\\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-js\",\"children\":\"const ws = new WebSocket(\\\"ws://localhost:8080/subscriptions\\\", \\\"graphql-ws\\\");\\r\\nws.onmessage = (e) =\u003e {\\r\\n\\tconsole.log(`%c${e.data}`, \\\"color: cyan\\\");\\r\\n\\r\\n\\tif (JSON.parse(e.data).type === \\\"connection_ack\\\") {\\r\\n\\t\\tconsole.log(\\\"%cReceived type=connection_ack, subscribing to checkNewOrders...\\\", \\\"color: yellow\\\");\\r\\n\\r\\n\\t\\tws.send(\\r\\n\\t\\t\\tJSON.stringify({\\r\\n\\t\\t\\t\\tid: 1,\\r\\n\\t\\t\\t\\ttype: \\\"start\\\",\\r\\n\\t\\t\\t\\tpayload: {\\r\\n\\t\\t\\t\\t\\tquery: \\\"subscription { checkNewOrders { order { id totalPrice } orderDetails { id orderId productId salePrice quantity } } }\\\",\\r\\n\\t\\t\\t\\t\\tvariables: null,\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t})\\r\\n\\t\\t);\\r\\n\\r\\n\\t\\tconsole.log(\\\"%cSent subscription message to server.\\\", \\\"color: yellow\\\");\\r\\n\\t}\\r\\n};\\r\\nws.onopen = (e) =\u003e {\\r\\n\\tconsole.log(\\\"%cWebSocket connection to GraphQL subscriptions is open.\\\", \\\"color: yellow\\\");\\r\\n\\r\\n\\tws.send(\\r\\n\\t\\tJSON.stringify({\\r\\n\\t\\t\\ttype: \\\"connection_init\\\",\\r\\n\\t\\t\\tpayload: {},\\r\\n\\t\\t})\\r\\n\\t);\\r\\n\\r\\n\\tconsole.log(\\\"%cSent connection_init message to server.\\\", \\\"color: yellow\\\");\\r\\n};\\n\"}]}],\"\\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"blog/2021-09/spring-graphql-api/chrome-checkNewOrders-received.png\",\"alt\":\"\"}]}],\"\\n\",[\"$\",\"hr\",null,{}],\"\\n\",[\"$\",\"h1\",null,{\"children\":\"5 參考資料\"}],\"\\n\",[\"$\",\"ul\",null,{\"children\":[\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://spec.graphql.org/\",\"children\":\"GraphQL 官網 - Spec\"}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/graphql-java/graphql-java/blob/master/src/main/java/graphql/Scalars.java\",\"children\":[\"GraphQL Java GitHub - \",[\"$\",\"code\",null,{\"children\":\"Scarlars.java\"}]]}]}],\"\\n\",[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/graphql-java-kickstart/graphql-spring-boot\",\"children\":\"GraphQL and GraphiQL Spring Framework Boot Starters GitHub\"}]}],\"\\n\"]}]],null,[\"$\",\"$L12\",null,{\"children\":\"$L13\"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"eF9AM_Q-acEPW4YriryJ9\",{\"children\":[[\"$\",\"$L14\",null,{\"children\":\"$L15\"}],[\"$\",\"$L16\",null,{\"children\":\"$L17\"}],null]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$18\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"17:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n15:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Michael Chung's e-Portfolio\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Powered by Next.js and React\"}]]\n"])</script><script>self.__next_f.push([1,"13:null\n"])</script></body></html>

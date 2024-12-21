@@ -1,25 +1,337 @@
 1:"$Sreact.fragment"
-2:I[8287,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-3:I[3339,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-4:I[1367,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
+2:I[8287,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+3:I[3339,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+4:I[1367,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
 5:I[5244,[],""]
 6:I[3866,[],""]
-7:I[4798,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-8:I[6121,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-9:I[3667,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],"default"]
-a:I[8407,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-b:I[8173,["829","static/chunks/829-0d4167e889c92f66.js","974","static/chunks/app/page-3db4f82a976b6826.js"],""]
-c:I[3197,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-d:I[7933,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-e:I[3800,["829","static/chunks/829-0d4167e889c92f66.js","153","static/chunks/153-92d0be8948a510c7.js","177","static/chunks/app/layout-0fbda1b2e18e1e9a.js"],"default"]
-10:I[6213,[],"OutletBoundary"]
-12:I[6213,[],"MetadataBoundary"]
-14:I[6213,[],"ViewportBoundary"]
-16:I[4835,[],""]
+7:I[4798,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+8:I[6121,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+9:I[3667,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],"default"]
+a:I[8407,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+b:I[8173,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","8974","static/chunks/app/page-c8b940db14fac9a0.js"],""]
+c:I[3197,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+d:I[7933,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+e:I[3800,["7829","static/chunks/7829-b7b9eb1dbe0d40e4.js","2153","static/chunks/2153-45fd9844831c6348.js","7177","static/chunks/app/layout-ea91c2d128ec48c2.js"],"default"]
+13:I[6213,[],"OutletBoundary"]
+15:I[6213,[],"MetadataBoundary"]
+17:I[6213,[],"ViewportBoundary"]
+19:I[4835,[],""]
 :HL["/e2-next/_next/static/css/d3df112486f97f47.css","style"]
 :HL["/e2-next/_next/static/css/c3624a693ae5a0c4.css","style"]
-0:{"P":null,"b":"gVZeuoZEIM3AUvikmCH-j","p":"/e2-next","c":["","blog","spring-boot-openapi"],"i":false,"f":[[["",{"children":["blog",{"children":[["postId","spring-boot-openapi","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postId","spring-boot-openapi","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":"$L11"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JK3IjYqMsWglBFHAp8v0I",{"children":[["$","$L12",null,{"children":"$L13"}],["$","$L14",null,{"children":"$L15"}],null]}]]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
-f:["$","h1",null,{"children":["Blog ","spring-boot-openapi"]}]
-15:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-13:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
-11:null
+f:Td4b,<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.michael</groupId>
+	<artifactId>Spring-Boot-3-OpenAPI-Code-Gen-MVC-Demo</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>Spring-Boot-3-OpenAPI-Code-Gen-MVC-Demo</name>
+	<description>Spring-Boot-3-OpenAPI-Code-Gen-MVC-Demo</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>17</java.version>
+		<javac.source>17</javac.source>
+		<javac.target>17</javac.target>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+
+		<start-class>code.MainApplication</start-class>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.5</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- Swagger UI -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+
+		<!-- OpenAPI generator Maven plugin 會生成用到佢既 Java code -->
+		<dependency>
+			<groupId>org.openapitools</groupId>
+			<artifactId>jackson-databind-nullable</artifactId>
+			<version>0.2.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
+			<version>7.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- OpenAPI generator Maven plugin -->
+			<plugin>
+				<groupId>org.openapitools</groupId>
+				<artifactId>openapi-generator-maven-plugin</artifactId>
+				<version>7.5.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<inputSpec>${project.basedir}/src/main/resources/openapi.yml</inputSpec>
+							<generatorName>spring</generatorName>
+
+							<configOptions>
+								<apiPackage>code.api</apiPackage>
+								<modelPackage>code.model</modelPackage>
+								<useSpringBoot3>true</useSpringBoot3>
+
+								<!-- 我地可以用 delegatePattern -->
+								<delegatePattern>true</delegatePattern>
+
+								<!-- 或者用 interfaceOnly -->
+								<interfaceOnly>true</interfaceOnly>
+							</configOptions>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+10:Tee5,openapi: 3.0.0
+info:
+    version: 1.0.0
+    title: Spring-Boot-3-OpenAPI-Code-Gen-MVC-Demo
+    description: OpenAPI for Spring-Boot-3-OpenAPI-Code-Gen-MVC-Demo
+paths:
+    /users:
+        get:
+            operationId: getUsers
+            summary: Get all users
+            description: Get all users.
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/UserDto"
+        post:
+            operationId: createUser
+            summary: Create user by ID
+            description: Create a user of the given ID.
+            requestBody:
+                required: true
+                description: User object (JSON).
+                content:
+                    application/json:
+                        schema:
+                            $ref: "#/components/schemas/UserDto"
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/UserDto"
+    /users/{userId}:
+        get:
+            operationId: getUser
+            summary: Get user by ID
+            description: Get a user of the given ID.
+            parameters:
+                - name: userId
+                  in: path
+                  required: true
+                  description: User ID.
+                  schema:
+                      type: long
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/UserDto"
+        put:
+            operationId: updateUser
+            summary: Update user by ID
+            description: Update a user of the given ID.
+            parameters:
+                - name: userId
+                  in: path
+                  required: true
+                  description: User ID.
+                  schema:
+                      type: long
+            requestBody:
+                required: true
+                description: User object (JSON).
+                content:
+                    application/json:
+                        schema:
+                            $ref: "#/components/schemas/UserDto"
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/UserDto"
+        delete:
+            operationId: deleteUser
+            summary: Delete user by ID
+            description: Delete a user of the given ID.
+            parameters:
+                - name: userId
+                  in: path
+                  required: true
+                  description: User ID.
+                  schema:
+                      type: long
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/UserDto"
+components:
+    schemas:
+        UserDto:
+            type: object
+            properties:
+                id:
+                    type: long
+                firstName:
+                    type: string
+                lastName:
+                    type: string
+11:T4d0,@Slf4j
+@RestController
+public class UsersController implements UsersApi {
+
+    @Override
+    public ResponseEntity<List<UserDto>> getUsers() {
+        log.info("getUsers");
+        return ResponseEntity.ok(Arrays.asList(randomUser(), randomUser()));
+    }
+
+    @Override
+    public ResponseEntity<UserDto> getUser(Long userId) {
+        log.info("getUser");
+        return ResponseEntity.ok(randomUser());
+    }
+
+    @Override
+    public ResponseEntity<UserDto> createUser(UserDto user) {
+        log.info("createUser");
+        return ResponseEntity.ok(user);
+    }
+
+    @Override
+    public ResponseEntity<UserDto> updateUser(Long userId, UserDto user) {
+        log.info("updateUser");
+        return ResponseEntity.ok(user);
+    }
+
+    @Override
+    public ResponseEntity<UserDto> deleteUser(Long userId) {
+        log.info("deleteUser");
+        return ResponseEntity.ok(randomUser());
+    }
+
+
+
+    private UserDto randomUser() {
+        final UserDto user = new UserDto();
+        user.setId(new Random().nextLong(100));
+        user.setFirstName(RandomStringUtils.randomAlphabetic(10));
+        user.setLastName(RandomStringUtils.randomAlphabetic(10));
+        return user;
+    }
+}
+12:T4d8,@Slf4j
+@Component
+public class UsersApiDelegateImpl implements UsersApiDelegate {
+
+    @Override
+    public ResponseEntity<List<UserDto>> getUsers() {
+        log.info("getUsers");
+        return ResponseEntity.ok(Arrays.asList(randomUser(), randomUser()));
+    }
+
+    @Override
+    public ResponseEntity<UserDto> getUser(Long userId) {
+        log.info("getUser");
+        return ResponseEntity.ok(randomUser());
+    }
+
+    @Override
+    public ResponseEntity<UserDto> createUser(UserDto user) {
+        log.info("createUser");
+        return ResponseEntity.ok(user);
+    }
+
+    @Override
+    public ResponseEntity<UserDto> updateUser(Long userId, UserDto user) {
+        log.info("updateUser");
+        return ResponseEntity.ok(user);
+    }
+
+    @Override
+    public ResponseEntity<UserDto> deleteUser(Long userId) {
+        log.info("deleteUser");
+        return ResponseEntity.ok(randomUser());
+    }
+
+
+
+    private UserDto randomUser() {
+        final UserDto user = new UserDto();
+        user.setId(new Random().nextLong(100));
+        user.setFirstName(RandomStringUtils.randomAlphabetic(10));
+        user.setLastName(RandomStringUtils.randomAlphabetic(10));
+        return user;
+    }
+}
+0:{"P":null,"b":"wfZ4FdS4ntgGvzjeKJhfw","p":"/e2-next","c":["","blog","spring-boot-openapi"],"i":false,"f":[[["",{"children":["blog",{"children":["(2024-05)",{"children":["spring-boot-openapi",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/e2-next/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/e2-next/_next/static/css/c3624a693ae5a0c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap","rel":"stylesheet"}],["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"gap":5,"children":[["$","$L3",null,{"gap":5,"className":"text-center","children":[["$","div",null,{"children":[["$","code",null,{"className":"SiteHeader_name__cwQmL","children":"Chung Cheuk Hang Michael"}],["$","code",null,{"className":"SiteHeader_title__CCfvI","children":"Java Web Developer"}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","hr",null,{}],["$","$L3",null,{"gap":3,"children":["$","$L7",null,{"className":"text-center","children":["$","$L8",null,{"xs":1,"sm":2,"md":3,"className":"justify-content-center g-3","children":[["$","$L9","0",{"children":["$","$La",null,{"as":"$b","href":"tel:+85263301333","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-phone","style":{"color":"#009688"}}]}],["$","$Le",null,{"className":"text-muted","children":["6330 1333"," "]}]]}]}]}],["$","$L9","1",{"children":["$","$La",null,{"as":"$b","href":"mailto:michaelboyboy@gmail.com","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-solid fa-envelope","style":{"color":"#f44336"}}]}],["$","$Le",null,{"className":"text-muted","children":["michaelboyboy@gmail.com"," "]}]]}]}]}],["$","$L9","2",{"children":["$","$La",null,{"as":"$b","href":"https://www.linkedin.com/in/mickchung","target":"_blank","rel":"external nofollow noopener noreferrer","className":"SiteFooter_contact-item__2JRRr","children":["$","$Lc",null,{"children":[["$","$Ld",null,{"children":["$","i",null,{"className":"fa-brands fa-linkedin","style":{"color":"#2196f3"}}]}],["$","$Le",null,{"className":"text-muted","children":["www.linkedin.com/in/mickchung"," "]}]]}]}]}]]}]}]}]]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(2024-05)",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2024-05)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["spring-boot-openapi",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","(2024-05)","children","spring-boot-openapi","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"children":"1 OpenAPI 簡介"}],"\n",["$","p",null,{"children":"OpenAPI Specification（OAS）係由 Swagger Specification 演變出黎既一套 HTTP API 格式規範，係開發者之間表達 HTTP APIs 既其中一個標準。"}],"\n",["$","p",null,{"children":["喺 2015，SmartBear 公司收購左開源既 Swagger Specification，然後喺 2015 年年尾，SmartBear 將 Swagger Specification 捐左畀 Linux Foundation 旗下既 OpenAPI Initiative 公司，亦將佢改名成 OpenAPI Specification，亦即係 Swagger ",["$","code",null,{"children":"2.0"}]," ➜ OpenAPI ",["$","code",null,{"children":"3.0.0"}],"。"]}],"\n",["$","p",null,{"children":"至於 Swagger UI 就係一個工具，準確黎講係一個網頁既介面，畀我地好容易咁測試到我地寫既 HTTP endpoints。"}],"\n",["$","h2",null,{"children":"1.1 API-first 開發方式"}],"\n",["$","p",null,{"children":"API-first 就係以 API 主導既開發方式，我地會先寫 API contract，亦即係 Swagger/OpenAPI Specification，然後再寫 code。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"1.2 Cloud platforms 對 OpenAPI Specification 既支援"}],"\n",["$","p",null,{"children":"以下係熱門既 cloud platforms 既 API import 功能支援既 OpenAPI Specification 版本："}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Cloud platforms"}],["$","th",null,{"children":"支援既 OpenAPI Specification 版本"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Amazon AWS API Gateway"}],["$","td",null,{"children":[["$","code",null,{"children":"2.0"}],"、",["$","code",null,{"children":"3.0"}]]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Microsoft Azure API Management"}],["$","td",null,{"children":[["$","code",null,{"children":"2.0"}],"、",["$","code",null,{"children":"3.0"}],"、",["$","code",null,{"children":"3.1"}]]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Google Cloud API Gateway"}],["$","td",null,{"children":["$","code",null,{"children":"2.0"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Alibaba Cloud API Gateway"}],["$","td",null,{"children":[["$","code",null,{"children":"2.0"}],"、",["$","code",null,{"children":"3.0"}]]}]]}]]}]]}],"\n",["$","p",null,{"children":"參考資料："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","a",null,{"href":"https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-import-api.html","children":"Amazon 官方文檔 - AWS API Gateway - Configuring a REST API using OpenAPI"}]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://learn.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions#openapi-specifications","children":"Azure 官方文檔 - Azure API Management - API import restrictions and known issues"}]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://cloud.google.com/api-gateway/docs/openapi-overview","children":"Google 官方文檔 - Google Cloud API Gateway - OpenAPI overview"}]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://www.alibabacloud.com/help/en/api-gateway/user-guide/use-the-standard-oas-to-import-multiple-apis-at-a-time","children":"Alibaba 官方文檔 - Alibaba Cloud API Gateway - Import OAS-compliant APIs"}]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"2 動手寫"}],"\n",["$","p",null,{"children":"我地會寫一個有齊曬模擬既 CRUD endpoints 既 Spring Boot MVC 項目。"}],"\n",["$","h2",null,{"children":"2.1 Maven dependencies"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-xml","children":"$f"}]}],"\n",["$","p",null,{"children":"註："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["OpenAPI generator Maven plugin 提供兩種生成 Java model code 既方式。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"delegatePattern"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"interfaceOnly"}]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"2.2 寫 Swagger/OpenAPI Specification"}],"\n",["$","p",null,{"children":"因為係 API-first 既開發方式，所以我地寫 Java code 之前要先寫 Swagger/OpenAPI Specification 檔案。"}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"src/main/resources/openapi.yml"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-yaml","children":"$10"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"2.3 寫 Java code"}],"\n",["$","p",null,{"children":["無論係 ",["$","code",null,{"children":"interfaceOnly"}]," 或者係 ",["$","code",null,{"children":"delegatePattern"}],"，都係用一樣既 main class。"]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"MainApplication.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"@SpringBootApplication\r\npublic class MainApplication {\r\n\r\n    public static void main(String[] args) {\r\n        SpringApplication.run(MainApplication.class, args);\r\n    }\r\n}\n"}]}],"\n",["$","h3",null,{"children":["2.3.1 ",["$","code",null,{"children":"interfaceOnly"}]," 版本"]}],"\n",["$","p",null,{"children":"Project structure："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"src/main/java"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/code"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"MainApplication.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"UsersController.java"}]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"target/generated-sources/openapi/src/main/java"}],"（由 OpenAPI generator Maven plugin 生成）","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/code"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/api"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"ApiUtil.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"UsersApi.java"}]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"/model"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"UserDto.java"}]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"UsersController.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$11"}]}],"\n",["$","p",null,{"children":"註："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"UsersApi"}]," 係由 OpenAPI generator Maven plugin 生成既 Java interface。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"UserDto"}]," 係由 OpenAPI generator Maven plugin 生成既 Java class。"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":["2.3.2 ",["$","code",null,{"children":"delegatePattern"}]," 版本"]}],"\n",["$","p",null,{"children":"Project structure："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"src/main/java"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/code"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"MainApplication.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"UsersApiDelegateImpl.java"}]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"target/generated-sources/openapi/src/main/java"}],"（由 OpenAPI generator Maven plugin 生成）","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/code"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/api"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"ApiUtil.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"UsersApi.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"UsersApiController.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"UsersApiDelegate.java"}]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"/model"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"UserDto.java"}]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"/org"}],"（唔重要，因為我地唔會用裡面既野）","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/openapitools"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"/configuration"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"HomeController.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"SpringDocConfiguration.java"}]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"OpenApiGeneratorApplication.java"}]}],"\n",["$","li",null,{"children":["$","code",null,{"children":"RFC3339DateFormat.java"}]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"UsersApiDelegateImpl.java"}],"："]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-java","children":"$12"}]}],"\n",["$","p",null,{"children":"註："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"UsersApiDelegate"}]," 係由 OpenAPI generator Maven plugin 生成既 Java interface。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"UserDto"}]," 係由 OpenAPI generator Maven plugin 生成既 Java class。"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"2.4 Application 配置"}],"\n",["$","p",null,{"children":"如果想改變 Swagger UI 既 endpoint paths，可以覆蓋默認既配置："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-yaml","children":"springdoc:\r\n    swagger-ui.path: \"/api/swagger/swagger-ui.html\" # 默認：/swagger-ui.html\r\n    api-docs.path: \"/api/swagger/v3/api-docs\" # 默認：/v3/api-docs\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"3 測試"}],"\n",["$","h2",null,{"children":"3.1 cURL"}],"\n",["$","p",null,{"children":"列出所有 users："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"curl -X GET http://localhost:8080/users\n"}]}],"\n",["$","p",null,{"children":"列出一個 user："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"curl -X GET http://localhost:8080/users/1234\n"}]}],"\n",["$","p",null,{"children":"新增一個 user："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"curl -X POST http://localhost:8080/users -H \"Content-Type: application/json\" -d \"{ \\\"id\\\": 123, \\\"firstName\\\": \\\"Michael\\\", \\\"lastName\\\": \\\"Chung\\\" }\"\n"}]}],"\n",["$","p",null,{"children":"更新一個 user："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"curl -X PUT http://localhost:8080/users/1234 -H \"Content-Type: application/json\" -d \"{ \\\"id\\\": 123, \\\"firstName\\\": \\\"Michael\\\", \\\"lastName\\\": \\\"Chung\\\" }\"\n"}]}],"\n",["$","p",null,{"children":"刪除一個 user："}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"curl -X DELETE http://localhost:8080/users/1234\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"3.2 Swagger UI"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["喺瀏覽器打開 ",["$","a",null,{"href":"http://localhost:8080/swagger-ui.html","children":"http://localhost:8080/swagger-ui.html"}],"。"]}],"\n",["$","li",null,{"children":["佢會自動 redirect 去 ",["$","a",null,{"href":"http://localhost:8080/swagger-ui/index.html","children":"http://localhost:8080/swagger-ui/index.html"}],"。"]}],"\n",["$","li",null,{"children":"打開其中一個 API。"}],"\n",["$","li",null,{"children":"撳「Test it out」。"}],"\n",["$","li",null,{"children":["輸入必填既 request 資訊（如有）。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Path variables"}],"\n",["$","li",null,{"children":"Request parameters"}],"\n",["$","li",null,{"children":"Request body"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":"撳「Execute」。"}],"\n"]}],"\n",["$","p",null,{"children":["$","img",null,{"src":"blog/2024-05/spring-boot-openapi/swagger-ui.png","alt":""}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"3.3 取得 OpenAPI Specification 檔案"}],"\n",["$","p",null,{"children":"Swagger UI 亦會 expose 以下既 HTTP endpoints 畀我地拎到我地 microservice 既 OpenAPI Specification 檔案，我地只需要喺瀏覽器打開以下既 URLs："}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"格式"}],["$","th",null,{"children":"URL"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"JSON"}],["$","td",null,{"children":["$","a",null,{"href":"http://localhost:8080/v3/api-docs","children":"http://localhost:8080/v3/api-docs"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"YAML"}],["$","td",null,{"children":["$","a",null,{"href":"http://localhost:8080/v3/api-docs.yaml","children":"http://localhost:8080/v3/api-docs.yaml"}]}]]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"4 筆記"}],"\n",["$","h2",null,{"children":"4.1 OpenAPI generator Maven plugin 配置"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":[["$","code",null,{"children":"configOptions"}]," 配置"]}],["$","th",null,{"children":"解釋"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"apiPackage"}]}],["$","td",null,{"children":"喺邊個 Java package 去生成 Java API interfaces/classes。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"modelPackage"}]}],["$","td",null,{"children":"喺邊個 Java package 去生成 Java model classes。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"useSpringBoot3"}]}],["$","td",null,{"children":["用黎控制生成既項目以及 Java code 係咪 Spring Boot ",["$","code",null,{"children":"3.x"}],"。如果係既話，會生成 ",["$","code",null,{"children":"jakarta"}]," 而唔係 ",["$","code",null,{"children":"javax"}]," package 既 import statements。"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"interfaceOnly"}]}],["$","td",null,{"children":"會生成 Java API interface 畀我地 override 佢既所有 method body。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"delegatePattern"}]}],["$","td",null,{"children":["相比起 ",["$","code",null,{"children":"interfaceOnly"}],"，會生成額外既 Spring controller class（",["$","code",null,{"children":"@Controller"}],"）以及叫 delegate 既 Java interface 畀我地 override 佢既所有 method body。"]}]]}]]}]]}],"\n",["$","h3",null,{"children":["4.1.1 OpenAPI generator Maven plugin - ",["$","code",null,{"children":"interfaceOnly"}]]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["會生成 Java API interface。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["每個 method 都會有 ",["$","code",null,{"children":"@RequestMapping"}],"，return type 係 ",["$","code",null,{"children":"ResponseEntity"}],"。"]}],"\n",["$","li",null,{"children":["我地要 override 佢既所有 method body，否則默認會 return ",["$","code",null,{"children":"HttpStatus.NOT_IMPLEMENTED"}],"。"]}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"children":["4.1.2 OpenAPI generator Maven plugin - ",["$","code",null,{"children":"delegatePattern"}]]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["會生成叫 delegate 既 Java interface。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["我地要 override 佢既所有 method body，否則默認會 return ",["$","code",null,{"children":"HttpStatus.NOT_IMPLEMENTED"}],"。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["會生成 Java API interface。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["每個 method 都會有 ",["$","code",null,{"children":"@RequestMapping"}],"，return type 係 ",["$","code",null,{"children":"ResponseEntity"}],"，默認會 return delegate 既 method 既 result。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["會生成 Spring controller class。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["Class level 會有：","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","code",null,{"children":"@Controller"}]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"@RequestMapping(\"${openapi.xxx.base-path:}\")"}],"（",["$","code",null,{"children":"xxx"}]," 黎自個 OpenAPI Specification 既 ",["$","code",null,{"children":"info.title"}]," field）。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["佢 implement 左個 Java API interface，所以 Spring Boot 就會 expose 黎自個 Java API interface 既 ",["$","code",null,{"children":"@RequestMapping"}]," 既 HTTP endpoints。"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":"會生成 main class 以及其他唔係太有用既 Java classes。"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"children":"4.2 OpenAPI Specification fields"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"OpenAPI Specification field"}],["$","th",null,{"children":"用途"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"openapi"}]}],["$","td",null,{"children":"OpenAPI Specification 既版本號碼。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"paths"}]}],["$","td",null,{"children":"每個 expose 既 HTTP endpoint path 既配置。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["HTTP endpoint path（e.g. ",["$","code",null,{"children":"/users"}],"）"]}],["$","td",null,{"children":"裡面係佢支援既每個 HTTP request method 既配置。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":[["$","code",null,{"children":"operationId"}],"（e.g. ",["$","code",null,{"children":"getUsers"}],"）"]}],["$","td",null,{"children":"會影響 reference 呢個 API operation 既 ID，對 OpenAPI generator Maven plugin 黎講會影響生成出黎既 Java method name。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"schema"}]}],["$","td",null,{"children":["Data type，可以係 OpenAPI 本身支援 basic data types，可以用 ",["$","code",null,{"children":"$$ref"}]," 黎 reference ",["$","code",null,{"children":"components.schemas"}]," 裡面既自定義 data types，亦可以係 array（再用 ",["$","code",null,{"children":"items"}]," field 表示 array elements 既 data type）。"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"requestBody"}]}],["$","td",null,{"children":"HTTP request body 既配置。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"parameters"}]}],["$","td",null,{"children":["HTTP request body 以外既配置，例如 path variables（要用 ",["$","code",null,{"children":"in: path"}],"）、request parameters（亦叫 query strings，要用 ",["$","code",null,{"children":"in: query"}],"）、request headers（要用 ",["$","code",null,{"children":"in: header"}],"）。"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"response"}]}],["$","td",null,{"children":"HTTP response 每個支援既 HTTP status code 既配置。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"components.schemas"}]}],["$","td",null,{"children":"自定義既 data types，對 OpenAPI generator Maven plugin 黎講會影響生成出黎既 Java model classes。"}]]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"5 參考資料"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","a",null,{"href":"https://swagger.io/docs/specification/basic-structure/","children":"Swagger/OpenAPI 官方文檔 - Basic Structure"}]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://swagger.io/docs/specification/describing-parameters/","children":"Swagger/OpenAPI 官方文檔 - Describing Parameters"}]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://swagger.io/docs/specification/data-models/data-types/","children":"Swagger/OpenAPI 官方文檔 - Data Types"}]}],"\n",["$","li",null,{"children":[["$","a",null,{"href":"https://openapi-generator.tech/docs/generators/spring/","children":"Documentation for the spring Generator"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","a",null,{"href":"https://openapi-generator.tech/docs/generators/spring/#config-options","children":"Config options"}]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["$","a",null,{"href":"https://springdoc.org/","children":"springdoc-openapi 官方文檔"}]}],"\n"]}]],null,["$","$L13",null,{"children":"$L14"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","rGuM2EMUW4kEZVmbT0Sab",{"children":[["$","$L15",null,{"children":"$L16"}],["$","$L17",null,{"children":"$L18"}],null]}]]}],false]],"m":"$undefined","G":["$19","$undefined"],"s":false,"S":true}
+18:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Michael Chung's e-Portfolio"}],["$","meta","2",{"name":"description","content":"Powered by Next.js and React"}]]
+14:null
