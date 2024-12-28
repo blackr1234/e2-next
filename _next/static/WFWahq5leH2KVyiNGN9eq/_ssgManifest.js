@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002FhobbyProjects\u002F[projectId]","\u002Fpersonality\u002F(..)personality\u002F[year]","\u002Fpersonality\u002F[year]","\u002Fwork\u002F[projectId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
